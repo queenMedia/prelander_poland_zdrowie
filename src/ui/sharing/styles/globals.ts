@@ -1,5 +1,4 @@
 import { injectGlobal } from "@emotion/css";
-
 // eslint-disable-next-line @typescript-eslint/no-unused-expressions
 injectGlobal`
   * {
@@ -13,7 +12,10 @@ injectGlobal`
     }
   }
   :root {
-    /* --primary-color: ; */
+    --large-button-bg: #f18b06;
+    --text-white: #FFF;
+    --text-shadow: rgba(0,0,0,.3) 0 2px 3px;
+    --bg-read-more: #e20714;
     /* --secondary-color: ; */
     /* --accent-color: ; */
     /* --success-color: ; */

@@ -1,45 +1,34 @@
 import { css, cx } from "@emotion/css";
 
 import * as responsive from "./home.styles.responsive";
-import { flex } from "@mixins";
+import { content, flex } from "@mixins";
 
 export const section = cx(
-  flex({ justify: "center", align: "center"}),
+  content({ width: "1220px"}),
+  flex({ justify: "center", align: "center", gap: "20px"}),
   css`
-    min-height: 70vh;
-    flex-direction: column;
   `,
   responsive.section
 );
 
-export const h1 = cx(
+export const error_container = cx(
+  
+  flex({ justify: "center", align: "center", gap: "20px"}),
   css`
-    width: 100%;
-    text-align: center;
-  `,
-  responsive.h1
+   width: 100%;
+   flex-direction: column;
+  `
 );
 
-export const welcome = cx(
-  css`
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 0;
-    padding: 0 0 calc(100% * 495 / 2048) 0;
-    z-index: 0;
-  `,
-  responsive.welcome
-);
 
-export const image = cx(
-  css`
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    z-index: 0;
-  `,
-  responsive.image
-);
+export const error_image = css`
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+`;
+
+export const error_text = css`
+  font-size: 30px;
+  color: #FF0000;
+  weight: 900;
+`;

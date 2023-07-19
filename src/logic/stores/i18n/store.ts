@@ -10,7 +10,7 @@ i18next
   .use(LanguageDetector)
   .init({
     debug: false,
-    fallbackLng: config.i18n_fallback_lang,
+    lng: config.i18n_lang,
     supportedLngs: config.i18n_langs,
     ns: [
       "auth",

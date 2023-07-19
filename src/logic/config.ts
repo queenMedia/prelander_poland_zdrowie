@@ -15,6 +15,7 @@ export default {
   },
   i18n_langs: ["es", "en-US"],
   i18n_fallback_lang: "es",
+  i18n_lang: "es",
   i18n_debug: PUBLIC_DEBUG_I18NEXT,
   api_local: PUBLIC_API_LOCAL || "http://localhost:5000",
   api: PUBLIC_API || "http://localhost:4000",
