@@ -21,6 +21,7 @@ const config = {
 			"@services/*": "src/logic/services/*",
 			"@typing/*": "src/logic/typing/*",
 			"@utils/*": "src/logic/utils/*",
+			"@data": "src/logic/data/index.ts",
 			// UI Home
 			"@home/atoms": "src/ui/home/atoms/index.ts",
 			"@home/molecules": "src/ui/home/molecules/index.ts",

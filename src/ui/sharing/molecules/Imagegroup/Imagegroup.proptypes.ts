@@ -1,3 +1,3 @@
-export interface Props {
-  prop: unknown;
+export interface ImageGroupProps {
+  offer_name: string;
 }

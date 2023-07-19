@@ -1,6 +1,13 @@
 import { injectGlobal } from "@emotion/css";
+
+import yourFont from '../../../assets/fonts/georgia/seriffic.ttf';
+
 // eslint-disable-next-line @typescript-eslint/no-unused-expressions
 injectGlobal`
+  @font-face {
+    font-family: 'TuFuente';
+    src: url(${yourFont}) format('truetype');
+  }
   * {
     box-sizing: border-box;
     outline: 0;

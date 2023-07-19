@@ -1,2 +1,4 @@
 export {};
 export { default as Comment } from "./Comment/Comment.svelte";
+export { default as Testimonial } from "./Testimonial/Testimonial.svelte";
+export { default as Step } from "./Step/Step.svelte";

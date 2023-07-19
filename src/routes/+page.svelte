@@ -9,6 +9,5 @@
 <SEO title={$i18n.t("home:seo-title")} description="Ditto Svelte" />
 
 <section class={page.section}>
-	<Content offer_name="" />
-	<Sidebar offer_name="" />
+	
 </section>

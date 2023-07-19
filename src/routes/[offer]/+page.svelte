@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
 	import { page as pageStyles } from "@home/styles";
 	import { i18n } from "@stores";
@@ -9,12 +9,11 @@
 	import { Content, Sidebar } from "@home/organisms";
 
 	import Error from "@icons/error.png";
-    import { string } from 'yup';
+	import { string } from 'yup';
 
-	let pageExist: boolean = false;
 	type StringObject = {
-  [key: string]: string;
-};
+		[key: string]: string;
+	};
 	const offers: StringObject = {
 		"bitGptApp": "bit_gpt_app",
 		"bitcoin360Ai": "bitcoin_360_ai",
@@ -24,16 +23,13 @@
 		"immediateEdge": "immediate_edge",
 		"quantumAi": "quantum_ai"
 	};
-
-	onMount(() => {
-			pageExist = Object.keys(offers).includes($page.params.offer);
-	});
+	
 </script>
 
 <SEO title={$i18n.t("home:seo-title")} description="Ditto Svelte" />
 
 <section class={pageStyles.section}>
-	{#if pageExist}
+	{#if $page.params.offer}
 		<Content offer_name={offers[$page.params.offer]} />
 		<Sidebar offer_name={offers[$page.params.offer]} />
 	{:else}
