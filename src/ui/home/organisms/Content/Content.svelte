@@ -6,6 +6,9 @@
   import * as styles from "./Content.styles";
 
   import { Largebuttons, Readmore, Imagedescription } from "@sharing/atoms";
+
+  import { Whitdrawals } from "@home/atoms";
+
   import { Imagegroup } from "@sharing/molecules";
 
   export let offer_name: Props["offer_name"];
@@ -51,5 +54,7 @@
   <Comments 
     type="old"
   />
+
+  <Whitdrawals />
 
 </div>
