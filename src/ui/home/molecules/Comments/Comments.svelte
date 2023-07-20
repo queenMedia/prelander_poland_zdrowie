@@ -1,11 +1,35 @@
 <script lang="ts">
-  import type { Props } from "./Comments.proptypes";
+  import type { CommentsProps } from "./Comments.proptypes";
 
   import * as styles from "./Comments.styles";
+  import { Comment } from "@home/atoms";
+  import { commentsData } from "@data"
 
-  export let prop: Props["prop"];
+  export let type: CommentsProps["type"];
+
 </script>
 
-<div class={styles.comments}>
-  {prop}
-</div>
+{#if type == "old"}
+  <div class={styles.container}>
+    <div class={styles.topText}>
+      <span>Nylige # kommentarer</span>
+      <span>Legg til en kommentar</span>
+    </div>
+    <div class={styles.commentsContainer}>
+      {#each commentsData as comment}
+        <Comment 
+            name={comment.name}
+            text={comment.text}
+            img={comment.img}
+            time={comment.time}
+            timeFormat={comment.timeFormat}
+            likes={comment.likes}
+          />
+          
+      {/each}
+    </div>
+  </div>
+{:else if type==="new"}
+  <div >
+  </div>
+{/if}

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
 	import { page as pageStyles } from "@home/styles";
 	import { i18n } from "@stores";
@@ -10,6 +10,7 @@
 	import {offers} from "@utils/constants";
 
 	import Error from "@icons/error.png";
+
 	import Modal from '../../ui/sharing/molecules/Modal/Modal.svelte';
 	import { Offerbar } from '@sharing/molecules';
 
@@ -23,7 +24,7 @@
 <SEO title={$i18n.t("home:seo-title")} description="Ditto Svelte" />
 
 <section class={pageStyles.section}>
-	{#if pageExist}
+	{#if $page.params.offer}
 		<Content offer_name={offers[$page.params.offer]} />
 		<Sidebar offer_name={offers[$page.params.offer]} />
 		<Modal 

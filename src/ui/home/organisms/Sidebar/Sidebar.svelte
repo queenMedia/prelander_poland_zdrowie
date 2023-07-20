@@ -1,12 +1,14 @@
 <script lang="ts">
-  import type { Props } from "./Sidebar.proptypes";
+  import type { SideBarProps } from "./Sidebar.proptypes";
 
   import * as styles from "./Sidebar.styles";
+  import { Testimonials, Steps } from "@home/molecules";
 
-  export let offer_name: Props["offer_name"];
+  export let offer_name: SideBarProps['offer_name'];
+  
 </script>
 
-<div class={styles.sidebar}>
-  {offer_name}
-  <!-- {prop} -->
+<div class={styles.container}>
+  <Testimonials />
+  <Steps />
 </div>

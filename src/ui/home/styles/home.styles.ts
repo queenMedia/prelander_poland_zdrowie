@@ -5,7 +5,7 @@ import { content, flex } from "@mixins";
 
 export const section = cx(
   content({ width: "1220px"}),
-  flex({ justify: "center", align: "center", gap: "20px"}),
+  flex({ justify: "center", align: "baseline", gap: "20px"}),
   css`
   `,
   responsive.section
