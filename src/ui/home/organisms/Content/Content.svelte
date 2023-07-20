@@ -5,11 +5,12 @@
 
   import * as styles from "./Content.styles";
 
-  import { Largebuttons, Readmore, Imagedescription } from "@sharing/atoms";
-
   import { Whitdrawals } from "@home/atoms";
 
   import { Imagegroup } from "@sharing/molecules";
+
+
+  import { Largebuttons, Readmore, Imagedescription, Link } from "@sharing/atoms";
 
   export let offer_name: Props["offer_name"];
 
@@ -22,6 +23,7 @@
 
   READ MORE COMPONENT 👇
   <Readmore text="button" />
+
 
   IMAGE DESCRIPTION COMPONENT 👇
   <Imagedescription 
@@ -56,5 +58,9 @@
   />
 
   <Whitdrawals />
+
+
+  <Imagedescription text="text" offer={offer_name} type="banners"/>
+  <Link color bold italic offer={false} section="content" text="Test" content={false} className=""/>
 
 </div>

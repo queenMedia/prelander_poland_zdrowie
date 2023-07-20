@@ -7,23 +7,18 @@
 
 	import { SEO } from "@sharing/atoms";
 	import { Content, Sidebar } from "@home/organisms";
+	import {offers} from "@utils/constants";
 
 	import Error from "@icons/error.png";
-	import { string } from 'yup';
 
-	type StringObject = {
-		[key: string]: string;
-	};
-	const offers: StringObject = {
-		"bitGptApp": "bit_gpt_app",
-		"bitcoin360Ai": "bitcoin_360_ai",
-		"bitcoinCode": "bitcoin_code",
-		"bitcoinEra": "bitcoin_era",
-		"bitsoft360": "bitsoft_360",
-		"immediateEdge": "immediate_edge",
-		"quantumAi": "quantum_ai"
-	};
-	
+	import Modal from '../../ui/sharing/molecules/Modal/Modal.svelte';
+	import { Offerbar } from '@sharing/molecules';
+
+	let pageExist: boolean = false;
+
+	onMount(async () => {
+		pageExist = Object.keys(offers).includes($page.params.offer);
+	});
 </script>
 
 <SEO title={$i18n.t("home:seo-title")} description="Ditto Svelte" />
@@ -32,6 +27,14 @@
 	{#if $page.params.offer}
 		<Content offer_name={offers[$page.params.offer]} />
 		<Sidebar offer_name={offers[$page.params.offer]} />
+		<Modal 
+			offer={offers[$page.params.offer]} 
+			type="modal" 
+			title="title" 
+			subtitle="subtitle" 
+			button_text="button"
+		/>
+		<Offerbar />
 	{:else}
 		<div class={pageStyles.error_container}>
 			<img src={Error} alt="Error" class={pageStyles.error_image}>
@@ -39,6 +42,5 @@
 				Sorry!! Page not found 
 			</h1>
 		</div>
-		
 	{/if}
 </section>

@@ -13,6 +13,8 @@ const config = {
 			// Assets
 			"@images/*": "src/assets/images/*",
 			"@icons/*": "src/assets/images/icons/*",
+			// CONTENT
+			"@content": "src/assets/content/",
 			// Logic
 			"@config": "src/logic/config.ts",
 			"@stores": "src/logic/stores/index.ts",
@@ -34,6 +36,7 @@ const config = {
 			"@sharing/organisms": "src/ui/sharing/organisms/index.ts",
 			"@styles": "src/ui/sharing/styles/globals.ts",
 			"@mixins": "src/ui/sharing/styles/mixins.ts",
+			
 		}
 	}
 };

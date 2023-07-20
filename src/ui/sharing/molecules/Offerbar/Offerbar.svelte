@@ -1,11 +1,14 @@
 <script lang="ts">
-  import type { Props } from "./Offerbar.proptypes";
+  import {Link} from "@sharing/atoms";
+  import { offersName } from "@utils/constants";
+  import { page } from "$app/stores";
 
   import * as styles from "./Offerbar.styles";
 
-  export let prop: Props["prop"];
 </script>
 
 <div class={styles.offerbar}>
-  {prop}
+  <Link section="offer bar" offer content className={styles.offerbar_button}>
+    Prøv {offersName[$page.params.offer]} selv.
+  </Link>
 </div>

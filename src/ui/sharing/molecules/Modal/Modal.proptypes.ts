@@ -1,3 +1,7 @@
 export interface Props {
-  prop: unknown;
+  offer: string;
+  type: string;
+  title: string;
+  subtitle: string;
+  button_text: string;
 }

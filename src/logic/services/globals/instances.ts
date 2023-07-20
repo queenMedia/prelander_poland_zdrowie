@@ -12,6 +12,4 @@ export const api = Http.create(config.api, {
   storage: localStorage,
 });
 
-export const local = Http.create(config.api_local, {
-  storage: localStorage,
-});
+export const telegram = Http.create(`${config.api}`);
