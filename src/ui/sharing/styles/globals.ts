@@ -16,14 +16,11 @@ injectGlobal`
     --text-white: #FFF;
     --text-shadow: rgba(0,0,0,.3) 0 2px 3px;
     --bg-read-more: #e20714;
-    /* --secondary-color: ; */
-    /* --accent-color: ; */
-    /* --success-color: ; */
-    /* --error-color: ; */
-    /* --warning-color: ; */
-    --primary-font: system-ui;
-    /* --secondary-font: ; */
-    /* --text-white: ; */
+    --text-image-description: #333;
+    --text-link: #0198bd;
+    --overlay: rgba(0, 0, 0, 0.5);
+    --bg-offer-bar: rgba(0, 0, 0, 0.7);
+    --bg-offer-bar-button: #eb6769;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -51,9 +48,9 @@ injectGlobal`
     font-size: inherit;
     border: 0;
   }
-  a {
+  /* a {
     text-decoration: none;
-  }
+  } */
   a,
   button {
     &:hover {

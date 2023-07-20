@@ -21,4 +21,8 @@ export default {
   api: PUBLIC_API || "http://localhost:4000",
   registry_key: PUBLIC_IPREGISTRY_KEY,
   registry_url: PUBLIC_IPREGISTRY_URL,
+  page: "EL COMERCIO",
+  character: "Elon Musk",
+  link: "https://givemes.com/outgoing",
+  bucket_link: "https://pre-landers.s3.amazonaws.com/"
 };

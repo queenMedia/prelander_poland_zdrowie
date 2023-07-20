@@ -4,3 +4,7 @@ export interface SelectOption {
   value: string;
   disabled?: boolean;
 }
+
+export interface StringObject {
+  [key: string]: string;
+};
