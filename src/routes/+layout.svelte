@@ -17,7 +17,9 @@
   let objectLink: any;
   let bucket: any;
   let loading = true;
-  
+  let character: string;
+  let offer: string;
+
   const getConfig = async (charachter: string) => {
     const url = `${config.url_bucket}/characters/${charachter}.json`;
     const response = await fetch(url, {
@@ -50,18 +52,18 @@
   };
 
   onMount(async () => {
-    const character = new URLSearchParams(window.location.search).get("character");
-    const offer = new URLSearchParams(window.location.search).get("offer");
-     [bucket, objectLink] = await Promise.all([
+    character = new URLSearchParams(window.location.search).get("character") || "";
+    offer = new URLSearchParams(window.location.search).get("offer") || "";
+    [bucket, objectLink] = await Promise.all([
       getConfig(character || ""),
-      getLinkUrl($page.url.origin)
+      getLinkUrl($page.url.origin),
     ]);
-    console.log({bucket,objectLink})
+    console.log({ bucket, objectLink });
     redirect = objectLink ? objectLink?.LINK : null;
     page_exist = Object.keys(bucket?.offers)?.includes(offer || "");
     character_exists = bucket?.character?.fullName ? true : false;
     loading = page_exist && character_exists;
-    console.log({loading})
+    console.log({ loading });
   });
 </script>
 
@@ -70,8 +72,8 @@
 <main class={layout.main}>
   <section class={pageStyles.section}>
     {#if !loading}
-      <Content offer_name={offers[$page.params.offer]} />
-      <Sidebar offer_name={offers[$page.params.offer]} />
+      <Content {bucket} {character} {offer} {redirect} />
+      <!-- <Sidebar offer_name={offers[$page.params.offer]} />
       <Modal
         offer={offers[$page.params.offer]}
         type="modal"
@@ -79,7 +81,7 @@
         subtitle="subtitle"
         button_text="button"
       />
-      <Offerbar />
+      <Offerbar /> -->
     {:else}
       <div class={pageStyles.error_container}>
         <img src={Error} alt="Error" class={pageStyles.error_image} />
