@@ -21,7 +21,7 @@ export default {
   api: PUBLIC_API || "http://localhost:4000",
   registry_key: PUBLIC_IPREGISTRY_KEY,
   registry_url: PUBLIC_IPREGISTRY_URL,
-  url_bucket: "https://pre-landers.s3.amazonaws.com"
+  url_bucket: "https://pre-landers.s3.amazonaws.com",
   page: "EL COMERCIO",
   character: "Elon Musk",
   link: "https://givemes.com/outgoing",
