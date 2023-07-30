@@ -9,11 +9,59 @@
   import Error from "@icons/error.png";
   import Modal from "../ui/sharing/molecules/Modal/Modal.svelte";
   import { Offerbar } from "@sharing/molecules";
+  import config from "@config";
 
-  let pageExist: boolean = false;
+  let page_exist: boolean = false;
+  let character_exists: boolean = false;
+  let bucket: any;
+  let redirect: any;
+  let objectLink: any;
+  let loading = true;
+  const paramsObject: any = {};
+
+  const getConfig = async (charachter: string) => {
+    const url = `${config.url_bucket}/characters/${charachter}.json`;
+    const response = await fetch(url, {
+      method: "GET",
+      headers: { Origin: "http://localhost:5173" },
+    });
+    if (response.ok) {
+      const data = await response.json();
+      return data;
+    } else {
+      console.error("Error en la solicitud:", response.statusText);
+      return undefined;
+    }
+  };
+
+  const getLinkUrl = async (domain: string) => {
+    try {
+      const url = `${domain}/config.json`;
+      const response = await fetch(url, {
+        method: "GET",
+        headers: {
+          Origin: "http://localhost:5173",
+        },
+      });
+      const data: any = await response.json();
+      return data;
+    } catch (error) {
+      return undefined;
+    }
+  };
 
   onMount(async () => {
-    pageExist = Object.keys(offers).includes($page.params.offer);
+    const character = new URLSearchParams(window.location.search).get("character");
+    const offer = new URLSearchParams(window.location.search).get("offer");
+    const [bucket, objectLink] = await Promise.all([
+      getConfig(character || ""),
+      getLinkUrl($page.url.origin)
+    ]);
+    console.log({bucket,objectLink})
+    redirect = Object.keys(objectLink).includes("LINK") ? objectLink.LINK : null;
+    page_exist = Object.keys(bucket.offers).includes(offer || "");
+    character_exists = bucket.character.fullName ? true : false;
+    loading = page_exist && character_exists;
   });
 </script>
 
