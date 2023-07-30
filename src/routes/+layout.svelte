@@ -13,11 +13,8 @@
 
   let page_exist: boolean = false;
   let character_exists: boolean = false;
-  let bucket: any;
   let redirect: any;
-  let objectLink: any;
   let loading = true;
-  const paramsObject: any = {};
 
   const getConfig = async (charachter: string) => {
     const url = `${config.url_bucket}/characters/${charachter}.json`;
