@@ -1,3 +1,3 @@
 export default {
-  url_bucket: "https://pre-landers.s3.amazonaws.com",
+  url_bucket: "https://cmps-assets.s3.amazonaws.com",
 };
