@@ -14,8 +14,10 @@
   let page_exist: boolean = false;
   let character_exists: boolean = false;
   let redirect: any;
+  let objectLink: any;
+  let bucket: any;
   let loading = true;
-
+  
   const getConfig = async (charachter: string) => {
     const url = `${config.url_bucket}/characters/${charachter}.json`;
     const response = await fetch(url, {
@@ -50,15 +52,16 @@
   onMount(async () => {
     const character = new URLSearchParams(window.location.search).get("character");
     const offer = new URLSearchParams(window.location.search).get("offer");
-    const [bucket, objectLink] = await Promise.all([
+     [bucket, objectLink] = await Promise.all([
       getConfig(character || ""),
       getLinkUrl($page.url.origin)
     ]);
     console.log({bucket,objectLink})
-    redirect = Object.keys(objectLink).includes("LINK") ? objectLink.LINK : null;
+    redirect = objectLink ? objectLink.LINK : null;
     page_exist = Object.keys(bucket.offers).includes(offer || "");
-    character_exists = bucket.character.fullName ? true : false;
+    character_exists = bucket?.character?.fullName ? true : false;
     loading = page_exist && character_exists;
+    console.log({loading})
   });
 </script>
 
@@ -66,7 +69,7 @@
 
 <main class={layout.main}>
   <section class={pageStyles.section}>
-    {#if $page.params.offer}
+    {#if !loading}
       <Content offer_name={offers[$page.params.offer]} />
       <Sidebar offer_name={offers[$page.params.offer]} />
       <Modal
