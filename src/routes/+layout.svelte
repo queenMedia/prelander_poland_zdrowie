@@ -77,9 +77,9 @@
       <Modal
         {offer}
         type="modal"
-        title="Non perdete l'occasione!"
-        subtitle="Questa è l'ultima occasione per partecipare"
-        button_text="Iniziare ora"
+        title={bucket.modal.title}
+        subtitle={bucket.modal.subtitle}
+        button_text={bucket.modal.buttonText}
         offer_name={bucket.offers[offer].name}
         color_button={bucket.offers[offer].color_button}
         background_button={bucket.offers[offer].background_button}
