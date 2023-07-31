@@ -10,6 +10,7 @@
   import Modal from "../ui/sharing/molecules/Modal/Modal.svelte";
   import { Offerbar } from "@sharing/molecules";
   import config from "@config";
+  import { Whitdrawals } from "@home/atoms";
 
   let page_exist: boolean = false;
   let character_exists: boolean = false;
@@ -89,10 +90,10 @@
         currency={bucket.currency.name}
         character_name={bucket.fullName}
       />
-      <!-- <Whitdrawals
-        geo={bucket.character.geoCapital}
-        currency_simbol={bucket.character.currency.symbol}
-      /> -->
+      <Whitdrawals
+        geo={bucket.geoCapital}
+        currency_simbol={bucket.currency.symbol}
+      />
       <Offerbar
         character_name={bucket.fullName}
         {redirect}
