@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from "$app/stores";
+    import { Link } from "@sharing/atoms";
 
   import type { StepProps } from "./Step.proptypes";
 
@@ -11,31 +12,24 @@
   export let title: StepProps["title"];
   export let description: StepProps["description"];
   export let img: StepProps["img"];
+  export let offer_name: StepProps["offer_name"];
+  export let offer: StepProps["offer"];
+  export let redirect: StepProps['redirect'];
+  export let character_name: StepProps['character_name'];
+  export let currency_simbol: StepProps['currency_simbol'];
+  export let currency: StepProps['currency'];
+  
 
-  type StringObject = {
-		[key: string]: string;
-	};
-  const offers:StringObject = {
-		"bitGptApp": "bit_gpt_app",
-		"bitcoin360Ai": "bitcoin_360_ai",
-		"bitcoinCode": "bitcoin_code",
-		"bitcoinEra": "bitcoin_era",
-		"bitsoft360": "bitsoft_360",
-		"immediateEdge": "immediate_edge",
-		"quantumAi": "quantum_ai"
-	};
-
-  if(img.includes("OFFER_NAME")) img = img.replace("OFFER_NAME", offers[$page.params.offer])
+  img = img.replace("OFFER_NAME", offer).replaceAll("CURRENCY", currency.toLocaleLowerCase().replace(" ", ""));
 
 </script>
-
-  <div class={styles.container}>
-    <div class={styles.header}>
-      {#if type==="marked"}
-        <img class={styles.icon} src={markIcon} alt="mark icon">
-      {/if}
-      <span class={styles.title}>{title}</span>
-    </div>
-    <p class={styles.description}>{description}</p>
-    <img class={styles.stepImg} src={img} alt="">
+<Link character_name={character_name} redirect={redirect} offerName={offer_name} color={false} bold italic offer={false} section="content" text="" content={true} className={styles.container} parser={false} >
+  <div class={styles.header}>
+    {#if type==="marked"}
+      <img class={styles.icon} src={markIcon} alt="mark icon">
+    {/if}
+    <span class={styles.title}>{title.replaceAll("CURRENCY", currency_simbol)}</span>
   </div>
+  <p class={styles.description}>{description.replaceAll("CURRENCY", currency_simbol)}</p>
+  <img class={styles.stepImg} src={img} alt="">
+</Link>

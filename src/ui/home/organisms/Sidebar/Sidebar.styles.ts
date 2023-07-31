@@ -9,5 +9,6 @@ export const container = cx(
     width: 40%;
     padding: 0 10px;
     flex-direction: column;
-  `
+  `,
+  responsive.sidebar
 );

@@ -64,7 +64,9 @@
     character_exists = bucket?.character?.fullName ? true : false;
     loading = page_exist && character_exists;
     console.log({ loading });
+    console.log("here" , bucket.offers[offer].name)
   });
+  
 </script>
 
 <Header />
@@ -73,15 +75,15 @@
   <section class={pageStyles.section}>
     {#if !loading}
       <Content {bucket} {character} {offer} {redirect} />
-      <!-- <Sidebar offer_name={offers[$page.params.offer]} />
+      <Sidebar offer={bucket.offers[offer]}  {bucket} {redirect}/>
       <Modal
-        offer={offers[$page.params.offer]}
+        offer={offers[offer]}
         type="modal"
         title="title"
         subtitle="subtitle"
         button_text="button"
       />
-      <Offerbar /> -->
+      <Offerbar />
     {:else}
       <div class={pageStyles.error_container}>
         <img src={Error} alt="Error" class={pageStyles.error_image} />
