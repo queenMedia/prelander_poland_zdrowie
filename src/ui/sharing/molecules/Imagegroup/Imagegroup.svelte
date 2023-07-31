@@ -13,8 +13,6 @@
 
   const Img2 = `${config.url_bucket}/sharing/characters/${character_name}/img2.jpg`;
   const Tabel = `${config.url_bucket}/${offer_name}/tables/${contentLang}/${targetCurrency}.jpg`;
-  console.log("Tabel"  , Tabel)
-  console.log({Tabel});
   onMount(() => {});
 </script>
 

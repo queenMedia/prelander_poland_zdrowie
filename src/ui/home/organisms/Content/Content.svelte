@@ -66,15 +66,14 @@
     className=""
     parser={false}
   >
-  <Imagedescription
-  {targetCurrency}
-  contentLang={contentKeys.language}
-  targetGeoCode={targetKeys.countryCode}
-  text=""
-  {offer}
-  type="banners"
-  
-/>
+    <Imagedescription
+      {targetCurrency}
+      {contentKeys}
+      {targetKeys}
+      text=""
+      {offer}
+      type="banners"
+    />
   </Link>
   <div class={styles.imagedescription}>
     <img src={Img1} alt="" class={styles.image} />
@@ -111,12 +110,12 @@
   </p>
   {@html firstSection.upptoLink}
 
-  <Imagegroup
-    contentLang={contentKeys.language}
+  <!-- <Imagegroup
+    {contentKeys}
     offer_name={offer}
     character_name={character}
-    targetCurrency={targetCurrency.code}
-  />
+    {targetCurrency}
+  /> -->
   <p>
     Lo spazio dedicato a <b>{fullName}</b> è terminato, prima che lui potesse andare
     a fondo, pertanto abbiamo organizzato un'intervista esclusiva con lui, per scoprire
@@ -157,9 +156,9 @@
       content={false}
       className=""
       parser={false}
-    />, che sta aiutando la gente comune in {contentKeys.countryName}, Asia e Nord America a
-    guadagnare enormi fortune, da un giorno all'altro. Potreste essere scettici,
-    perchè sembra troppo bello per essere vero."
+    />, che sta aiutando la gente comune in {contentKeys.countryName}, Asia e
+    Nord America a guadagnare enormi fortune, da un giorno all'altro. Potreste
+    essere scettici, perchè sembra troppo bello per essere vero."
   </p>
   <p>
     <b>{fullName}</b> ha proseguito, affermando:
@@ -263,13 +262,12 @@
   </p>
   <Imagedescription
     {targetCurrency}
-    contentLang={contentKeys.language}
-    targetGeoCode={targetKeys.countryCode}
+    {contentKeys}
+    {targetKeys}
     text="Bill Gates e Richard Branson parlano di {offers[offer]
       .name} al CES 2023."
     {offer}
     type="billgates"
-    
   />
   <p>
     Questi geni della tecnologia hanno creato aziende multi-milionarie,
@@ -346,8 +344,9 @@
       >Ho già ricevuto delle telefonate minacciose da parte delle grandi
       organizzazioni finanziarie</b
     >, poiché sto portando questa tecnologia all'attenzione della gente. Peggio
-    per loro! Le persone in {contentKeys.countryName} stanno iniziando a scoprire la verità e sarà solo
-    una questione di tempo, prima che molti altri ne vengano a conoscenza.
+    per loro! Le persone in {contentKeys.countryName} stanno iniziando a scoprire
+    la verità e sarà solo una questione di tempo, prima che molti altri ne vengano
+    a conoscenza.
   </p>
   <p>
     Sto condividendo questa storia, perché ho anche ricevuto centinaia di email
@@ -374,10 +373,9 @@
 
   <Imagedescription
     {offer}
-    
     {targetCurrency}
-    contentLang={contentKeys.language}
-    targetGeoCode={targetKeys.countryCode}
+    {contentKeys}
+    {targetKeys}
     text="Fin da bambino, mio fratello aveva sempre desiderato una Ferrari 488 Pista, per via del classico colore rosso e del motore potente. Bene, ultimamente, ho guadagnato tantissimi soldi, grazie a una nuova piattaforma di trading di criptovalute (mandatemi un messaggio per maggiori informazioni), e l'ho sorpreso, regalandogli l'AUTO DEI SUOI SOGNI! La sua reazione è stata IMPAGABILE! Ti voglio bene, fratellino!"
     type="posts"
   />
@@ -461,10 +459,9 @@
   <div class={styles.imagedescription}>
     <Imagedescription
       {offer}
-      
       {targetCurrency}
-      contentLang={contentKeys.language}
-      targetGeoCode={targetKeys.countryCode}
+      {contentKeys}
+      {targetKeys}
       type="family"
       text=""
     />
@@ -515,10 +512,10 @@
   </p>
   <p>
     Dopo aver guadagnato accesso alla piattaforma, depositai una somma iniziale
-    di {targetCurrency.symbol}300, più o meno la cifra che la mia famiglia spende per
-    cibi poco salutari ogni mese. Decisi di fare a meno di mangiare fast food
-    per un mese. Avevamo la possibilità di vivere in maniera più sana e,
-    soprattutto, di diventare ricchi.
+    di {targetCurrency.symbol}300, più o meno la cifra che la mia famiglia
+    spende per cibi poco salutari ogni mese. Decisi di fare a meno di mangiare
+    fast food per un mese. Avevamo la possibilità di vivere in maniera più sana
+    e, soprattutto, di diventare ricchi.
   </p>
   <p>
     Il sistema {offers[offer].name} è una piattaforma di trading automatico delle
@@ -545,10 +542,10 @@
   />
 
   <p>
-    "Trascorsa 1 ora dal deposito di {targetCurrency.symbol}300, il software iniziò a
-    fare trading per conto mio. Ad essere sincero, avevo paura di perdere tutti
-    i miei soldi, anche perché la prima operazione mi aveva provocato una
-    perdita di {targetCurrency.symbol}25!
+    "Trascorsa 1 ora dal deposito di {targetCurrency.symbol}300, il software
+    iniziò a fare trading per conto mio. Ad essere sincero, avevo paura di
+    perdere tutti i miei soldi, anche perché la prima operazione mi aveva
+    provocato una perdita di {targetCurrency.symbol}25!
   </p>
   <p>
     Iniziai a sudare freddo, pensavo di essere stato raggirato. Ero pronto a
@@ -563,17 +560,17 @@
     Dunque, lasciai il software a fare il suo lavoro, monitorandolo
     attentamente. <b>L'operazione successiva andò a buon fine!</b> Solo {targetCurrency.symbol}19,
     ma era già qualcosa. Quella dopo mi fece guadagnare
-    <b>{targetCurrency.symbol}51</b>, poi ancora altri <b>{targetCurrency.symbol}22</b>, per
-    un totale di <b>{targetCurrency.symbol}67</b>. Il tutto in meno di 5 minuti!
+    <b>{targetCurrency.symbol}51</b>, poi ancora altri
+    <b>{targetCurrency.symbol}22</b>, per un totale di
+    <b>{targetCurrency.symbol}67</b>. Il tutto in meno di 5 minuti!
   </p>
   <p>Presto, iniziai a guadagnare rapidamente, non riuscivo a crederci.</p>
   <div class={styles.imagedescription}>
     <Imagedescription
       {offer}
-      
       {targetCurrency}
-      contentLang={contentKeys.language}
-      targetGeoCode={targetKeys.countryCode}
+      {contentKeys}
+      {targetKeys}
       type="gif"
       text=""
     />
@@ -597,9 +594,10 @@
       className=""
       parser={false}
     />
-    Alla fine della giornata, <b>avevo guadagnato {targetCurrency.symbol}754</b>, non
-    male per aver iniziato con {targetCurrency.symbol}300! Ero così euforico che non
-    riuscii a dormire bene.
+    Alla fine della giornata,
+    <b>avevo guadagnato {targetCurrency.symbol}754</b>, non male per aver
+    iniziato con {targetCurrency.symbol}300! Ero così euforico che non riuscii a
+    dormire bene.
   </p>
   <p>
     Il giorno successivo, martedì, tornai al lavoro. Sinceramente (e non ditelo
@@ -626,11 +624,12 @@
     >, molto di più di quanto guadagnavo in una SETTIMANA di lavoro!
   </p>
   <p>
-    Al termine della settimana, avevo guadagnato <b>{targetCurrency.symbol}6,149.13</b
+    Al termine della settimana, avevo guadagnato <b
+      >{targetCurrency.symbol}6,149.13</b
     >, prelevai esattamente {targetCurrency.symbol}4,800 e reinvestii la somma
     rimanente. Nel giro di 2 giorni, ricevetti il mio primo assegno nella
-    casella postale, esattamente {targetCurrency.symbol}4,800. Non riuscivo a crederci
-    che fosse vero!"
+    casella postale, esattamente {targetCurrency.symbol}4,800. Non riuscivo a
+    crederci che fosse vero!"
   </p>
   <Imagedescription
     text="<b>Francesco</b> ha ricevuto un assegno del valore di {targetCurrency.symbol}4,800, dopo aver usato {offers[
@@ -638,10 +637,9 @@
     ].name} per due settimane"
     type="checks"
     {offer}
-    
     {targetCurrency}
-    contentLang={contentKeys.language}
-    targetGeoCode={targetKeys.countryCode}
+    {contentKeys}
+    {targetKeys}
   />
   <p>
     <b>La storia di <b>Francesco Pellegrini</b> prosegue,</b>
@@ -817,17 +815,16 @@
       className=""
       parser={false}
     />
-    comunque, in quanto è gratis e le registrazioni per i residenti in {contentKeys.countryName} potrebbero
-    chiudersi in qualsiasi momento)
+    comunque, in quanto è gratis e le registrazioni per i residenti in {contentKeys.countryName}
+    potrebbero chiudersi in qualsiasi momento)
   </p>
   <Imagedescription
     text=""
     {offer}
     type="banners"
-    
     {targetCurrency}
-    contentLang={contentKeys.language}
-    targetGeoCode={targetKeys.countryCode}
+    {contentKeys}
+    {targetKeys}
   />
   <p>
     Nel passaggio successivo, ti verrà chiesto di
@@ -854,10 +851,9 @@
       text=""
       {offer}
       type="step2"
-      
       {targetCurrency}
-      contentLang={contentKeys.language}
-      targetGeoCode={targetKeys.countryCode}
+      {contentKeys}
+      {targetKeys}
     />
   </div>
   <p>
@@ -871,10 +867,9 @@
       text=""
       {offer}
       type="step3"
-      
       {targetCurrency}
-      contentLang={contentKeys.language}
-      targetGeoCode={targetKeys.countryCode}
+      {contentKeys}
+      {targetKeys}
     />
   </div>
   <p>
@@ -907,9 +902,9 @@
 
   <p>
     Abbiamo appena ricevuto la notizia che,quasi tutti i posti disponibili per i
-    residenti in {contentKeys.countryName} sono presi. {offers[offer].name} può accettare solo un numero
-    limitato di utenti totali, al fine di mantenere alti i profitti per ciascun utente.
-    Al momento, sono ancora disponibili (37) posti. Allora,
+    residenti in {contentKeys.countryName} sono presi. {offers[offer].name} può accettare
+    solo un numero limitato di utenti totali, al fine di mantenere alti i profitti
+    per ciascun utente. Al momento, sono ancora disponibili (37) posti. Allora,
     <Link
       character_name={fullName}
       {redirect}
