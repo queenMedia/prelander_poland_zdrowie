@@ -66,7 +66,7 @@
     character_exists = bucket?.character?.fullName ? true : false;
     loading = page_exist && character_exists;
     console.log({ loading });
-    console.log("here", bucket.offers[offer].name);
+    console.log("here", bucket);
   });
 </script>
 
@@ -93,11 +93,13 @@
       <Whitdrawals
         geo={bucket.geoCapital}
         currency_simbol={bucket.currency.symbol}
+        whitdrawalText={bucket.whitdrawalText}
       />
       <Offerbar
         character_name={bucket.fullName}
         {redirect}
         offer_name={bucket.offers[offer].name}
+        offerBarText={bucket.offerBarText}
       />
     {:else}
       <div class={pageStyles.error_container}>
