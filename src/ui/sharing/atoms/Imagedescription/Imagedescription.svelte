@@ -23,7 +23,7 @@
       image = `${config.url_bucket}/${offer}/modal/modal.jpg`;
       break;
     case "tables":
-      image = `${config.url_bucket}/${offer}/tables/${contentLnag}/${currency.code.toLowerCase()}.jpg`;
+      image = `${config.url_bucket}/${offer}/tables/${contentLnag}/${currency?.code?.toLowerCase()}.jpg`;
       break;
     case "billgates":
       image = `${config.url_bucket}/sharing/billgates/${offer}.jpg`;
@@ -35,7 +35,7 @@
       image = `${config.url_bucket}/sharing/posts/${targetGeoCode}.jpg`;
       break;
     case "gif":
-      image = `${config.url_bucket}/sharing/gifs/${contentLnag}/${currency.code.toLowerCase()}.jpg`;
+      image = `${config.url_bucket}/sharing/gifs/${contentLnag}/${currency?.code?.toLowerCase()}.jpg`;
       break;
     case "checks":
       image = `${config.url_bucket}/sharing/checks/${targetGeoCode}.jpg`;

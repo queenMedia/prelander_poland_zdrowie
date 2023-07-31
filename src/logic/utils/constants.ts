@@ -38,4 +38,30 @@ export const textButtonColors: StringObject = {
   "bitsoft_360": "#000",
   "immediate_edge": "#000",
   "quantum_ai": "#FFF"
-}
+};
+
+export const dottedCss: StringObject = {
+  "top": "border-top: dotted 1px var(--border-bottom-header-color);",
+  "bottom": "border-bottom: dotted 1px var(--border-bottom-header-color);",
+  "left": "border-left: dotted 1px var(--border-bottom-header-color);",
+  "right": "border-right: dotted 1px var(--border-bottom-header-color);",
+  "y": "border-top: dotted 1px var(--border-bottom-header-color); border-bottom: dotted 1px var(--border-bottom-header-color);",
+  "x": "border-left: dotted 1px var(--border-bottom-header-color); border-right: dotted 1px var(--border-bottom-header-color);",
+};
+
+export const solidCss: StringObject = {
+  "top": "border-top: solid 1px var(--border-bottom-header-color);",
+  "bottom": "border-bottom: solid 1px var(--border-bottom-header-color);",
+  "left": "border-left: solid 1px var(--border-bottom-header-color);",
+  "right": "border-right: solid 1px var(--border-bottom-header-color);",
+  "y": "border-top: solid 1px var(--border-bottom-header-color); border-bottom: solid 1px var(--border-bottom-header-color);",
+  "x": "border-left: solid 1px var(--border-bottom-header-color); border-right: solid 1px var(--border-bottom-header-color);",
+};
+
+export const available_characters: StringObject ={
+  "GiorgioArmani": "giorgio_armani",
+};
+
+export const available_characters_name: StringObject ={
+  "GiorgioArmani": "Giorgio Armani",
+};

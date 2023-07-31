@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { page } from "@home/styles";
 	import { i18n } from "@stores";
 	import { SEO } from "@sharing/atoms";
@@ -14,4 +14,4 @@
 			Sorry!! Page not found 
 		</h1>
 	</div>
-</section>
+</section> -->

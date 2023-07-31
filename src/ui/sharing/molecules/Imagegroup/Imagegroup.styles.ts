@@ -14,7 +14,7 @@ export const imagegroup = cx(
 export const imageLeft = cx(
   css`
     height: 100%;
-    width: 70%;
+    width: 59%;
     ${responsive.imagegroup}
   `
 );
@@ -22,7 +22,7 @@ export const imageLeft = cx(
 export const imageRight = cx(
   css`
     height: 100%;
-    width: 30%;
+    width: 41%;
     object-fit: cover;
     ${responsive.imagegroup}
   `
