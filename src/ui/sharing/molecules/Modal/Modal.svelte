@@ -21,7 +21,7 @@
 
   const MODAL = `${config.url_bucket}/${offer}/${type}/modal.jpg`;
 
-  console.log({MODAL})
+
   
   $: showModal = false;
   $: dimensions = {
