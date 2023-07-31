@@ -2,7 +2,6 @@
 	import config from '@config';
   import { onMount } from "svelte";
   import type { Props } from "./Modal.proptypes";
-
   import * as styles from "./Modal.styles";
   import { Link } from '@sharing/atoms';
 
@@ -17,11 +16,8 @@
   export let redirect: Props["redirect"];
   export let character_name: Props["character_name"];
   export let currency: Props["currency"];
-  
 
   const MODAL = `${config.url_bucket}/${offer}/${type}/modal.jpg`;
-
-
   
   $: showModal = false;
   $: dimensions = {
