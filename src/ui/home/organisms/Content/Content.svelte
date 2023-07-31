@@ -821,7 +821,7 @@
   <Imagedescription
     text=""
     {offer}
-    type="banners"
+    type="offerBanner"
     {targetCurrency}
     {contentKeys}
     {targetKeys}

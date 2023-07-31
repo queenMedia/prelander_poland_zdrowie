@@ -4,5 +4,5 @@ export interface Props {
   targetCurrency?: any;  
   contentKeys?: any;  
   targetKeys?: any;  
-  type?: "banners" | "forms" | "modal" | "tables" | "billgates" | "family" | "posts" | "gif" | "checks" | "step2" | "step3"; 
+  type?: "banners" | "forms" | "modal" | "tables" | "billgates" | "family" | "posts" | "gif" | "checks" | "step2" | "step3" | "offerBanner"; 
 }

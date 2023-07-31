@@ -45,6 +45,9 @@
     case "step3":
       image = `${config.url_bucket}/sharing/steps/${contentKeys.language}/${targetCurrency?.code}/3.jpg`;
       break;
+    case "offerBanner":
+      image = `${config.url_bucket}/${offer}/banners/${targetKeys.countryCode}.jpg`;
+      break;
     default:
       break;
   }
