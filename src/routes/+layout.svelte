@@ -60,13 +60,10 @@
       getConfig(character || ""),
       getLinkUrl($page.url.origin),
     ]);
-    console.log({ bucket, objectLink });
     redirect = objectLink ? objectLink?.LINK : null;
     page_exist = Object.keys(bucket?.offers)?.includes(offer || "");
     character_exists = bucket?.character?.fullName ? true : false;
     loading = page_exist && character_exists;
-    console.log({ loading });
-    console.log("here", bucket);
   });
 </script>
 
