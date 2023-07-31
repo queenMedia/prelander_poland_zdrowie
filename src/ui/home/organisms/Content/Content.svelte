@@ -110,12 +110,12 @@
   </p>
   {@html firstSection.upptoLink}
 
-  <!-- <Imagegroup
+  <Imagegroup
     {contentKeys}
+    {targetCurrency}
     offer_name={offer}
     character_name={character}
-    {targetCurrency}
-  /> -->
+  />
   <p>
     Lo spazio dedicato a <b>{fullName}</b> è terminato, prima che lui potesse andare
     a fondo, pertanto abbiamo organizzato un'intervista esclusiva con lui, per scoprire

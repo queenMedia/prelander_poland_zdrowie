@@ -10,7 +10,6 @@
   export let contentKeys: Props["contentKeys"];
   export let targetKeys: Props["targetKeys"];
 
-
   let image = "";
   switch (type) {
     case "banners":

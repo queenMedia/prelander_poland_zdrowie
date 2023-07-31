@@ -9,10 +9,11 @@
   export let offer_name: ImageGroupProps["offer_name"];
   export let character_name: ImageGroupProps["character_name"];
   export let targetCurrency: ImageGroupProps["targetCurrency"];
-  export let contentLang: ImageGroupProps["contentLang"];
+  export let contentKeys: ImageGroupProps["contentKeys"];
+
 
   const Img2 = `${config.url_bucket}/sharing/characters/${character_name}/img2.jpg`;
-  const Tabel = `${config.url_bucket}/${offer_name}/tables/${contentLang}/${targetCurrency}.jpg`;
+  const Tabel = `${config.url_bucket}/${offer_name}/tables/${contentKeys.language}/${targetCurrency.code}.jpg`;
   onMount(() => {});
 </script>
 
