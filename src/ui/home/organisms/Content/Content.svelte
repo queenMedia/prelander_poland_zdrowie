@@ -19,16 +19,15 @@
   export let redirect: Props["redirect"];
   const {
     fullName,
-    contentKeys,
+    firstName,
     lastName,
-    contentLnag,
-    targetGeo,
-    currency,
-    title,
+    contentKeys,
+    targetKeys,
+    targetCurrency,
     subtitle,
+    title,
     firstSection,
     offers,
-    targetGeoCode,
   } = bucket;
   const Img1 = `${config.url_bucket}/sharing/characters/${character}/img1.jpg`;
   const Img2 = `${config.url_bucket}/sharing/characters/${character}/img2.jpg`;
@@ -68,13 +67,13 @@
     parser={false}
   >
   <Imagedescription
-  {currency}
-  {contentLnag}
-  {targetGeo}
+  {targetCurrency}
+  contentLang={contentKeys.language}
+  targetGeoCode={targetKeys.countryCode}
   text=""
   {offer}
   type="banners"
-  {targetGeoCode}
+  
 />
   </Link>
   <div class={styles.imagedescription}>
@@ -113,10 +112,10 @@
   {@html firstSection.upptoLink}
 
   <Imagegroup
-    {contentLnag}
+    contentLang={contentKeys.language}
     offer_name={offer}
     character_name={character}
-    {currency}
+    targetCurrency={targetCurrency.code}
   />
   <p>
     Lo spazio dedicato a <b>{fullName}</b> è terminato, prima che lui potesse andare
@@ -158,7 +157,7 @@
       content={false}
       className=""
       parser={false}
-    />, che sta aiutando la gente comune in {contentKeys.geo}, Asia e Nord America a
+    />, che sta aiutando la gente comune in {contentKeys.countryName}, Asia e Nord America a
     guadagnare enormi fortune, da un giorno all'altro. Potreste essere scettici,
     perchè sembra troppo bello per essere vero."
   </p>
@@ -223,7 +222,7 @@
   <p>
     Alcune di queste criptovalute includono Ripple, Ethereum, Monero e Zcash e
     riescono ancora a garantire ritorni del 10,000% e oltre, per chiunque voglia
-    investire in {contentKeys.geo}.
+    investire in {contentKeys.countryName}.
   </p>
   <p>
     <Link
@@ -263,14 +262,14 @@
     alcune.
   </p>
   <Imagedescription
-    {currency}
-    {contentLnag}
-    {targetGeo}
+    {targetCurrency}
+    contentLang={contentKeys.language}
+    targetGeoCode={targetKeys.countryCode}
     text="Bill Gates e Richard Branson parlano di {offers[offer]
       .name} al CES 2023."
     {offer}
     type="billgates"
-    {targetGeoCode}
+    
   />
   <p>
     Questi geni della tecnologia hanno creato aziende multi-milionarie,
@@ -347,7 +346,7 @@
       >Ho già ricevuto delle telefonate minacciose da parte delle grandi
       organizzazioni finanziarie</b
     >, poiché sto portando questa tecnologia all'attenzione della gente. Peggio
-    per loro! Le persone in {contentKeys.geo} stanno iniziando a scoprire la verità e sarà solo
+    per loro! Le persone in {contentKeys.countryName} stanno iniziando a scoprire la verità e sarà solo
     una questione di tempo, prima che molti altri ne vengano a conoscenza.
   </p>
   <p>
@@ -375,10 +374,10 @@
 
   <Imagedescription
     {offer}
-    {targetGeoCode}
-    {currency}
-    {contentLnag}
-    {targetGeo}
+    
+    {targetCurrency}
+    contentLang={contentKeys.language}
+    targetGeoCode={targetKeys.countryCode}
     text="Fin da bambino, mio fratello aveva sempre desiderato una Ferrari 488 Pista, per via del classico colore rosso e del motore potente. Bene, ultimamente, ho guadagnato tantissimi soldi, grazie a una nuova piattaforma di trading di criptovalute (mandatemi un messaggio per maggiori informazioni), e l'ho sorpreso, regalandogli l'AUTO DEI SUOI SOGNI! La sua reazione è stata IMPAGABILE! Ti voglio bene, fratellino!"
     type="posts"
   />
@@ -462,10 +461,10 @@
   <div class={styles.imagedescription}>
     <Imagedescription
       {offer}
-      {targetGeoCode}
-      {currency}
-      {contentLnag}
-      {targetGeo}
+      
+      {targetCurrency}
+      contentLang={contentKeys.language}
+      targetGeoCode={targetKeys.countryCode}
       type="family"
       text=""
     />
@@ -509,14 +508,14 @@
   <p>
     Il mio investitore personale mi promise anche che, <b
       >se avessi perso un solo euro</b
-    >, mi avrebbe rimborsato il mio deposito di {currency.symbol}300. Era
+    >, mi avrebbe rimborsato il mio deposito di {targetCurrency.symbol}300. Era
     davvero convinto di potermi cambiare la vita. L'assistenza clienti è stata
     fantastica, oltre ogni aspettativa, ed è ovvio che le banche sono
     preoccupate.
   </p>
   <p>
     Dopo aver guadagnato accesso alla piattaforma, depositai una somma iniziale
-    di {currency.symbol}300, più o meno la cifra che la mia famiglia spende per
+    di {targetCurrency.symbol}300, più o meno la cifra che la mia famiglia spende per
     cibi poco salutari ogni mese. Decisi di fare a meno di mangiare fast food
     per un mese. Avevamo la possibilità di vivere in maniera più sana e,
     soprattutto, di diventare ricchi.
@@ -546,10 +545,10 @@
   />
 
   <p>
-    "Trascorsa 1 ora dal deposito di {currency.symbol}300, il software iniziò a
+    "Trascorsa 1 ora dal deposito di {targetCurrency.symbol}300, il software iniziò a
     fare trading per conto mio. Ad essere sincero, avevo paura di perdere tutti
     i miei soldi, anche perché la prima operazione mi aveva provocato una
-    perdita di {currency.symbol}25!
+    perdita di {targetCurrency.symbol}25!
   </p>
   <p>
     Iniziai a sudare freddo, pensavo di essere stato raggirato. Ero pronto a
@@ -562,19 +561,19 @@
   </p>
   <p>
     Dunque, lasciai il software a fare il suo lavoro, monitorandolo
-    attentamente. <b>L'operazione successiva andò a buon fine!</b> Solo {currency.symbol}19,
+    attentamente. <b>L'operazione successiva andò a buon fine!</b> Solo {targetCurrency.symbol}19,
     ma era già qualcosa. Quella dopo mi fece guadagnare
-    <b>{currency.symbol}51</b>, poi ancora altri <b>{currency.symbol}22</b>, per
-    un totale di <b>{currency.symbol}67</b>. Il tutto in meno di 5 minuti!
+    <b>{targetCurrency.symbol}51</b>, poi ancora altri <b>{targetCurrency.symbol}22</b>, per
+    un totale di <b>{targetCurrency.symbol}67</b>. Il tutto in meno di 5 minuti!
   </p>
   <p>Presto, iniziai a guadagnare rapidamente, non riuscivo a crederci.</p>
   <div class={styles.imagedescription}>
     <Imagedescription
       {offer}
-      {targetGeoCode}
-      {currency}
-      {contentLnag}
-      {targetGeo}
+      
+      {targetCurrency}
+      contentLang={contentKeys.language}
+      targetGeoCode={targetKeys.countryCode}
       type="gif"
       text=""
     />
@@ -598,8 +597,8 @@
       className=""
       parser={false}
     />
-    Alla fine della giornata, <b>avevo guadagnato {currency.symbol}754</b>, non
-    male per aver iniziato con {currency.symbol}300! Ero così euforico che non
+    Alla fine della giornata, <b>avevo guadagnato {targetCurrency.symbol}754</b>, non
+    male per aver iniziato con {targetCurrency.symbol}300! Ero così euforico che non
     riuscii a dormire bene.
   </p>
   <p>
@@ -623,32 +622,32 @@
     Andai in bagno qualche volta, per controllare i miei guadagni, che
     continuavano a crescere (con qualche piccola perdita). Alla fine della
     giornata, prima di mettere i miei figli a letto, avevo <b
-      >{currency.symbol}1,349.13 nel mio conto</b
+      >{targetCurrency.symbol}1,349.13 nel mio conto</b
     >, molto di più di quanto guadagnavo in una SETTIMANA di lavoro!
   </p>
   <p>
-    Al termine della settimana, avevo guadagnato <b>{currency.symbol}6,149.13</b
-    >, prelevai esattamente {currency.symbol}4,800 e reinvestii la somma
+    Al termine della settimana, avevo guadagnato <b>{targetCurrency.symbol}6,149.13</b
+    >, prelevai esattamente {targetCurrency.symbol}4,800 e reinvestii la somma
     rimanente. Nel giro di 2 giorni, ricevetti il mio primo assegno nella
-    casella postale, esattamente {currency.symbol}4,800. Non riuscivo a crederci
+    casella postale, esattamente {targetCurrency.symbol}4,800. Non riuscivo a crederci
     che fosse vero!"
   </p>
   <Imagedescription
-    text="<b>Francesco</b> ha ricevuto un assegno del valore di {currency.symbol}4,800, dopo aver usato {offers[
+    text="<b>Francesco</b> ha ricevuto un assegno del valore di {targetCurrency.symbol}4,800, dopo aver usato {offers[
       offer
     ].name} per due settimane"
     type="checks"
     {offer}
-    {targetGeoCode}
-    {currency}
-    {contentLnag}
-    {targetGeo}
+    
+    {targetCurrency}
+    contentLang={contentKeys.language}
+    targetGeoCode={targetKeys.countryCode}
   />
   <p>
     <b>La storia di <b>Francesco Pellegrini</b> prosegue,</b>
   </p>
   <p>
-    "Al momento, guadagno, ogni giorno, fra i {currency.symbol}700 e i {currency.symbol}1,500,
+    "Al momento, guadagno, ogni giorno, fra i {targetCurrency.symbol}700 e i {targetCurrency.symbol}1,500,
     grazie a <Link
       character_name={fullName}
       {redirect}
@@ -818,17 +817,17 @@
       className=""
       parser={false}
     />
-    comunque, in quanto è gratis e le registrazioni per i residenti in {contentKeys.geo} potrebbero
+    comunque, in quanto è gratis e le registrazioni per i residenti in {contentKeys.countryName} potrebbero
     chiudersi in qualsiasi momento)
   </p>
   <Imagedescription
     text=""
     {offer}
     type="banners"
-    {targetGeoCode}
-    {currency}
-    {contentLnag}
-    {targetGeo}
+    
+    {targetCurrency}
+    contentLang={contentKeys.language}
+    targetGeoCode={targetKeys.countryCode}
   />
   <p>
     Nel passaggio successivo, ti verrà chiesto di
@@ -855,32 +854,32 @@
       text=""
       {offer}
       type="step2"
-      {targetGeoCode}
-      {currency}
-      {contentLnag}
-      {targetGeo}
+      
+      {targetCurrency}
+      contentLang={contentKeys.language}
+      targetGeoCode={targetKeys.countryCode}
     />
   </div>
   <p>
     Ovviamente, era il mio account manager personale, che mi offrì un servizio
     eccellente, guidandomi nell'intero processo di deposito. Sono accettate
     tutte le carte di credito principali, come Visa, MasterCard e American
-    Express. Proseguii e depositai l'importo minimo di {currency.symbol}300.
+    Express. Proseguii e depositai l'importo minimo di {targetCurrency.symbol}300.
   </p>
   <div class={styles.imagedescription}>
     <Imagedescription
       text=""
       {offer}
       type="step3"
-      {targetGeoCode}
-      {currency}
-      {contentLnag}
-      {targetGeo}
+      
+      {targetCurrency}
+      contentLang={contentKeys.language}
+      targetGeoCode={targetKeys.countryCode}
     />
   </div>
   <p>
     Dopo aver effettuato il deposito, navigai nella sezione "Auto-Trader" del
-    software, impostai l'importo consigliato con cui fare trading, {currency.symbol}50,
+    software, impostai l'importo consigliato con cui fare trading, {targetCurrency.symbol}50,
     e diedi la mia autorizzazione. Il software iniziò a effettuare operazioni
     rapide; all'inizio, ero un po' preoccupato, ma poi decisi di lasciarlo fare
     il suo lavoro.
@@ -908,7 +907,7 @@
 
   <p>
     Abbiamo appena ricevuto la notizia che,quasi tutti i posti disponibili per i
-    residenti in {contentKeys.geo} sono presi. {offers[offer].name} può accettare solo un numero
+    residenti in {contentKeys.countryName} sono presi. {offers[offer].name} può accettare solo un numero
     limitato di utenti totali, al fine di mantenere alti i profitti per ciascun utente.
     Al momento, sono ancora disponibili (37) posti. Allora,
     <Link

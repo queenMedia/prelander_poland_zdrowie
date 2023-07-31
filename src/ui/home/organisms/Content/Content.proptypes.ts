@@ -6,15 +6,43 @@ export interface Props {
 }
 
 interface Bucket {
-  offers:any, 
-  fullName:string,
-  lastName:string,
-  contentLnag:string,
-  targetGeo:string,
-  currency:any,
-  contentKeys:any,
-  title:string,
-  subtitle:string,
-  targetGeoCode:string,
-  firstSection:any,
+  fullName: string;
+  firstName: string;
+  lastName: string;
+  contentKeys: {
+    language: string;
+    citizenText: string;
+    countryName: string;
+  };
+  targetKeys: {
+    countryName: string;
+    capital: string;
+    countryCode: string;
+  };
+  targetCurrency: {
+    code: string;
+    symbol: string;
+    name: string;
+  };
+  subtitle: string;
+  title: string;
+  offerBarText: string;
+  firstSection: {
+    ImgDescription: string;
+    upptoLink: string;
+    t1: string;
+    linkText: string;
+    t2: string;
+    lastp: string;
+  };
+  whitdrawalText: {
+    top: string;
+    bottom: string;
+  };
+  modal: {
+    title: string;
+    subtitle: string;
+    buttonText: string;
+  };
+  offers: any;
 }

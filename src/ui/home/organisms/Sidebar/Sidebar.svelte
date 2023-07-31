@@ -9,27 +9,26 @@
   export let redirect: Props["redirect"];
   const { name, color_button, background_button } = offer;
   const {
-    citizenText,
     fullName,
+    firstName,
     lastName,
-    contentLnag,
-    targetGeo,
-    geoCapital,
-    currency,
-    geo,
-    title,
+    contentKeys,
+    targetKeys,
+    targetCurrency,
     subtitle,
+    title,
+    offerBarText,
     firstSection,
+    modal,
     offers,
-    targetGeoCode,
   } = bucket;
 </script>
 
 <div class={styles.container}>
-  <Testimonials currency_simbol={currency.symbol} {redirect} offer_name={name} character_name={fullName} />
+  <Testimonials currency_simbol={targetCurrency.symbol} {redirect} offer_name={name} character_name={fullName} />
   <Steps
-    currency={currency.symbol}
-    currency_simbol={currency.symbol}
+    currency={targetCurrency.symbol}
+    currency_simbol={targetCurrency.symbol}
     character_name={fullName}
     {redirect}
     offer_name={name}

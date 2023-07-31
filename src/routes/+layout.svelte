@@ -83,12 +83,12 @@
         color_button={bucket.offers[offer].color_button}
         background_button={bucket.offers[offer].background_button}
         {redirect}
-        currency={bucket.currency.name}
+        currency={bucket.targetCurrency.name}
         character_name={bucket.fullName}
       />
       <Whitdrawals
         geo={bucket.contentKeys.geoCapital}
-        currency_simbol={bucket.currency.symbol}
+        currency_simbol={bucket.targetCurrency.symbol}
         whitdrawalText={bucket.whitdrawalText}
       />
       <Offerbar

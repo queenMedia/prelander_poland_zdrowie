@@ -1,21 +1,19 @@
 <script lang="ts">
   import { onMount } from "svelte";
-
   import type { ImageGroupProps } from "./Imagegroup.proptypes";
-
   import * as styles from "./Imagegroup.styles";
-
   import config from "@config";
   import { page } from "$app/stores";
   import { available_characters, offers } from "@utils/constants";
 
   export let offer_name: ImageGroupProps["offer_name"];
   export let character_name: ImageGroupProps["character_name"];
-  export let currency: ImageGroupProps["currency"];
-  export let contentLnag: ImageGroupProps["contentLnag"];
+  export let targetCurrency: ImageGroupProps["targetCurrency"];
+  export let contentLang: ImageGroupProps["contentLang"];
 
   const Img2 = `${config.url_bucket}/sharing/characters/${character_name}/img2.jpg`;
-  const Tabel = `${config.url_bucket}/${offer_name}/tables/${contentLnag}/${currency.code.toLowerCase().replace(/\s/g, '')}.jpg`;
+  const Tabel = `${config.url_bucket}/${offer_name}/tables/${contentLang}/${targetCurrency}.jpg`;
+  console.log("Tabel"  , Tabel)
   console.log({Tabel});
   onMount(() => {});
 </script>
