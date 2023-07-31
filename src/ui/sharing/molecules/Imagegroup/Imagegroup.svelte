@@ -13,8 +13,8 @@
   export let character_name: ImageGroupProps["character_name"];
   export let currency: ImageGroupProps["currency"];
 
-  const Img2 = `${config.bucket_link}sharing/characters/${character_name}/img2.jpg`;
-  const Tabel = `${config.bucket_link}${offer_name}/tables/${config.lang_currency}/${currency.replace(/\s/g, '')}.jpg`;
+  const Img2 = `${config.url_bucket}sharing/characters/${character_name}/img2.jpg`;
+  const Tabel = `${config.url_bucket}${offer_name}/tables/${config.lang_currency}/${currency.replace(/\s/g, '')}.jpg`;
   console.log({Tabel});
   onMount(() => {});
 </script>

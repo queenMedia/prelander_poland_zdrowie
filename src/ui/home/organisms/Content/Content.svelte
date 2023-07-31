@@ -11,6 +11,7 @@
     Imagedescription,
     Link,
   } from "@sharing/atoms";
+  import config from "@config";
 
   export let bucket: Props["bucket"];
   export let character: Props["character"];
@@ -27,9 +28,11 @@
     geo,
     title,
     subtitle,
-    firstSection,offers
+    firstSection,offers ,targetGeoCode
   } = bucket;
-
+  const  Img1 = `${config.url_bucket}sharing/characters/${character}/img1.jpg`;
+  const  Img2 = `${config.url_bucket}sharing/characters/${character}/img2.jpg`;
+  const  Img3 = `${config.url_bucket}sharing/characters/${character}/img3.jpg`;
   
  
 </script>
@@ -40,7 +43,7 @@
     {subtitle}
   </em>
   <Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color={false} bold italic offer={false} section="content" text="" content={true} className="" parser={false} >
-    <img src={Img_banner} alt=""  class={styles.img} />
+    <!-- <img src={Img_banner} alt=""  class={styles.img} /> -->
 
   </Link>
   <div class={styles.imagedescription}>
@@ -97,7 +100,7 @@
   <p>
     <Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color bold italic offer section="content" text="" content={false} className="" parser={false} /> è promosso da alcune delle menti più intelligenti in assoluto nel settore tecnologico:<b> Richard Branson, Elon Musk e Bill Gates,</b> solo per citarne alcune.
   </p>
-  <Imagedescription text="Bill Gates e Richard Branson parlano di {offers[offer].name} al CES 2023." offer={offer} type="billgates" />
+  <Imagedescription {currency} {contentLnag} {targetGeo} text="Bill Gates e Richard Branson parlano di {offers[offer].name} al CES 2023." offer={offer} type="billgates" {targetGeoCode} />
   <p>
     Questi geni della tecnologia hanno creato aziende multi-milionarie, risolvendo problemi complessi, come pagamenti online, calcoli e trasporto. Ora, stanno affrontando il problema della disuguaglianza nella distribuzione della ricchezza, cercando di far guadagnare a tutti, ricchi o poveri, <b>abbastanza denaro per poter condurre una vita felice e appagante.</b>
   </p>
@@ -120,12 +123,13 @@
   <p>
     Sto condividendo questa storia, perché ho anche ricevuto centinaia di email di persone che mi ringraziano per aver rivelato questo segreto. La mia storia preferita è quella di un <b>ragazzo che ha regalato al fratello l'auto dei suoi sogni,</b> una Ferrari 488 Pista, usando i profitti generati da <Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color bold italic offer section="content" text="" content={false} className="" parser={false} />. Questa piattaforma sta davvero migliorando la vita di tutte le persone del mondo."
   </p>
-  <Imagedescription text="Fin da bambino, mio fratello aveva sempre desiderato una Ferrari 488 Pista, per via del classico colore rosso e del motore potente. Bene, ultimamente, ho guadagnato tantissimi soldi, grazie a una nuova piattaforma di trading di criptovalute (mandatemi un messaggio per maggiori informazioni), e l'ho sorpreso, regalandogli l'AUTO DEI SUOI SOGNI! La sua reazione è stata IMPAGABILE! Ti voglio bene, fratellino!" offer={offer} type="posts"/>
+
+  <Imagedescription {offer} {targetGeoCode} {currency} {contentLnag} {targetGeo} text="Fin da bambino, mio fratello aveva sempre desiderato una Ferrari 488 Pista, per via del classico colore rosso e del motore potente. Bene, ultimamente, ho guadagnato tantissimi soldi, grazie a una nuova piattaforma di trading di criptovalute (mandatemi un messaggio per maggiori informazioni), e l'ho sorpreso, regalandogli l'AUTO DEI SUOI SOGNI! La sua reazione è stata IMPAGABILE! Ti voglio bene, fratellino!" type="posts"/>
   <Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color={false} bold italic offer={false} section="content" text="" content={true} className={styles.sub_title} parser={false} >
     <h2 class={styles.sub_title}><Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color bold italic offer section="content" text="" content={false} className="" parser={false} /> FUNZIONA DAVVERO? L'ABBIAMO PROVATO NOI STESSI PER SCOPRIRLO</h2>
   </Link>
   <p>
-    I nostri redattori senior non ci volevano dare l'autorizzazione a pubblicare l'intervista con <b>{fullName}</b>, se prima non avessimo verificato la legittimità di <Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color bold italic offer section="content" text="" content={false} className="" parser={false} /> come strumento per guadagnare denaro stando a casa. I direttori della nostra azienda non volevano pubblicare alcuna informazione che potesse far perdere, potenzialmente, tutti i soldi ai cittadini {contentLocation}.
+    I nostri redattori senior non ci volevano dare l'autorizzazione a pubblicare l'intervista con <b>{fullName}</b>, se prima non avessimo verificato la legittimità di <Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color bold italic offer section="content" text="" content={false} className="" parser={false} /> come strumento per guadagnare denaro stando a casa. I direttori della nostra azienda non volevano pubblicare alcuna informazione che potesse far perdere, potenzialmente, tutti i soldi ai cittadini {citizenText}.
   </p>
   <p>
     Dunque, il nostro team editoriale ha testato <Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color bold italic offer section="content" text="" content={false} className="" parser={false} />, per assicurarsi che funzionasse esattamente come aveva descritto <b>{fullName}</b>. Uno dei nostri redattori online, <b>Francesco Pellegrini,</b> si è offerto come volontario, rischiando i suoi fondi e testando {offers[offer].name}.
@@ -134,7 +138,7 @@
     <b>Francesco Pellegrini</b> è un papà di 42 anni, con 2 bambini e una moglie che, l'anno scorso, ha perso il lavoro, a causa di una malattia. Ha ammesso di trovarsi in difficoltà finanziarie e che questa opportunità avrebbe potuto aiutarlo.
   </p>
   <div class={styles.imagedescription}>
-    <img src={Family} alt="" class={styles.image}/>
+    <Imagedescription {offer} {targetGeoCode} {currency} {contentLnag} {targetGeo} type="family"  text=""/>
       <p class={styles.description("16")}>
         La famiglia di <b>Francesco</b> faceva fatica ad arrivare alla fine del mese e sperava che {offers[offer].name} potesse offrire un valido aiuto finanziario; così, <b>{fullName}</b> ha deciso di testare il sistema e di pubblicarne i risultati
       </p>
@@ -176,7 +180,7 @@
   </p>
   <!-- gif -->
   <div class={styles.imagedescription}>
-    <img src={Gif} alt="" class={styles.image}/>
+    <Imagedescription {offer} {targetGeoCode} {currency} {contentLnag} {targetGeo} type="gif"  text=""/>
   </div>
   
   <!-- gig -->
@@ -195,7 +199,7 @@
   <p>
     Al termine della settimana, avevo guadagnato <b>{currency.symbol}6,149.13</b>, prelevai esattamente {currency.symbol}4,800 e reinvestii la somma rimanente. Nel giro di 2 giorni, ricevetti il mio primo assegno nella casella postale, esattamente {currency.symbol}4,800. Non riuscivo a crederci che fosse vero!"
   </p>
-  <Imagedescription text="<b>Francesco</b> ha ricevuto un assegno del valore di {currency.symbol}4,800, dopo aver usato {offers[offer].name} per due settimane" offer={offer} type="checks"/>
+  <Imagedescription text="<b>Francesco</b> ha ricevuto un assegno del valore di {currency.symbol}4,800, dopo aver usato {offers[offer].name} per due settimane"  type="checks" {offer} {targetGeoCode} {currency} {contentLnag} {targetGeo}/>
   <p>
     <b>La storia di <b>Francesco Pellegrini</b> prosegue,</b>
   </p>
@@ -237,7 +241,7 @@
     <Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color bold italic offer={false} section="content" text="iscriverti" content={false} className="" parser={false} />
      comunque, in quanto è gratis e le registrazioni per i residenti in {geo} potrebbero chiudersi in qualsiasi momento)
   </p>
-  <Imagedescription text="" offer={offer} type="banners"/>
+  <Imagedescription text="" offer={offer} type="banners"  {targetGeoCode} {currency} {contentLnag} {targetGeo}/>
   <p>
     Nel passaggio successivo, ti verrà chiesto di 
     <Link character_name={fullName} redirect={redirect} offerName={offers[offer].name} color bold italic offer={false} section="content" text="depositare fondi sul tuo account. " content={false} className="" parser={false} />
@@ -245,7 +249,7 @@
     Mentre navigavo nella pagina del deposito, il mio telefono squillò. Era un numero internazionale ed ero riluttante a rispondere, ma poi capii chi era.
   </p>
   <div class={styles.imagedescription}>
-    <img src={Step2} alt="" class={styles.image}/>
+    <Imagedescription text="" offer={offer} type="step2"  {targetGeoCode} {currency} {contentLnag} {targetGeo}/>
   </div>
   <!-- steps2 -->
   <p>
@@ -253,7 +257,7 @@
   </p>
   <!-- steps 3 -->
   <div class={styles.imagedescription}>
-    <img src={Step3} alt="" class={styles.image}/>
+    <Imagedescription text="" offer={offer} type="step3"  {targetGeoCode} {currency} {contentLnag} {targetGeo}/>
   </div>
   <p>
     Dopo aver effettuato il deposito, navigai nella sezione "Auto-Trader" del software, impostai l'importo consigliato con cui fare trading, {currency.symbol}50, e diedi la mia autorizzazione. Il software iniziò a effettuare operazioni rapide; all'inizio, ero un po' preoccupato, ma poi decisi di lasciarlo fare il suo lavoro.

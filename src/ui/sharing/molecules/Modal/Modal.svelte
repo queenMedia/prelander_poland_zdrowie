@@ -12,7 +12,7 @@
   export let subtitle: Props["subtitle"];
   export let button_text: Props["button_text"];
 
-  const MODAL = `${config.bucket_link}${offer}/${type}/modal.jpg`;
+  const MODAL = `${config.url_bucket}${offer}/${type}/modal.jpg`;
   
   $: showModal = false;
   $: dimensions = {

@@ -17,5 +17,6 @@ interface Bucket {
   geo:string,
   title:string,
   subtitle:string,
+  targetGeoCode:string,
   firstSection:any,
 }
