@@ -52,7 +52,8 @@
   };
 
   onMount(async () => {
-    character = new URLSearchParams(window.location.search).get("character") || "";
+    character =
+      new URLSearchParams(window.location.search).get("character") || "";
     offer = new URLSearchParams(window.location.search).get("offer") || "";
     [bucket, objectLink] = await Promise.all([
       getConfig(character || ""),
@@ -64,9 +65,8 @@
     character_exists = bucket?.character?.fullName ? true : false;
     loading = page_exist && character_exists;
     console.log({ loading });
-    console.log("here" , bucket.offers[offer].name)
+    console.log("here", bucket.offers[offer].name);
   });
-  
 </script>
 
 <Header />
@@ -75,13 +75,19 @@
   <section class={pageStyles.section}>
     {#if !loading}
       <Content {bucket} {character} {offer} {redirect} />
-      <Sidebar offer={bucket.offers[offer]}  {bucket} {redirect}/>
+      <Sidebar offer={bucket.offers[offer]} {bucket} {redirect} />
       <Modal
-        offer={offers[offer]}
+        {offer}
         type="modal"
-        title="title"
-        subtitle="subtitle"
-        button_text="button"
+        title="Non perdete l'occasione!"
+        subtitle="Questa è l'ultima occasione per partecipare"
+        button_text="Iniziare ora"
+        offer_name={bucket.offers[offer].name}
+        color_button={bucket.offers[offer].color_button}
+        background_button={bucket.offers[offer].background_button}
+        {redirect}
+        currency={bucket.currency.name}
+        character_name={bucket.fullName}
       />
       <Offerbar />
     {:else}

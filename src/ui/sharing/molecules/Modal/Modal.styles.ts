@@ -1,5 +1,6 @@
 import { css, cx, keyframes } from "@emotion/css";
 import IconClose from  "@icons/icon-close-white.svg";
+import IconCloseB from  "@icons/icon-close-black.svg";
 import {
   backgroundButtonColors,
   textButtonColors
@@ -52,21 +53,30 @@ export const modal_container = ({width, height, bg}: Modal) => cx(
   `
 );
 
-export const close_modal = cx(
+export const close_modal = (color: string) => cx(
   css`
     width: 35px;
     height: 35px;
     border: none;
-    background: url(${IconClose}) no-repeat center/cover;
+    ${
+      color === "#000" ? 
+      css`
+        background: url(${IconCloseB}) no-repeat center/cover;
+      ` : 
+      css`
+        background: url(${IconClose}) no-repeat center/cover;
+      `
+    }
     position: absolute;
     top: 10px;
     right: 10px;
+    
   `
 );
 
 export const title = (color: string) =>cx(
   css`
-    color: var(${color});
+    color: ${color};
     font-size: 23px;
     font-weight: 700;
     text-align: center;
@@ -75,14 +85,14 @@ export const title = (color: string) =>cx(
 
 export const subtitle = (color: string) =>cx(
   css`
-    color: var(${color});
+    color: ${color};
     font-size: 23px;
     font-weight: 700;
     text-align: center;
   `
 );
 
-export const button = (offer: string) =>cx(
+export const button = (bg: string, color: string) =>cx(
   css`
     width: 200px;
     padding: 9px 20px;
@@ -90,8 +100,8 @@ export const button = (offer: string) =>cx(
     font-size: 17px;
     font-weight: 700;
     text-align: center;
-    color: ${textButtonColors[offer]};
-    background : ${backgroundButtonColors[offer]};
+    color:${color} ;
+    background : ${bg};
     font-family: "Roboto", sans-serif;
     animation: 1s ease 0s infinite normal none running ${expand};
     cursor: pointer;
