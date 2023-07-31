@@ -14,8 +14,6 @@
   export let currency: ImageGroupProps["currency"];
   export let contentLnag: ImageGroupProps["contentLnag"];
 
-console.log(currency)
-
   const Img2 = `${config.url_bucket}/sharing/characters/${character_name}/img2.jpg`;
   const Tabel = `${config.url_bucket}/${offer_name}/tables/${contentLnag}/${currency.code.toLowerCase().replace(/\s/g, '')}.jpg`;
   console.log({Tabel});
