@@ -5,7 +5,6 @@
   import { page as pageStyles } from "@home/styles";
   import { page } from "$app/stores";
   import { Content, Sidebar } from "@home/organisms";
-  import { offers } from "@utils/constants";
   import Error from "@icons/error.png";
   import Modal from "../ui/sharing/molecules/Modal/Modal.svelte";
   import { Offerbar } from "@sharing/molecules";
