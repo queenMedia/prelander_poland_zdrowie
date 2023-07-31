@@ -89,7 +89,15 @@
         currency={bucket.currency.name}
         character_name={bucket.fullName}
       />
-      <Offerbar />
+      <!-- <Whitdrawals
+        geo={bucket.character.geoCapital}
+        currency_simbol={bucket.character.currency.symbol}
+      /> -->
+      <Offerbar
+        character_name={bucket.fullName}
+        {redirect}
+        offer_name={bucket.offers[offer].name}
+      />
     {:else}
       <div class={pageStyles.error_container}>
         <img src={Error} alt="Error" class={pageStyles.error_image} />

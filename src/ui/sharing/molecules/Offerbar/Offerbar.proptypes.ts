@@ -1,3 +1,5 @@
 export interface Props {
-  prop: unknown;
+  offer_name: string;
+  redirect: string;
+  character_name: string;
 }
