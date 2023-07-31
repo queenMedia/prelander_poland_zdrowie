@@ -69,7 +69,16 @@
     className=""
     parser={false}
   >
-    <!-- <img src={Img_banner} alt=""  class={styles.img} /> -->
+  <Imagedescription
+  {currency}
+  {contentLnag}
+  {targetGeo}
+  text=""
+  {offer}
+  type="banners"
+  {targetGeoCode}
+/>
+    <!-- <img src={Img_banner} alt="" class={styles.img} /> -->
   </Link>
   <div class={styles.imagedescription}>
     <img src={Img1} alt="" class={styles.image} />
@@ -317,8 +326,8 @@
     diverso dagli altri. Il motivo è che le <b
       >banche stanno cercando di nasconderlo in tutti i modi!</b
     >
-    Le grandi banche stanno creando attivamente una propaganda, nella quale si
-    dipingono le criptovalute e <Link
+    Le grandi banche stanno creando attivamente una propaganda, nella quale si dipingono
+    le criptovalute e <Link
       character_name={fullName}
       {redirect}
       offerName={offers[offer].name}
