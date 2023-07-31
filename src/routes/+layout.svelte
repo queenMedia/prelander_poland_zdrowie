@@ -88,7 +88,7 @@
         character_name={bucket.fullName}
       />
       <Whitdrawals
-        geo={bucket.geoCapital}
+        geo={bucket.contentKeys.geoCapital}
         currency_simbol={bucket.currency.symbol}
         whitdrawalText={bucket.whitdrawalText}
       />

@@ -7,14 +7,12 @@ export interface Props {
 
 interface Bucket {
   offers:any, 
-  citizenText:string,
   fullName:string,
   lastName:string,
   contentLnag:string,
   targetGeo:string,
-  geoCapital:string,
   currency:any,
-  geo:string,
+  contentKeys:any,
   title:string,
   subtitle:string,
   targetGeoCode:string,

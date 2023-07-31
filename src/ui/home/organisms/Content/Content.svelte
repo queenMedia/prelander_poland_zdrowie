@@ -18,14 +18,12 @@
   export let offer: Props["offer"];
   export let redirect: Props["redirect"];
   const {
-    citizenText,
     fullName,
+    contentKeys,
     lastName,
     contentLnag,
     targetGeo,
-    geoCapital,
     currency,
-    geo,
     title,
     subtitle,
     firstSection,
@@ -83,7 +81,7 @@
     <img src={Img1} alt="" class={styles.image} />
     <p class={styles.description("16")}>
       <b>{fullName}</b> rivela il nuovo investimento segreto che sta arricchendo
-      centinaia di {citizenText}
+      centinaia di {contentKeys.citizenText}
     </p>
   </div>
 
@@ -160,7 +158,7 @@
       content={false}
       className=""
       parser={false}
-    />, che sta aiutando la gente comune in {geo}, Asia e Nord America a
+    />, che sta aiutando la gente comune in {contentKeys.geo}, Asia e Nord America a
     guadagnare enormi fortune, da un giorno all'altro. Potreste essere scettici,
     perchè sembra troppo bello per essere vero."
   </p>
@@ -225,7 +223,7 @@
   <p>
     Alcune di queste criptovalute includono Ripple, Ethereum, Monero e Zcash e
     riescono ancora a garantire ritorni del 10,000% e oltre, per chiunque voglia
-    investire in {geo}.
+    investire in {contentKeys.geo}.
   </p>
   <p>
     <Link
@@ -349,7 +347,7 @@
       >Ho già ricevuto delle telefonate minacciose da parte delle grandi
       organizzazioni finanziarie</b
     >, poiché sto portando questa tecnologia all'attenzione della gente. Peggio
-    per loro! Le persone in {geo} stanno iniziando a scoprire la verità e sarà solo
+    per loro! Le persone in {contentKeys.geo} stanno iniziando a scoprire la verità e sarà solo
     una questione di tempo, prima che molti altri ne vengano a conoscenza.
   </p>
   <p>
@@ -433,7 +431,7 @@
       parser={false}
     /> come strumento per guadagnare denaro stando a casa. I direttori della nostra
     azienda non volevano pubblicare alcuna informazione che potesse far perdere,
-    potenzialmente, tutti i soldi ai cittadini {citizenText}.
+    potenzialmente, tutti i soldi ai cittadini {contentKeys.citizenText}.
   </p>
   <p>
     Dunque, il nostro team editoriale ha testato <Link
@@ -820,7 +818,7 @@
       className=""
       parser={false}
     />
-    comunque, in quanto è gratis e le registrazioni per i residenti in {geo} potrebbero
+    comunque, in quanto è gratis e le registrazioni per i residenti in {contentKeys.geo} potrebbero
     chiudersi in qualsiasi momento)
   </p>
   <Imagedescription
@@ -910,7 +908,7 @@
 
   <p>
     Abbiamo appena ricevuto la notizia che,quasi tutti i posti disponibili per i
-    residenti in {geo} sono presi. {offers[offer].name} può accettare solo un numero
+    residenti in {contentKeys.geo} sono presi. {offers[offer].name} può accettare solo un numero
     limitato di utenti totali, al fine di mantenere alti i profitti per ciascun utente.
     Al momento, sono ancora disponibili (37) posti. Allora,
     <Link
