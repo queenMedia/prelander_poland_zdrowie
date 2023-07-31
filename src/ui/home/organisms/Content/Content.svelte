@@ -47,7 +47,7 @@
     italic
     offer={false}
     section="content"
-    text="<u>RAPPORTO SPECIALE:</u> l'ultimo investimento di <b>{fullName}</b> ha lasciato gli esperti a bocca aperta e spaventato le banche"
+    text={title}
     content={false}
     className={styles.title}
     parser={false}
@@ -78,7 +78,6 @@
   type="banners"
   {targetGeoCode}
 />
-    <!-- <img src={Img_banner} alt="" class={styles.img} /> -->
   </Link>
   <div class={styles.imagedescription}>
     <img src={Img1} alt="" class={styles.image} />
