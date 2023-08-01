@@ -1,25 +1,25 @@
+
 {{title}}
-  {{u}} RAPPORTO SPECIALE:{{/u}} 
-  l'ultimo investimento di {{CELEBRITY}} ha lasciato gli esperti a bocca aperta e spaventato le banche
+{{link}}
+  {{BUCKET_TITLE}}
+{{/link}}
 {{/title}}
 
-{{celebrity_subtitle}}
+{{BUCKET_SUBTITLE}}
 
-{{top_banner}}
+[[top_banner]][ ]
 
-{{image_celebrity_1}}
-{{text_below}} 
-  Mario Dragh rivela il nuovo investimento segreto che sta arricchendo centinaia di italiani 
-{{/text_below}}
+[[image_celebrity_1]][{{IMG_DESCRIPTION_BUCKET}}]
 
-{{first_content}}
-
+{{BUCKET_FIRST_CONTENT}}
 
 {{image_celebrity_with_table}}
+
 
 {{p}}
 Lo spazio dedicato a {{CELEBRITY}} è terminato, prima che lui potesse andare a fondo, pertanto abbiamo organizzato un'intervista esclusiva con lui, per scoprire di più su quest'opportunità controversa.
 {{/p}}
+
 
 {{large_button}}
 
@@ -46,7 +46,7 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
    Al momento, è il sistema che riesce a far guadagnare di più in assoluto. E non durerà per molto tempo ancora, in quanto sempre più persone lo stanno scoprendo. Oppure, potrebbe essere bloccato per sempre dalle banche."
 {{/p}}
 
-{{image_celebrity_3}}
+[[image_celebrity_3]][ ]
 
 {{subtitle}}
   COS'È ESATTAMENTE {{OFFER}} E COME FUNZIONA?
@@ -74,15 +74,16 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
   , solo per citarne alcune.
 {{/p}}
 
-{{image_bill}}
-{{text_below}}
-  Bill Gates e Richard Branson parlano di {{OFFER}} al CES 2023.
-{{/text_below}}
+[[image_bill]][Bill Gates e Richard Branson parlano di {{OFFER}} al CES 2023.]
 
 {{p}}
   Questi geni della tecnologia hanno creato aziende multi-milionarie, risolvendo problemi complessi, come pagamenti online, calcoli e trasporto. Ora, stanno affrontando il problema della disuguaglianza nella distribuzione della ricchezza, cercando di far guadagnare a tutti, ricchi o poveri, 
   {{b}} abbastanza denaro per poter condurre una vita felice e appagante.{{/b}}
 {{/p}}
+
+{{read_more}}
+
+{{SEPARATOR_SECOND_CONTENT}}
 
 {{subtitle}}
   IL SEGRETO REDDITIZIO PER GUADAGNARE SOLDI, CHE VIENE CELATO DALLE GRANDI BANCHE
@@ -117,10 +118,7 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
   una Ferrari 488 Pista, usando i profitti generati da {{OFFER}}. Questa piattaforma sta davvero migliorando la vita di tutte le persone del mondo."
 {{/p}}
 
-{{image_post}}
-{{text_below}}
-  Fin da bambino, mio fratello aveva sempre desiderato una Ferrari 488 Pista, per via del classico colore rosso e del motore potente. Bene, ultimamente, ho guadagnato tantissimi soldi, grazie a una nuova piattaforma di trading di criptovalute (mandatemi un messaggio per maggiori informazioni), e l'ho sorpreso, regalandogli l'AUTO DEI SUOI SOGNI! La sua reazione è stata IMPAGABILE! Ti voglio bene, fratellino!
-{{/text_below}}
+[[image_post]][Fin da bambino, mio fratello aveva sempre desiderato una Ferrari 488 Pista, per via del classico colore rosso e del motore potente. Bene, ultimamente, ho guadagnato tantissimi soldi, grazie a una nuova piattaforma di trading di criptovalute (mandatemi un messaggio per maggiori informazioni), e l&#39;ho sorpreso, regalandogli l&#39;AUTO DEI SUOI SOGNI! La sua reazione è stata IMPAGABILE! Ti voglio bene, fratellino!]
 
 {{subtitle}}
   {{OFFER}} FUNZIONA DAVVERO? L'ABBIAMO PROVATO NOI STESSI PER SCOPRIRLO
@@ -138,10 +136,9 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
   Francesco Pellegrini è un papà di 42 anni, con 2 bambini e una moglie che, l'anno scorso, ha perso il lavoro, a causa di una malattia. Ha ammesso di trovarsi in difficoltà finanziarie e che questa opportunità avrebbe potuto aiutarlo.
 {{/p}}
 
-{{image_family}}
-{{text_below}}
-  La famiglia di Francesco faceva fatica ad arrivare alla fine del mese e sperava che {{OFFER}} potesse offrire un valido aiuto finanziario; così, {{CELEBRITY}} ha deciso di testare il sistema e di pubblicarne i risultati
-{{text_below}}
+
+[[image_family]][La famiglia di Francesco faceva fatica ad arrivare alla fine del mese e sperava che {{OFFER}} potesse offrire un valido aiuto finanziario; così, {{CELEBRITY}} ha deciso di testare il sistema e di pubblicarne i risultati]
+
 
 {{p}}
   {{b}}
@@ -199,7 +196,7 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
 {{/p}}
 {{p}}Presto, iniziai a guadagnare rapidamente, non riuscivo a crederci.{{/p}}
 
-{{image_gif}}
+[[image_gif]][ ]
 
 
 {{p}}Ora, so perché {{CELEBRITY}} è sempre di buon umore, e anche perché le banche non vogliono che si diffonda questo segreto. Alla fine della giornata, 
@@ -225,8 +222,8 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
  prelevai esattamente CHF4,800 e reinvestii la somma rimanente. Nel giro di 2 giorni, ricevetti il mio primo assegno nella casella postale, esattamente CHF4,800. Non riuscivo a crederci che fosse vero!"
 {{/p}}
 
-{{image_check}}
-{{text_below}}Francesco ha ricevuto un assegno del valore di CHF4,800, dopo aver usato {{OFFER}} per due settimane{{/text_below}}
+[[image_check]][Francesco ha ricevuto un assegno del valore di CHF4,800, dopo aver usato {{OFFER}} per due settimane]
+
 
 {{p}}{{b}}La storia di Francesco Pellegrini prosegue,{{/b}}{{/p}}
 
@@ -262,18 +259,17 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
 
 {{p}}{{b}}(Consiglio:{{/b}} anche se decidi di non investire il tuo denaro, ti consiglio di {{link}}iscriverti {{/link}}comunque, in quanto è gratis e le registrazioni per i residenti in Svizzero potrebbero chiudersi in qualsiasi momento){{/p}}
 
-
-{{image_offer_banner}}
+[[image_offer_banner]][ ]
 
 {{p}} Nel passaggio successivo, ti verrà chiesto di {{b}}depositare fondi sul tuo account{{/b}}. Mentre navigavo nella pagina del deposito, il mio telefono squillò. Era un numero internazionale ed ero riluttante a rispondere, ma poi capii chi era.{{/p}} 
 
-{{image_step_2}}
+[[image_step_2]][ ]
 
 {{p}}
 Ovviamente, era il mio account manager personale, che mi offrì un servizio eccellente, guidandomi nell'intero processo di deposito. Sono accettate tutte le carte di credito principali, come Visa, MasterCard e American Express. Proseguii e depositai l'importo minimo di CHF300.
 {{/p}}
 
-{{image_step_3}}
+[[image_step_3]][ ]
 
 {{p}}Dopo aver effettuato il deposito, navigai nella sezione "Auto-Trader" del software, impostai l'importo consigliato con cui fare trading, CHF50, e diedi la mia autorizzazione. Il software iniziò a effettuare operazioni rapide; all'inizio, ero un po' preoccupato, ma poi decisi di lasciarlo fare il suo lavoro.{{/p}}
 

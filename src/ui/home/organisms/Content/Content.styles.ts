@@ -22,6 +22,10 @@ export const title = cx(
     font-size: 48px;
     font-weight: 400;
     color: var(--text-balck);
+
+    & > span {
+      color: inherit;
+    }
   `
 );
 export const sub_title = cx(

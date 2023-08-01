@@ -36,6 +36,7 @@
 
     [bucketConfig, localConfig] = await Promise.all([getConfig(character), getLinkUrl($page.url.origin)]);
 
+
     url_to_redirect = localConfig.LINK ? localConfig.LINK : null;
 
     offer_exist = Object.keys(bucketConfig.offers).includes(offer);

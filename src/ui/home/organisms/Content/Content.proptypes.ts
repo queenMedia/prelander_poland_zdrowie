@@ -29,11 +29,7 @@ interface Bucket {
   offerBarText: string;
   firstSection: {
     ImgDescription: string;
-    upptoLink: string;
-    t1: string;
-    linkText: string;
-    t2: string;
-    lastp: string;
+    celebrityDescription: string;
   };
   whitdrawalText: {
     top: string;

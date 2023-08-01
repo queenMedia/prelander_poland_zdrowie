@@ -16,6 +16,13 @@ const scaleX = keyframes`
   }
 `;
 
+export const container = cx(
+  flex({ justify: "center", align: "center"}),
+  css`
+    width: 100%;
+  `
+);
+
 export const readmore = cx(
   flex({ justify: "center", align: "center"}),
   css`

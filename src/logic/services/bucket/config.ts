@@ -1,7 +1,9 @@
 import config from "@config";
 
+const version = 0.6
+
 export const getConfig = async (charachter: string) => {
-    const url = `${config.url_bucket}/characters/${charachter}.json`;
+    const url = `${config.url_bucket}/characters/${charachter}.json?v=${version}`;
     const response = await fetch(url, {
       method: "GET",
       headers: { Origin: "http://localhost:5173" },
@@ -17,7 +19,7 @@ export const getConfig = async (charachter: string) => {
 
 export const getLinkUrl = async (domain: string) => {
     try {
-      const url = `${domain}/config.json`;
+      const url = `${domain}/config.json?v=${version}`;
       const response = await fetch(url, {
         method: "GET",
         headers: {
