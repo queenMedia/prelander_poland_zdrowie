@@ -21,6 +21,8 @@ import profile20 from "../../assets/images/sharing/comments/20.jpg"
 import profile21 from "../../assets/images/sharing/comments/21.jpg"
 import profile22 from "../../assets/images/sharing/comments/22.jpg"
 
+
+
 type commentsDataType = {
     name: string;
     text: string;

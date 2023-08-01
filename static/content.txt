@@ -9,7 +9,7 @@
 
 [[top_banner]][ ]
 
-[[image_celebrity_1]][{{IMG_DESCRIPTION_BUCKET}}]
+[[image_celebrity_1]][{{IMG_1_DESCRIPTION_BUCKET}}]
 
 {{BUCKET_FIRST_CONTENT}}
 
@@ -136,9 +136,7 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
   Francesco Pellegrini è un papà di 42 anni, con 2 bambini e una moglie che, l'anno scorso, ha perso il lavoro, a causa di una malattia. Ha ammesso di trovarsi in difficoltà finanziarie e che questa opportunità avrebbe potuto aiutarlo.
 {{/p}}
 
-
 [[image_family]][La famiglia di Francesco faceva fatica ad arrivare alla fine del mese e sperava che {{OFFER}} potesse offrire un valido aiuto finanziario; così, {{CELEBRITY}} ha deciso di testare il sistema e di pubblicarne i risultati]
-
 
 {{p}}
   {{b}}
@@ -166,7 +164,6 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
   {{/b}}
   quando il prezzo delle criptovalute salirà o scenderà. Successivamente, acquista o vende automaticamente, per tuo conto, 24 ore su 24. La tecnologia ci ha già semplificato tanti aspetti della vita, dunque, perché non sfruttarla anche per fare un pò di soldi?"
 {{/p}}
-
 
 {{subtitle}}I RISULTATI DI FRANCESCO CON IL SISTEMA IN TEMPO REALE{{/subtitle}}
 
@@ -197,7 +194,6 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
 {{p}}Presto, iniziai a guadagnare rapidamente, non riuscivo a crederci.{{/p}}
 
 [[image_gif]][ ]
-
 
 {{p}}Ora, so perché {{CELEBRITY}} è sempre di buon umore, e anche perché le banche non vogliono che si diffonda questo segreto. Alla fine della giornata, 
   {{b}}

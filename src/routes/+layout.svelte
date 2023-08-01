@@ -15,7 +15,6 @@
   
   import { getConfig, getLinkUrl } from "@services/bucket";
 
-  let page_exist: boolean = false;
   let offer_exist: boolean = false;
   let character_exists: boolean = false;
   
@@ -35,7 +34,6 @@
     offer = new URLSearchParams($page.url.search).get("offer") || "";
 
     [bucketConfig, localConfig] = await Promise.all([getConfig(character), getLinkUrl($page.url.origin)]);
-
 
     url_to_redirect = localConfig.LINK ? localConfig.LINK : null;
 
