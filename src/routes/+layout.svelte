@@ -19,6 +19,7 @@
   let offer_exist: boolean = false;
   let character_exists: boolean = false;
   
+  
   let url_to_redirect: any;
 
   let localConfig: any;
