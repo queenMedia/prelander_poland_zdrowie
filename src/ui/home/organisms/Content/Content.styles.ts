@@ -64,14 +64,16 @@ export const image = cx(
   `
 );
 
-export const description = (size: string) =>cx(
+export const description = cx(
   css`
-    font-size: ${size}px;
+    width: 100%;
+    font-size: 15px;
     font-style: italic;
     letter-spacing: -0.1px;
     color: var(--text-image-description);
     margin: 0;
     height: fit-content;
+    text-align: center;
   `
 );
 
