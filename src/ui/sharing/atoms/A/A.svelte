@@ -2,10 +2,8 @@
 
   	import { page } from "$app/stores";
     import { getTelegram } from "@services/globals";
-    import config from "@config";
     import { onMount } from "svelte";
     import { getLinkUrl } from "@services/bucket";
-
 
     import * as styles from "./A.styles";
 
@@ -37,6 +35,7 @@
     };
   
 </script>
+
    
 <span 
     class={styles.link[section]}

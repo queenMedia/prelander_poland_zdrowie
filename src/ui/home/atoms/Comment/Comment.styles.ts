@@ -10,6 +10,10 @@ export const container = cx(
         margin: 0;
         padding: 8px 0;
         border-bottom: 1px solid #E2E2E2;
+        
+        & > span:nth-child(2) {
+            width: 100%;
+        }
     `
 );
 export const img = css`

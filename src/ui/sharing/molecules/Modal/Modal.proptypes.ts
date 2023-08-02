@@ -1,4 +1,4 @@
-export interface Props {
+export interface ModalProps {
   offer: string;
   type: string;
   title: string;

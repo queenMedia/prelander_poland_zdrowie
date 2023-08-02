@@ -1,25 +1,39 @@
-import config from "@config"
 
-import step2 from "../../assets/images/sharing/steps/s2.jpg"
-import step3 from "../../assets/images/sharing/steps/s3.jpg"
+import config from "@config";
+import { getConfig } from "@services/bucket";
 
-const urlImgStep1  = `${config.url_bucket}/OFFER_NAME/forms/${config.i18n_lang}.jpg`
+const character_snake_case =  new URLSearchParams(window.location.search).get("character")
+const offer_snake_case =  new URLSearchParams(window.location.search).get("offer")
+
+const getDataBucket = async () => {
+    return await getConfig(character_snake_case || "");
+}
+const bucketConfig = await getDataBucket();
+
+const url_bucket = config.url_bucket;
+const language = bucketConfig.contentKeys.language;
+const currencyCode = bucketConfig.targetCurrency.code;
+const countryCode = bucketConfig.targetKeys.countryCode;
+
+const sideBarFormImg  = `${url_bucket}/${offer_snake_case}/forms/${countryCode}.jpg`;
+const Step2Img = `${url_bucket}/sharing/steps/${language}/${currencyCode}/2.jpg`;
+const Step3Img = `${url_bucket}/sharing/steps/${language}/${currencyCode}/3.jpg`;
 
 export const stepsData = [
     {
         title: "Trinn 1:",
         description: "Registrer deg for gratis konto",
-        img: urlImgStep1
+        img: sideBarFormImg
     },
     {
         title: "Trinn 2:",
         description: "Sett inn minstebeløpet på 3,000 kr",
-        img: step2
+        img: Step2Img
     },
     {
         title: "Trinn 3:",
         description: "Overfør fortjenesten til bankkontoen din!",
-        img: step3
+        img: Step3Img
     }
 ];
 export default stepsData;

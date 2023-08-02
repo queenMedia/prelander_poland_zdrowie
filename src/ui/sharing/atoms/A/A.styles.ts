@@ -37,7 +37,7 @@ export const link: any = {
     text-decoration: none;
   `,
   "testimonial-card": css`
-    color: inherit;
+    color: #0198bd;
     cursor: pointer;
     text-decoration: none;
   `,
@@ -52,6 +52,16 @@ export const link: any = {
     text-decoration: none;
   `,
   "mini-modal": css`
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+  `,
+  "large-button": css`
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+  `,
+  "modal-button": css`
     color: inherit;
     cursor: pointer;
     text-decoration: none;

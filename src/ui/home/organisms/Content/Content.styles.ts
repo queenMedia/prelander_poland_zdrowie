@@ -34,6 +34,7 @@ export const sub_title = cx(
     font-weight: 900;
     color: var(--text-balck);
     font-family: Helvetica, Nue;
+    text-transform:  uppercase;
   `
 );
 
