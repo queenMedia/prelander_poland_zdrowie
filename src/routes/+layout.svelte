@@ -58,21 +58,13 @@
         title={bucketConfig.modal.title}
         subtitle={bucketConfig.modal.subtitle}
         button_text={bucketConfig.modal.buttonText}
-        offer_name={bucketConfig.offers[offer].name}
         color_button={bucketConfig.offers[offer].color_button}
         background_button={bucketConfig.offers[offer].background_button}
-        redirect={url_to_redirect}
-        currency={bucketConfig.targetCurrency.name}
-        character_name={bucketConfig.fullName}
       />
       <Whitdrawals
-        geo={bucketConfig.contentKeys.geoCapital}
-        currency_simbol={bucketConfig.targetCurrency.symbol}
         whitdrawalText={bucketConfig.whitdrawalText}
       />
       <Offerbar
-        character_name={bucketConfig.fullName}
-        redirect={url_to_redirect}
         offer_name={bucketConfig.offers[offer].name}
         offerBarText={bucketConfig.offerBarText}
       />
