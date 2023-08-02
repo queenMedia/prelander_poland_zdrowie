@@ -55,5 +55,15 @@ export const link: any = {
     color: inherit;
     cursor: pointer;
     text-decoration: none;
+  `,
+  "large-button": css`
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+  `,
+  "modal-button": css`
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
   `
 }

@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { CommentProps } from "./Comment.proptypes";
+  import { A } from "@sharing/atoms"
 
   import * as styles from "./Comment.styles";
 
@@ -14,18 +15,23 @@
 </script>
 
 <div class={styles.container}>
-  <img class={styles.img} src={img} alt="">
-  <div class={styles.content}>
-    <p class={styles.userName}>{name}</p>
-    <p class={styles.commentText}>{text.replaceAll("OFFER_NAME", offer)}</p>
-    <p class={styles.socialText}>Svar. {likes} . Liker . 
-      <span class={styles.timeText}>{time}
-        {#if timeFormat === "minutes"}
-          minutter siden
-        {:else}
-          timer siden
-        {/if}
-      </span>
-    </p>
-  </div>
+  <A section="comment-card">
+    <img class={styles.img} src={img} alt="">
+  </A>
+  <A section="comment-card">
+    <div class={styles.content}>
+      <p class={styles.userName}>{name}</p>
+      <p class={styles.commentText}>{text.replaceAll("OFFER_NAME", offer)}</p>
+      <p class={styles.socialText}>Svar. {likes} . Liker . 
+        <span class={styles.timeText}>{time}
+          {#if timeFormat === "minutes"}
+            minutter siden
+          {:else}
+            timer siden
+          {/if}
+        </span>
+      </p>
+    </div>
+  </A>
+  
 </div>

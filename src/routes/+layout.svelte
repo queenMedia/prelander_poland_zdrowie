@@ -77,7 +77,7 @@
         offerBarText={bucketConfig.offerBarText}
       />
     {:else}
-      <!-- ¿ Where is the loader ?-->
+      <!-- Where is the loader ?-->
       <div class={pageStyles.error_container}>
         <img src={Error} alt="Error" class={pageStyles.error_image} />
         <h1 class={pageStyles.error_text}>Sorry!! Page not found</h1>

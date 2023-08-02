@@ -3,6 +3,7 @@
   import * as styles from "./Steps.styles";
   import { Step } from "@home/atoms";
   import { stepsData } from "@data";
+  import { A } from "@sharing/atoms"
   export let offer_name: Props["offer_name"];
   export let offer: Props["offer"];
   export let redirect: Props['redirect'];
@@ -13,10 +14,11 @@
 </script>
 
 <div class={styles.container}>
-  <h3 class={styles.title}>LESERNES RESULTATER</h3>
+  <h3 class={styles.title}><A section="steps">LESERNES RESULTATER</A></h3>
   <div class={styles.testimonialsContainer}>
     {#each stepsData as step}
-      <Step
+      <A section="step-card">
+        <Step
         type="marked"
         title={step.title}
         description={step.description}
@@ -28,6 +30,7 @@
         currency_simbol={currency_simbol}
         currency={currency}
       />
+      </A>
     {/each} 
   </div>
 </div>

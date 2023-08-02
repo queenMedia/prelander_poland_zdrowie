@@ -3,7 +3,7 @@
   import { onMount } from "svelte";
   import type { Props } from "./Modal.proptypes";
   import * as styles from "./Modal.styles";
-  import { Link } from '@sharing/atoms';
+  import { A } from "@sharing/atoms"
 
   export let offer: Props["offer"];
   export let offer_name: Props["offer_name"];
@@ -47,9 +47,11 @@
         </button>
         <p class={styles.title(color_button)}>{title}</p>
         <p class={styles.subtitle(color_button)}>{subtitle}</p>
-        <Link character_name={character_name} redirect={redirect} offerName="" section="modal" content offer className={styles.container_button} parser={false}>
-          <button class={styles.button(background_button,color_button)}>{button_text}</button>
-        </Link>
+          <span class={styles.container_button}>
+            <A section="modal-button">
+              <button class={styles.button(background_button,color_button)}>{button_text}</button>
+            </A>              
+          </span>
     </div>
   </div>
 {/if}

@@ -4,6 +4,7 @@
   import * as styles from "./Comments.styles";
   import { Comment } from "@home/atoms";
   import { commentsData } from "@data"
+  import { A } from "@sharing/atoms"
 
   export let type: CommentsProps["type"];
   export let offer: CommentsProps["offer"];
@@ -13,8 +14,16 @@
 {#if type == "old"}
   <div class={styles.container}>
     <div class={styles.topText}>
-      <span>Nylige # kommentarer</span>
-      <span>Legg til en kommentar</span>
+      <span>
+        <A section="comments">
+          Nylige # kommentarer
+        </A>
+      </span>
+      <span>
+        <A section="comments">
+          Legg til en kommentar
+        </A>
+      </span>
     </div>
     <div class={styles.commentsContainer}>
       {#each commentsData as comment}
