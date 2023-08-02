@@ -49,14 +49,15 @@
     loading = false;
   });
 
-</script>
+</script><!-- 
 
 {#if loading}
   <div class={pageStyles.error_container}>
     <img src={Loading} alt="loading" class={pageStyles.error_image} />
     <h1 class={pageStyles.loading_text}>Loading Page</h1>
   </div>
-{:else if pageExist}
+{:else --> 
+{#if pageExist}
   <Header />
   <main class={layout.main}>
     <section class={pageStyles.section}>
