@@ -1,3 +1,5 @@
-export interface SideBarProps {
-  offer_name: string;
+export interface Props {
+  offer: any;
+  bucket: any;
+  redirect: any;
 }

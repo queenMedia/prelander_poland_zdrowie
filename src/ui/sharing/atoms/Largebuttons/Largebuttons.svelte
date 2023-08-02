@@ -6,6 +6,9 @@
   export let text: Props["text"];
 </script>
 
-<button class={styles.largebuttons}>
-  {text}
-</button>
+<div class={styles.container_to_center}>
+  <button class={styles.largebuttons}>
+    {text}
+  </button>
+</div>
+

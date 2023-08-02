@@ -1,10 +1,8 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { page } from "@home/styles";
 	import { i18n } from "@stores";
-
 	import { SEO } from "@sharing/atoms";
 	import Error from "@icons/error.png";
-
 </script>
 
 <SEO title={$i18n.t("home:seo-title")} description="Ditto Svelte" />
@@ -16,4 +14,4 @@
 			Sorry!! Page not found 
 		</h1>
 	</div>
-</section>
+</section>  -->

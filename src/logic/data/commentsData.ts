@@ -21,6 +21,8 @@ import profile20 from "../../assets/images/sharing/comments/20.jpg"
 import profile21 from "../../assets/images/sharing/comments/21.jpg"
 import profile22 from "../../assets/images/sharing/comments/22.jpg"
 
+
+
 type commentsDataType = {
     name: string;
     text: string;
@@ -32,7 +34,7 @@ type commentsDataType = {
 const commentsData: Array<commentsDataType> = [
     {
         name: "Susanne Olaussen",
-        text: "Jeg har handlet med Bitcoin Code de siste ukene, og fått en liten fortjeneste på 23,000 kr. Jeg elsker det!",
+        text: "Jeg har handlet med OFFER_NAME de siste ukene, og fått en liten fortjeneste på 23,000 kr. Jeg elsker det!",
         img: profile1,
         time: 12,
         likes: 13,
@@ -40,7 +42,7 @@ const commentsData: Array<commentsDataType> = [
     },
     {
         name: "Anne Miljeteig",
-        text: "Jeg så Bitcoin Code på prosjektet og registrerte meg i går, jeg har tjent rundt 250 kr.",
+        text: "Jeg så OFFER_NAME på prosjektet og registrerte meg i går, jeg har tjent rundt 250 kr.",
         img: profile2,
         time: 6,
         likes: 13,

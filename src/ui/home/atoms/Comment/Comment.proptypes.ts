@@ -5,4 +5,5 @@ export interface CommentProps {
   time: number;
   timeFormat: string;
   likes: number;
+  offer: string;
 }

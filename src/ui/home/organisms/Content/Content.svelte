@@ -1,66 +1,56 @@
 <script lang="ts">
-  import Customtext from "../../../sharing/atoms/Customtext/Customtext.svelte";
-  import Comments from "../../molecules/Comments/Comments.svelte";
-  import type { Props } from "./Content.proptypes";
+  import { Html, isTag } from 'html-svelte-parser';
 
+  import type { Props } from "./Content.proptypes";
   import * as styles from "./Content.styles";
 
-  import { Whitdrawals } from "@home/atoms";
+  import { Comments } from "@home/molecules";
+  
+  import { parseToSvelte, parseToHtml } from '@services/parseContent'
 
-  import { Imagegroup } from "@sharing/molecules";
+  export let bucket: Props["bucket"];
+  export let offer: Props["offer"];
 
+  let processNode: any;
 
-  import { Largebuttons, Readmore, Imagedescription, Link } from "@sharing/atoms";
+  let html = ""
+  let data = "";
 
-  export let offer_name: Props["offer_name"];
+  const getPageData = async ()  => {
+    const response = await fetch("content.txt");
+    if(response.ok)
+      return await response.text();
+    else 
+      return "ocurrio un error al cargar la pagina"
+  }
 
+  getPageData().then((response) => {
+    data = response;
+
+    data = parseToHtml(data, bucket, offer, styles);
+
+    /** @type {import('html-svelte-parser').ProcessNode} */
+    processNode = (domNode: any) => {
+      if (isTag(domNode) && domNode.attribs.id) 
+        return parseToSvelte(domNode.attribs, hanldeReadMore);
+    };
+
+    const result = data.split("{{SEPARATOR_SECOND_CONTENT}}")
+    html = result[0];
+
+  }).catch((error) => {
+    console.error('Ocurrió un error', error);
+  });
+
+  const  hanldeReadMore =  () => {
+    data = data.replace("<div id='read_more'></div>"," ");  //remove read more button 
+    const result = data.split("{{SEPARATOR_SECOND_CONTENT}}")
+    html = result[0] + result[1];
+  }
+  
 </script>
 
 <div class={styles.content}>
-
-  LARGE BUTTON COMPONENT 👇
-  <Largebuttons text="hola" />
-
-  READ MORE COMPONENT 👇
-  <Readmore text="button" />
-
-
-  IMAGE DESCRIPTION COMPONENT 👇
-  <Imagedescription 
-    text="Mi hermano y yo ... bla bla bla bla bla bla " 
-    offer={offer_name} 
-    type="banners"
-  />
-
-  IMAGE GROUP COMPONENT 👇
-  <Imagegroup 
-    offer_name={offer_name}
-  />
-
-  CUSTOM TEXT COMPONENT 👇
-  <Customtext 
-    text="I'm a title"
-    type="title"
-  />
-  <Customtext 
-    text="I'm a subtitle"
-    type="subtitle"
-  />
-  <Customtext 
-    text="I'm a paragraph"
-    type="paragraph"
-  />
-
-
-  COMMENTS AREA 👇
-  <Comments 
-    type="old"
-  />
-
-  <Whitdrawals />
-
-
-  <Imagedescription text="text" offer={offer_name} type="banners"/>
-  <Link color bold italic offer={false} section="content" text="Test" content={false} className=""/>
-
+  <Html {html} {processNode} />
+  <Comments type='old' offer={bucket.offers[offer].name}/>
 </div>

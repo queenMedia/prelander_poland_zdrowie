@@ -4,4 +4,8 @@ export interface TestimonialProps {
   img: string;
   name: string;
   city: string;
+  offer_name: string;
+  character_name: string;
+  redirect: string | null;
+  currency_simbol: string;
 }

@@ -7,4 +7,9 @@ export interface Props {
   section: string;
   content: boolean;
   className?: any;
+  parser?: boolean;
+  offerName?: string;
+  redirect?: string | null;
+  character_name: string;
 }
+

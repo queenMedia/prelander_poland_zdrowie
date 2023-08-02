@@ -9,6 +9,7 @@
   export let time: CommentProps["time"];
   export let timeFormat: CommentProps["timeFormat"];
   export let likes: CommentProps["likes"];
+  export let offer: CommentProps["offer"];
 
 </script>
 
@@ -16,7 +17,7 @@
   <img class={styles.img} src={img} alt="">
   <div class={styles.content}>
     <p class={styles.userName}>{name}</p>
-    <p class={styles.commentText}>{text}</p>
+    <p class={styles.commentText}>{text.replaceAll("OFFER_NAME", offer)}</p>
     <p class={styles.socialText}>Svar. {likes} . Liker . 
       <span class={styles.timeText}>{time}
         {#if timeFormat === "minutes"}
