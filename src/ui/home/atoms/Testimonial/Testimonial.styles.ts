@@ -37,7 +37,14 @@ export const description = cx(
         letter-spacing: -0.1px;
         color: #333;
         text-align: left;
-        font-style: italic;    `
+        font-style: italic;    
+
+        & > span  {
+            color: #0198bd;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    `
 );
 export const name = css`
     width: 100%;

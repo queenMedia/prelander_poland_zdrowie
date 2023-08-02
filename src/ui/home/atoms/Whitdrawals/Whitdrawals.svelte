@@ -7,8 +7,6 @@
 
   let position = 100;
 
-  export let geo: WhitdrawalsProps["geo"];
-  export let currency_simbol: WhitdrawalsProps["currency_simbol"];
   export let whitdrawalText: WhitdrawalsProps["whitdrawalText"];
 
   const moveWhitdrawal = () => (position = position > 0 ? -100 : 100);

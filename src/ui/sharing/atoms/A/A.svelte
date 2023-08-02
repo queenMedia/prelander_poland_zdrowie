@@ -35,6 +35,7 @@
     };
   
 </script>
+
    
 <span 
     class={styles.link[section]}

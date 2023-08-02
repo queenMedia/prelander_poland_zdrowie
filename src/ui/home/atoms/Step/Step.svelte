@@ -1,6 +1,5 @@
 <script lang="ts">
   import { page } from "$app/stores";
-    import { Link } from "@sharing/atoms";
 
   import type { StepProps } from "./Step.proptypes";
 
@@ -12,10 +11,7 @@
   export let title: StepProps["title"];
   export let description: StepProps["description"];
   export let img: StepProps["img"];
-  export let offer_name: StepProps["offer_name"];
   export let offer: StepProps["offer"];
-  export let redirect: StepProps['redirect'];
-  export let character_name: StepProps['character_name'];
   export let currency_simbol: StepProps['currency_simbol'];
   export let currency: StepProps['currency'];
   

@@ -37,7 +37,7 @@ export const link: any = {
     text-decoration: none;
   `,
   "testimonial-card": css`
-    color: inherit;
+    color: #0198bd;
     cursor: pointer;
     text-decoration: none;
   `,
