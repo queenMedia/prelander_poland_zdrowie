@@ -1,5 +1,4 @@
 export interface Props {
-  text?: string;
-  offer: string;  
-  type: string; 
+  text: string;
+  img: string;
 }

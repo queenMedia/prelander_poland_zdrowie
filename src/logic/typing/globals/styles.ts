@@ -127,3 +127,15 @@ export interface BorderGradientConfig {
   size?: Space;
   bg?: string;
 }
+
+export interface Link {
+  color?:boolean;
+  bold?: boolean;
+  italic?: boolean;
+}
+
+export interface Modal {
+  width: number;
+  height: number;
+  bg: string;
+}

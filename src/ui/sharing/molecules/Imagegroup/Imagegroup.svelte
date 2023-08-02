@@ -1,11 +1,14 @@
 <script lang="ts">
-  import type { Props } from "./Imagegroup.proptypes";
+  import { Img2, TableImg } from "@data"
 
   import * as styles from "./Imagegroup.styles";
+  import { A } from "@sharing/atoms"
 
-  export let prop: Props["prop"];
 </script>
 
-<div class={styles.imagegroup}>
-  {prop}
-</div>
+<A section="content">
+  <div class={styles.imagegroup}>
+    <img class={styles.imageLeft} src={Img2} alt="" />
+    <img class={styles.imageRight} src={TableImg} alt="" />
+  </div>
+</A>

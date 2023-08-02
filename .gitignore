@@ -1,5 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node,svelte,macos,linux,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,svelte,macos,linux,windows
+./build
 
 ### Linux ###
 *~

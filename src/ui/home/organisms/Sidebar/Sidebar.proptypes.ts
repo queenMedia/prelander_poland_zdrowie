@@ -1,3 +1,5 @@
 export interface Props {
-  offer_name: string;
+  offer: any;
+  bucket: any;
+  redirect: any;
 }
