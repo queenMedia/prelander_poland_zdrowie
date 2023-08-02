@@ -32,3 +32,9 @@ export const error_text = css`
   color: #FF0000;
   weight: 900;
 `;
+
+export const loading_text = css`
+  font-size: 30px;
+  color: #000;
+  weight: 900;
+`;

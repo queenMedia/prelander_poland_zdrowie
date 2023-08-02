@@ -11,9 +11,9 @@ const getDataBucket = async () => {
 const bucketConfig = await getDataBucket();
 
 const url_bucket = config.url_bucket;
-const language = bucketConfig.contentKeys.language;
-const currencyCode = bucketConfig.targetCurrency.code;
-const countryCode = bucketConfig.targetKeys.countryCode;
+const language = (bucketConfig !== 0) ? bucketConfig.contentKeys.language : null;
+const currencyCode = (bucketConfig !== 0) ? bucketConfig.targetCurrency.code : null;
+const countryCode = (bucketConfig !== 0) ? bucketConfig.targetKeys.countryCode : null;
 
 const sideBarFormImg  = `${url_bucket}/${offer_snake_case}/forms/${countryCode}.jpg`;
 const Step2Img = `${url_bucket}/sharing/steps/${language}/${currencyCode}/2.jpg`;

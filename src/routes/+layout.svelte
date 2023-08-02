@@ -12,6 +12,7 @@
   import { Whitdrawals } from "@home/atoms";
 
   import Error from "@icons/error.png";
+  import Loading from "@icons/loading-gif.gif";
   
   import { getConfig, getLinkUrl } from "@services/bucket";
 
@@ -21,12 +22,13 @@
   
   let url_to_redirect: any = "";
 
-  let localConfig: any;
-  let bucketConfig: any;
+  let localConfig: any = "";
+  let bucketConfig: any = "";
 
   let loading: boolean = true;
-  let character: string;
-  let offer: string; 
+  let pageExist: boolean = false;
+  let character: string = "";
+  let offer: string = ""; 
 
   onMount(async () => {
 
@@ -38,45 +40,50 @@
     if(localConfig.LINK)
       url_to_redirect = localConfig.LINK ? localConfig.LINK : null;
     
-
     offer_exist = Object.keys(bucketConfig.offers).includes(offer);
-    character_exists = character ? true : false;
-    
-    loading = !(offer_exist && character_exists); 
-  
+
+    character_exists = bucketConfig ? true : false;
+
+    pageExist = (offer_exist && character_exists); 
+
+    loading = pageExist ? false : true;
+
   });
 </script>
 
-<Header />
-
-<main class={layout.main}>
-  <section class={pageStyles.section}>
-    {#if !loading}
-      <Content bucket={bucketConfig} {offer}  /> 
-      <Sidebar offer={bucketConfig.offers[offer]} bucket={bucketConfig} redirect={url_to_redirect} />
-      <Modal
-        {offer}
-        type="modal"
-        title={bucketConfig.modal.title}
-        subtitle={bucketConfig.modal.subtitle}
-        button_text={bucketConfig.modal.buttonText}
-        color_button={bucketConfig.offers[offer].color_button}
-        background_button={bucketConfig.offers[offer].background_button}
-      />
-      <Whitdrawals
-        whitdrawalText={bucketConfig.whitdrawalText}
-      />
-      <Offerbar
-        offer_name={bucketConfig.offers[offer].name}
-        offerBarText={bucketConfig.offerBarText}
-      />
-    {:else}
-      <!-- Where is the loader ?-->
-      <div class={pageStyles.error_container}>
-        <img src={Error} alt="Error" class={pageStyles.error_image} />
-        <h1 class={pageStyles.error_text}>Sorry!! Page not found</h1>
-      </div>
-    {/if}
-  </section>
-</main>
-
+{#if loading}
+  <div class={pageStyles.error_container}>
+    <img src={Loading} alt="loading" class={pageStyles.error_image} />
+    <h1 class={pageStyles.loading_text}>Loading Page</h1>
+  </div>
+{:else if pageExist}
+  <Header />
+  <main class={layout.main}>
+    <section class={pageStyles.section}>
+        <Content bucket={bucketConfig} {offer}  /> 
+        <Sidebar offer={bucketConfig.offers[offer]} bucket={bucketConfig} redirect={url_to_redirect} />
+        <Modal
+          {offer}
+          type="modal"
+          title={bucketConfig.modal.title}
+          subtitle={bucketConfig.modal.subtitle}
+          button_text={bucketConfig.modal.buttonText}
+          color_button={bucketConfig.offers[offer].color_button}
+          background_button={bucketConfig.offers[offer].background_button}
+        />
+        <Whitdrawals
+          whitdrawalText={bucketConfig.whitdrawalText}
+        />
+        <Offerbar
+          offer_name={bucketConfig.offers[offer].name}
+          offerBarText={bucketConfig.offerBarText}
+        />
+    </section>
+  </main>
+{:else}
+  <!-- Where is the loader ?-->
+  <div class={pageStyles.error_container}>
+    <img src={Error} alt="Error" class={pageStyles.error_image} />
+    <h1 class={pageStyles.error_text}>Sorry!! Page not found</h1>
+  </div>
+{/if}

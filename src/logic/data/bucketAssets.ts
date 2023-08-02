@@ -11,9 +11,10 @@ const getDataBucket = async () => {
 const bucketConfig = await getDataBucket();
 
 const url_bucket = config.url_bucket;
-const language = bucketConfig.contentKeys.language;
-const currencyCode = bucketConfig.targetCurrency.code;
-const countryCode = bucketConfig.targetKeys.countryCode;
+const language = (bucketConfig !== 0) ? bucketConfig.contentKeys.language : null;
+const currencyCode = (bucketConfig !== 0) ? bucketConfig.targetCurrency.code : null;
+const countryCode = (bucketConfig !== 0) ? bucketConfig.targetKeys.countryCode : null;
+
 
 /* bucket images */
 export const Img1 = `${url_bucket}/sharing/characters/${character_snake_case}/img1.jpg`;
