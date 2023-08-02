@@ -15,7 +15,6 @@ const language = bucketConfig.contentKeys.language;
 const currencyCode = bucketConfig.targetCurrency.code;
 const countryCode = bucketConfig.targetKeys.countryCode;
 
-
 /* bucket images */
 export const Img1 = `${url_bucket}/sharing/characters/${character_snake_case}/img1.jpg`;
 export const Img2 = `${url_bucket}/sharing/characters/${character_snake_case}/img2.jpg`;
@@ -33,3 +32,5 @@ export const CheckImg = `${url_bucket}/sharing/checks/${countryCode}.jpg`;
 export const OfferBannerImg = `${url_bucket}/${offer_snake_case}/banners/${countryCode}.jpg`;
 export const Step2Img = `${url_bucket}/sharing/steps/${language}/${currencyCode}/2.jpg`;
 export const Step3Img = `${url_bucket}/sharing/steps/${language}/${currencyCode}/3.jpg`;
+
+export const sideBarFormImg  = `${url_bucket}/${offer_snake_case}/forms/${countryCode}.jpg`;

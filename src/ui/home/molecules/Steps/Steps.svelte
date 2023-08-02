@@ -15,7 +15,7 @@
 <div class={styles.container}>
   <h3 class={styles.title}>LESERNES RESULTATER</h3>
   <div class={styles.testimonialsContainer}>
-    {#each stepsData as step, i}
+    {#each stepsData as step}
       <Step
         type="marked"
         title={step.title}

@@ -1,15 +1,28 @@
-import config from "@config"
 
 import step2 from "../../assets/images/sharing/steps/s2.jpg"
 import step3 from "../../assets/images/sharing/steps/s3.jpg"
 
-const urlImgStep1  = `${config.url_bucket}/OFFER_NAME/forms/${config.i18n_lang}.jpg`
+import config from "@config";
+import { getConfig } from "@services/bucket";
+
+const character_snake_case =  new URLSearchParams(window.location.search).get("character")
+const offer_snake_case =  new URLSearchParams(window.location.search).get("offer")
+
+const getDataBucket = async () => {
+    return await getConfig(character_snake_case || "");
+}
+const bucketConfig = await getDataBucket();
+
+const url_bucket = config.url_bucket;
+const countryCode = bucketConfig.targetKeys.countryCode;
+
+const sideBarFormImg  = `${url_bucket}/${offer_snake_case}/forms/${countryCode}.jpg`;
 
 export const stepsData = [
     {
         title: "Trinn 1:",
         description: "Registrer deg for gratis konto",
-        img: urlImgStep1
+        img: sideBarFormImg
     },
     {
         title: "Trinn 2:",
