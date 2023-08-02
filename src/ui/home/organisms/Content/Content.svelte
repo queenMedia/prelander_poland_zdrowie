@@ -1,5 +1,6 @@
 <script lang="ts">
   import { Html, isTag } from 'html-svelte-parser';
+  import { page } from "$app/stores";
 
   import type { Props } from "./Content.proptypes";
   import * as styles from "./Content.styles";
@@ -17,11 +18,13 @@
   let data = "";
 
   const getPageData = async ()  => {
-    const response = await fetch("content.txt");
+    const response = await fetch(`content.txt`);
+
+    
     if(response.ok)
       return await response.text();
     else 
-      return "ocurrio un error al cargar la pagina"
+      return "ocurrió un error al cargar la pagina"
   }
 
   getPageData().then((response) => {

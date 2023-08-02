@@ -19,7 +19,7 @@
   let character_exists: boolean = false;
   
   
-  let url_to_redirect: any;
+  let url_to_redirect: any = "";
 
   let localConfig: any;
   let bucketConfig: any;
@@ -35,7 +35,9 @@
 
     [bucketConfig, localConfig] = await Promise.all([getConfig(character), getLinkUrl($page.url.origin)]);
 
-    url_to_redirect = localConfig.LINK ? localConfig.LINK : null;
+    if(localConfig.LINK)
+      url_to_redirect = localConfig.LINK ? localConfig.LINK : null;
+    
 
     offer_exist = Object.keys(bucketConfig.offers).includes(offer);
     character_exists = character ? true : false;
@@ -78,4 +80,3 @@
   </section>
 </main>
 
-<slot></slot>

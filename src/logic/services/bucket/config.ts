@@ -26,8 +26,15 @@ export const getLinkUrl = async (domain: string) => {
           Origin: "http://localhost:5173",
         },
       });
-      const data: any = await response.json();
-      return data;
+      
+      if (response.ok) {
+        const data = await response.json();
+        return data;
+      } else {
+        console.error("Error en la solicitud:", response.statusText);
+        return undefined;
+      }
+
     } catch (error) {
       return undefined;
     }

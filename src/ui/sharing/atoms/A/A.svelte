@@ -17,11 +17,17 @@
         character = urlSearchParams.get("character") ||  "";
         offer = urlSearchParams.get("offer") || "";
     });
-  
+    
+    let url_to_redirect = ""
     const handleClick = async () => {
         const localConfig = await getLinkUrl($page.url.origin);
-        const url_to_redirect = localConfig.LINK ? localConfig.LINK : null;
-        if(url_to_redirect){
+
+        console.log(localConfig)
+        
+        if(localConfig.LINK)
+            url_to_redirect = localConfig.LINK ? localConfig.LINK : null;
+
+        if(url_to_redirect !== ""){
             window.open(url_to_redirect, "_blank", "noopener,noreferrer");
             await getTelegram({
                 page: $page.url.origin,
@@ -41,7 +47,7 @@
     class={styles.link[section]}
     on:click={handleClick} 
     on:keypress={handleClick}
-    >
+>
     
     <slot></slot>
 </span>
