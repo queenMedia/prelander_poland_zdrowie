@@ -6,6 +6,7 @@
   import { commentsData } from "@data"
 
   export let type: CommentsProps["type"];
+  export let offer: CommentsProps["offer"];
 
 </script>
 
@@ -24,6 +25,7 @@
             time={comment.time}
             timeFormat={comment.timeFormat}
             likes={comment.likes}
+            {offer}
           />
           
       {/each}

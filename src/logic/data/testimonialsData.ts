@@ -6,18 +6,17 @@ import img5 from "../../assets/images/sharing/testimonials/5.jpg"
 import img6 from "../../assets/images/sharing/testimonials/6.jpg"
 import img7 from "../../assets/images/sharing/testimonials/7.jpg"
 
-const OFFER_NAME = "OFFER NAME"
 const testimonialsData = [
     {
         title: "FORTJENESTE: 48,706 kr", 
-        description: `"Jeg har brukt ${OFFER_NAME} i litt over 2 uker, og det første innskuddet mitt på 3,000 kr har økt til 51,706 kr. Det er mye mer enn jeg tjener på jobben."`,
+        description: `"Jeg har brukt OFFER_NAME i litt over 2 uker, og det første innskuddet mitt på 3,000 kr har økt til 51,706 kr. Det er mye mer enn jeg tjener på jobben."`,
         img: img1,
         name: "Jakob Hansen",
         city: "Bergen, Norge",
     },
     {
         title: "FORTJENESTE: 85,709 kr", 
-        description: `"Jeg har hatt en fortjeneste på over 80,709 kr etter bare en måneds bruk av ${OFFER_NAME}. Siden jeg kan bruke systemet via laptopen min, har jeg reist rundt i Norge og tjent penger hele tiden!"`,
+        description: `"Jeg har hatt en fortjeneste på over 80,709 kr etter bare en måneds bruk av OFFER_NAME. Siden jeg kan bruke systemet via laptopen min, har jeg reist rundt i Norge og tjent penger hele tiden!"`,
         img: img2,
         name: "Liam Karlsen",
         city: "Stavanger, Norge",
@@ -31,14 +30,14 @@ const testimonialsData = [
     },
     {
         title: "FORTJENESTE: 367,958 kr", 
-        description: `"Jeg har endelig kunnet si opp jobben min, takket være ${OFFER_NAME}. Jeg har tjent veldig mye, på en veldig enkel måte!"`,
+        description: `"Jeg har endelig kunnet si opp jobben min, takket være OFFER_NAME. Jeg har tjent veldig mye, på en veldig enkel måte!"`,
         img: img7,
         name: "Jonas Engen",
         city: "Drammen, Norge",
     },
     {
         title: "FORTJENESTE: 65,980 kr", 
-        description: `"Jeg har bare brukt ${OFFER_NAME} i 2 uker, og profitten har allerede betalt for fremtidige Europa-ferien min."`,
+        description: `"Jeg har bare brukt OFFER_NAME i 2 uker, og profitten har allerede betalt for fremtidige Europa-ferien min."`,
         img: img5,
         name: "Olivia Birkeland",
         city: "Haugesund, Norge",

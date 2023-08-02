@@ -52,5 +52,5 @@
 
 <div class={styles.content}>
   <Html {html} {processNode} />
-  <Comments type='old' />
+  <Comments type='old' offer={bucket.offers[offer].name}/>
 </div>
