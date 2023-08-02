@@ -21,7 +21,7 @@ export const Img2 = `${url_bucket}/sharing/characters/${character_snake_case}/im
 export const Img3 = `${url_bucket}/sharing/characters/${character_snake_case}/img3.jpg`;
 export const TableImg = `${url_bucket}/${offer_snake_case}/tables/${language}/${currencyCode}.jpg`;
 
-export const TopBannerImg = `${url_bucket}/banners/${countryCode}.jpg`;
+export const TopBannerImg = `${url_bucket}/sharing/banners/${countryCode}.jpg`;
 
 export const BillGatesImg = `${url_bucket}/sharing/billgates/${offer_snake_case}.jpg`;
 export const FBPostImg = `${url_bucket}/sharing/posts/${countryCode}.jpg`;

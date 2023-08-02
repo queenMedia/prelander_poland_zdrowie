@@ -1,6 +1,6 @@
 import config from "@config";
 
-const version = 0.6
+const version = 0.7
 
 export const getConfig = async (charachter: string) => {
     const url = `${config.url_bucket}/characters/${charachter}.json?v=${version}`;
