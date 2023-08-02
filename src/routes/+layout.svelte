@@ -46,7 +46,7 @@
 
     pageExist = (offer_exist && character_exists); 
 
-    loading = pageExist ? false : true;
+    loading = false;
 
   });
 </script>
