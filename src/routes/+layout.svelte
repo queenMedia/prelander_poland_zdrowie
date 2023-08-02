@@ -47,8 +47,8 @@
     pageExist = (offer_exist && character_exists); 
 
     loading = false;
-
   });
+
 </script>
 
 {#if loading}
@@ -81,7 +81,6 @@
     </section>
   </main>
 {:else}
-  <!-- Where is the loader ?-->
   <div class={pageStyles.error_container}>
     <img src={Error} alt="Error" class={pageStyles.error_image} />
     <h1 class={pageStyles.error_text}>Sorry!! Page not found</h1>
