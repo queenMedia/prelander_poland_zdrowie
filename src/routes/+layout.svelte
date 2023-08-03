@@ -37,10 +37,11 @@
 
     [bucketConfig, localConfig] = await Promise.all([getConfig(character), getLinkUrl($page.url.origin)]);
 
-    if(localConfig.LINK)
+    if(localConfig)
       url_to_redirect = localConfig.LINK ? localConfig.LINK : null;
-    
-    offer_exist = Object.keys(bucketConfig.offers).includes(offer);
+
+    if(bucketConfig)
+      offer_exist = Object.keys(bucketConfig.offers).includes(offer);
 
     character_exists = bucketConfig ? true : false;
 
@@ -49,15 +50,15 @@
     loading = false;
   });
 
-</script><!-- 
+</script>
 
 {#if loading}
   <div class={pageStyles.error_container}>
     <img src={Loading} alt="loading" class={pageStyles.error_image} />
     <h1 class={pageStyles.loading_text}>Loading Page</h1>
   </div>
-{:else --> 
-{#if pageExist}
+
+{:else if pageExist}
   <Header />
   <main class={layout.main}>
     <section class={pageStyles.section}>
