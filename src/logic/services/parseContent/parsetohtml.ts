@@ -78,8 +78,8 @@ const parseImages = (data: string) => {
     */
 
     const imgRegex = /\[\[([^[\]]+)\]\]\[([^[\]]+)\]/g;
-
-    data = data.replace(imgRegex, "<div id='image' imgtype='$1' text='$2'></div>");
+   // data = data.replace(imgRegex, "<div id='image' imgtype='$1' text='$2'></div>");
+    data = data.replace(imgRegex, "<div id='image' imgtype='$1'>$2</div>");
        
     return data;
 }

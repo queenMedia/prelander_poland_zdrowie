@@ -15,11 +15,9 @@
 
 {{image_celebrity_with_table}}
 
-
 {{p}}
 Lo spazio dedicato a {{CELEBRITY}} è terminato, prima che lui potesse andare a fondo, pertanto abbiamo organizzato un'intervista esclusiva con lui, per scoprire di più su quest'opportunità controversa.
 {{/p}}
-
 
 {{large_button}}
 

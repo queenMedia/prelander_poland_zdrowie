@@ -56,6 +56,7 @@ export const parseToSvelte = (attribs: any, hanldeReadMore: any) =>  {
 
 }
 const parseImage = (img: string, text: string)  => {
+
     return {
         component: Imagedescription, 
         props: { 

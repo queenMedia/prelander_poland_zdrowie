@@ -14,7 +14,12 @@
   <A section="content">
     <img src={img} alt="" class={styles.image} />
   </A>
+<!--   
+  OLD CODE
   {#if text}
     <p class={styles.description("16")}>{text}</p>
-  {/if}
+  {/if} -->
+  
+  <span class={styles.description("16")}><slot></slot></span>
+   
 </div>
