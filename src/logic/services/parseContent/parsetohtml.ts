@@ -24,6 +24,8 @@ export const parseBucketData = (data: string, bucket: any, offer: string) => {
     data = data.replaceAll("{{CELEBRITY}}", `${bucket.fullName}`);
     data = data.replaceAll("{{OFFER}}", `${bucket.offers[offer].name}`);
 
+    data = data.replaceAll("{{CURRENCY}}", `${bucket.targetCurrency.symbol}`);
+
     return data;
 }
 

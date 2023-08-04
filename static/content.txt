@@ -28,7 +28,7 @@ Lo spazio dedicato a {{CELEBRITY}} è terminato, prima che lui potesse andare a 
 {{/subtitle}}
 
 {{p}}
-"Potreste aver sentito parlare di questa 
+"Potreste aver sentito parlare di questa
   {{b}}
     nuova piattaforma per gli investimenti in criptovalute, chiamata {{OFFER}}, che sta aiutando la gente comune in Svizzero, Asia e Nord America a guadagnare enormi fortune, da un giorno all'altro. Potreste essere scettici, perchè sembra troppo bello per essere vero."
   {{/b}}
