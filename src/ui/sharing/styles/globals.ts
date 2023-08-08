@@ -1,11 +1,9 @@
 import { injectGlobal } from "@emotion/css";
 
-import CalibriFontFace from "./calibri.fontface"
 // eslint-disable-next-line @typescript-eslint/no-unused-expressions
 injectGlobal`
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
   
-  ${CalibriFontFace}
-
   * {
     box-sizing: border-box;
     outline: 0;
@@ -26,6 +24,8 @@ injectGlobal`
     --overlay: rgba(0, 0, 0, 0.5);
     --bg-offer-bar: rgba(0, 0, 0, 0.7);
     --bg-offer-bar-button: #eb6769;
+
+    --calibre-font: 'calibre', sans-serif;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;

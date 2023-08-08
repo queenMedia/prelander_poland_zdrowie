@@ -4,7 +4,19 @@
   import { A, Icons } from "@sharing/atoms"
   import arrowIcon from "@icons/arrow_down_2.svg";
 
+
+  let progressBarWidth = 0;
+
+  function updateProgressBar() {
+    const totalScrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    progressBarWidth = (scrollTop / totalScrollableHeight) * 100;
+  }
+  updateProgressBar();
+  window.addEventListener('scroll', updateProgressBar);
+
 </script>
+
 
 <header class={styles.container}>
     <div class={styles.top_section}>
@@ -34,25 +46,26 @@
       </div>
     </div>
 
-
-
-    <div class={styles.bottom_section}>
+    <div class={styles.bottom_section(progressBarWidth)}>
       <div class={styles.bottom_content}>
         <h2 class={styles.zdrowie_text}>
           <A section="header">
             Zdrowie
           </A>
         </h2>
-        <ul class={styles.bottom_menu}>
-          <li class={styles.bottom_item}><A section="header">KORONAWIRUS</A></li>
-          <li class={styles.bottom_item}><A section="header">CHOROBY</A></li>
-          <li class={styles.bottom_item}><A section="header">Odżywianie</A></li>
-          <li class={styles.bottom_item}><A section="header">Psychologia</A></li>
-          <li class={styles.bottom_item}><A section="header">Seks</A></li>
-          <li class={styles.bottom_item}><A section="header">Sport I uroda</A></li>
-          <li class={styles.bottom_item}><A section="header">Forum</A></li>
-          <li class={styles.bottom_item}><A section="header">Quizy</A></li>
-        </ul>
+        <div class={styles.bottom_menu_container}>
+          <ul class={styles.bottom_menu}>
+            <li class={styles.bottom_item}><A section="header">KORONAWIRUS</A></li>
+            <li class={styles.bottom_item}><A section="header">CHOROBY</A></li>
+            <li class={styles.bottom_item}><A section="header">Odżywianie</A></li>
+            <li class={styles.bottom_item}><A section="header">Psychologia</A></li>
+            <li class={styles.bottom_item}><A section="header">Seks</A></li>
+            <li class={styles.bottom_item}><A section="header">Sport I uroda</A></li>
+            <li class={styles.bottom_item}><A section="header">Forum</A></li>
+            <li class={styles.bottom_item}><A section="header">Quizy</A></li>
+          </ul>
+          <span class={styles.arrow_icon(arrowIcon)}></span>
+        </div>
       </div>
     </div>
  

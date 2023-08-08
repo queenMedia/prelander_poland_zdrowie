@@ -7,7 +7,11 @@ export const container = cx(
   css`
     width: 100%;
     flex-direction: column;
-    `,
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    top: 0;
+    margin-bottom: 170px;
+  `,
 );
 export const top_section = cx(
   flex({justify: "center", align: "center", gap: "10px"}),
@@ -105,19 +109,25 @@ export const arrow_icon = (img: string) => cx(
   `
 );
 
-export const bottom_section = cx(
-  flex({justify: "center", align: "center", gap: "10px"}),
-  css`
-    width: 100%;
-    height: 130px;
-    position: relative;
-    background: #fff;
-    z-index: 3;
-    box-shadow: inset 0 -1px #e5e5e5;
-    transform: translateY(0);
-    transition: all .6s ease-out;
-  `,
-);
+export const bottom_section = (progress: number) => {
+  let movement = '0px';
+  if(progress >17.5)
+    movement = "-500px";
+  
+  return cx(
+    flex({justify: "center", align: "center", gap: "10px"}),
+    css`
+      width: 100%;
+      height: 130px;
+      position: relative;
+      background: #fff;
+      z-index: 3;
+      box-shadow: inset 0 -1px #e5e5e5;
+      transform: translateY(${movement});
+      transition: all 1.5s ease;
+    `,
+  )
+}
 export const bottom_content = cx(content,
   flex({justify: "flex-start", align:"flex-end"}),
   css`  
@@ -142,6 +152,9 @@ export const zdrowie_text = cx(
     transition: all .2s ease-out;
     width: fit-content;
     height: 80px;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    font-size: 42px;
 
     &:hover {
       color: rgba(34,34,34,.8);
@@ -163,7 +176,14 @@ export const zdrowie_text = cx(
     }
   `,
 );
-
+export const bottom_menu_container = cx(
+  flex({justify: "space-between", align:"center", gap: "20px"}),
+  css`
+    width: 100%;
+    list-style: none;
+    position: relative;
+  `,
+);
 export const bottom_menu = cx(
   flex({justify: "flex-start", align:"center", gap: "20px"}),
   css`
