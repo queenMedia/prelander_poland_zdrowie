@@ -15,7 +15,8 @@ const upto = keyframes`
 export const container_to_center =cx(
   flex({ justify: "center", align: "center", gap: "0px"}),
   css`
-    width: 100%;
+    width: 100%;  
+    z-index: -1;
 `);
 
 export const largebuttons = cx(

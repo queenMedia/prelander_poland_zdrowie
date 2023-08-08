@@ -20,7 +20,7 @@ export const top_section = cx(
     position: relative;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 700;
     background: #fff;
     transform: translateY(0);
     transition: all .5s ease-out;
