@@ -81,7 +81,7 @@
         />
     </section>
   </main>
-  <Footer />
+  <!-- <Footer /> -->
 {:else}
   <div class={pageStyles.error_container}>
     <img src={Error} alt="Error" class={pageStyles.error_image} />

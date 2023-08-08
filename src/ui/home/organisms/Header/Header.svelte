@@ -3,7 +3,7 @@
   import { HeaderLogo } from "@home/atoms";
   import { A, Icons } from "@sharing/atoms"
   import arrowIcon from "@icons/arrow_down_2.svg";
-
+  import hamburger from "@icons/hamburger.svg";
 
   let progressBarWidth = 0;
 
@@ -16,7 +16,6 @@
   window.addEventListener('scroll', updateProgressBar);
 
 </script>
-
 
 <header class={styles.container}>
     <div class={styles.top_section}>
@@ -32,7 +31,7 @@
             <li class={styles.top_left_item}><A section="header">plotek</A></li>
             <li class={styles.top_left_item}><A section="header">dziecko</A></li>
           </ul>
-          <span class={styles.arrow_icon(arrowIcon)}></span>
+          
         </div>
         <div class={styles.top_right}>
           <ul class={styles.top_right_menu}>
@@ -41,6 +40,12 @@
             <li class={styles.top_right_item}><A section="header"><Icons type="person"/></A></li>
             <li class={styles.top_right_item}><A section="header"><Icons type="loupe"/></A></li>
             <li class={styles.top_right_item}><A section="header"><Icons type="plant"/></A></li>
+
+            <li class={styles.top_right_item}>
+              <A section="header">
+                <img src={arrowIcon} alt="arrow icon">
+              </A>
+            </li>
           </ul>
         </div>
       </div>
@@ -66,6 +71,9 @@
           </ul>
           <span class={styles.arrow_icon(arrowIcon)}></span>
         </div>
+        <A section="header">
+          <img src={hamburger}  class={styles.iconBurger} alt="arrow icon">
+        </A>
       </div>
     </div>
  

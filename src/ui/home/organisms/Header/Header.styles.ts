@@ -32,7 +32,9 @@ export const content = cx(
   flex({justify: "space-between", align: "center", gap: "10px"}),
   css`
     width: 1200px;
+    padding: 0 20px;
     height: 40px; 
+    ${responsive.content}
   `
 );
 
@@ -50,6 +52,7 @@ export const top_left_menu = cx(
   css`
     display: flex;
     list-style: none;
+    ${responsive.top_left_menu}
   `,
 );
 
@@ -84,6 +87,12 @@ export const top_right_menu = cx(
       order: 3;
       height: 40px;
     }
+
+    & > li:nth-child(6) {
+      display: none;
+    }
+
+    ${responsive.top_right_menu}
   `,
 );
 export const top_right_item = cx(
@@ -124,6 +133,7 @@ export const bottom_section = (progress: number) => {
       box-shadow: inset 0 -1px #e5e5e5;
       transform: translateY(${movement});
       transition: all 1s ease;
+      ${responsive.bottom_section}
     `,
   )
 }
@@ -133,7 +143,7 @@ export const bottom_content = cx(content,
     flex-direction: row;
     flex-wrap: wrap;
     height: 130px !important; 
-
+    ${responsive.bottom_content}
   `,
 );
 export const zdrowie_text = cx(
@@ -173,6 +183,7 @@ export const zdrowie_text = cx(
     &:hover:after {
       width: 90%;
     }
+    ${responsive.zdrowie_text}
   `,
 );
 export const bottom_menu_container = cx(
@@ -181,6 +192,14 @@ export const bottom_menu_container = cx(
     width: 100%;
     list-style: none;
     position: relative;
+    ${responsive.bottom_menu_container}
+  `,
+);
+export const iconBurger = cx(
+ 
+  css`
+    display: none;
+    ${responsive.iconBurger}
   `,
 );
 export const bottom_menu = cx(
