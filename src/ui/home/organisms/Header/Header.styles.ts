@@ -110,9 +110,8 @@ export const arrow_icon = (img: string) => cx(
 );
 
 export const bottom_section = (progress: number) => {
-  let movement = '0px';
-  if(progress >17.5)
-    movement = "-500px";
+
+  const movement = (progress > 10) ? "-130px" : "0px";
   
   return cx(
     flex({justify: "center", align: "center", gap: "10px"}),
@@ -124,7 +123,7 @@ export const bottom_section = (progress: number) => {
       z-index: 3;
       box-shadow: inset 0 -1px #e5e5e5;
       transform: translateY(${movement});
-      transition: all 1.5s ease;
+      transition: all 1s ease;
     `,
   )
 }
