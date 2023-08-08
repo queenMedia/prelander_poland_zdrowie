@@ -9,11 +9,13 @@ export const container = cx(
         width: 100%;
         margin: 10px 0 80px 0;
         font-family: "Roboto", sans-serif;
+        ${responsive.container}
     `
 );
 export const content = cx(
     css`
         width: 1200px;
+        ${responsive.content}
     `
 );
 
@@ -32,6 +34,7 @@ export const top_menu = cx(
         list-style: none;
         color: #333;
         font-size: 12px;
+        flex-wrap: wrap;
     `
 );
 export const top_item = cx(
@@ -56,6 +59,7 @@ export const bottom_menu = cx(
     flex({justify: "center", align: "center", gap: "20px"}),
     css`
         list-style: none;
+        flex-wrap: wrap;
     `
 );
 export const bottom_item = cx(
