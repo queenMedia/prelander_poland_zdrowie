@@ -13,6 +13,7 @@ const config = {
 			// Assets
 			"@images/*": "src/assets/images/*",
 			"@icons/*": "src/assets/images/icons/*",
+			"@fonts/*": "src/assets/font/*",
 			// CONTENT
 			"@content": "src/assets/content/",
 			// Logic

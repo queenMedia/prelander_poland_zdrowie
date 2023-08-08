@@ -5,10 +5,9 @@
   import { layout } from "@styles";
   import { page as pageStyles } from "@home/styles";
   
-  import { Header } from "@sharing/organisms";
   import { Offerbar, Modal } from "@sharing/molecules";
 
-  import { Content, Sidebar } from "@home/organisms";
+  import { Content, Sidebar, Header } from "@home/organisms";
   import { Whitdrawals } from "@home/atoms";
 
   import Error from "@icons/error.png";

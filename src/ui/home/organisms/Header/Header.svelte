@@ -1,0 +1,59 @@
+<script lang="ts">
+  import * as styles from "./Header.styles";
+  import { HeaderLogo } from "@home/atoms";
+  import { A, Icons } from "@sharing/atoms"
+  import arrowIcon from "@icons/arrow_down_2.svg";
+
+</script>
+
+<header class={styles.container}>
+    <div class={styles.top_section}>
+      <div class={styles.content}>
+        <div class={styles.top_left}>
+          <A section="header">
+            <HeaderLogo />
+          </A>
+          <ul class={styles.top_left_menu}>
+            <li class={styles.top_left_item}><A section="header">WIADOMOŚCI</A></li>
+            <li class={styles.top_left_item}><A section="header">Next</A></li>
+            <li class={styles.top_left_item}><A section="header">Sport</A></li>
+            <li class={styles.top_left_item}><A section="header">plotek</A></li>
+            <li class={styles.top_left_item}><A section="header">dziecko</A></li>
+          </ul>
+          <span class={styles.arrow_icon(arrowIcon)}></span>
+        </div>
+        <div class={styles.top_right}>
+          <ul class={styles.top_right_menu}>
+            <li class={styles.top_right_item}><A section="header"><Icons type="card"/></A></li>
+            <li class={styles.top_right_item}><A section="header"><Icons type="message"/></A></li>
+            <li class={styles.top_right_item}><A section="header"><Icons type="person"/></A></li>
+            <li class={styles.top_right_item}><A section="header"><Icons type="loupe"/></A></li>
+            <li class={styles.top_right_item}><A section="header"><Icons type="plant"/></A></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class={styles.bottom_section}>
+      <div class={styles.bottom_content}>
+        <h2 class={styles.zdrowie_text}>
+          <A section="header">
+            Zdrowie
+          </A>
+        </h2>
+        <ul class={styles.bottom_menu}>
+          <li class={styles.bottom_item}><A section="header">KORONAWIRUS</A></li>
+          <li class={styles.bottom_item}><A section="header">CHOROBY</A></li>
+          <li class={styles.bottom_item}><A section="header">Odżywianie</A></li>
+          <li class={styles.bottom_item}><A section="header">Psychologia</A></li>
+          <li class={styles.bottom_item}><A section="header">Seks</A></li>
+          <li class={styles.bottom_item}><A section="header">Sport I uroda</A></li>
+          <li class={styles.bottom_item}><A section="header">Forum</A></li>
+          <li class={styles.bottom_item}><A section="header">Quizy</A></li>
+        </ul>
+      </div>
+    </div>
+ 
+</header>
