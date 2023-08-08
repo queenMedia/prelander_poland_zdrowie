@@ -29,7 +29,7 @@
     };
     const interval = setInterval(() => {
       showModal = true;
-    }, 100000000000000);
+    }, 50000);
 
     return () => {
       clearInterval(interval);
