@@ -7,7 +7,7 @@
   
   import { Offerbar, Modal } from "@sharing/molecules";
 
-  import { Content, Sidebar, Header } from "@home/organisms";
+  import { Content, Sidebar, Header, Footer } from "@home/organisms";
   import { Whitdrawals } from "@home/atoms";
 
   import Error from "@icons/error.png";
@@ -81,6 +81,7 @@
         />
     </section>
   </main>
+  <Footer />
 {:else}
   <div class={pageStyles.error_container}>
     <img src={Error} alt="Error" class={pageStyles.error_image} />
