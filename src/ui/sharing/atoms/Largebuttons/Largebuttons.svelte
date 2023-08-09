@@ -7,9 +7,11 @@
   export let text: Props["text"];
 </script>
 
-<div class={styles.container_to_center}>
-  <button class={styles.largebuttons}>
-    <A section="large-button">{text}</A>
-  </button>
-</div>
+<A section="large-button">
+  <div class={styles.container_to_center}>
+    <button class={styles.largebuttons}>
+     {text}
+    </button>
+  </div>
+</A>
 

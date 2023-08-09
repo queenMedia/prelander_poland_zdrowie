@@ -22,7 +22,7 @@ export const container_to_center =cx(
 export const largebuttons = cx(
   flex({ justify: "center", align: "center", gap: "20px"}),
   css`
-    width: 80%;
+    width: 90%;
     padding: 25px 60px;
     position: relative;
     font-size: 30px;
