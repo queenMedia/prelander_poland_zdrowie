@@ -46,6 +46,9 @@ const parseHTMLElements = (data: string, styles: any) => {
     data = data.replaceAll("{{i}}", "<i>");
     data = data.replaceAll("{{/i}}", "</i>");
 
+    data = data.replaceAll("{{em}}", "<em>");
+    data = data.replaceAll("{{/em}}", "</em>");
+
     data = data.replaceAll("{{p}}", "<p>");
     data = data.replaceAll("{{/p}}", "</p>");
 

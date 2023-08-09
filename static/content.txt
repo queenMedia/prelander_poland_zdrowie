@@ -13,70 +13,68 @@
 
 {{BUCKET_FIRST_CONTENT}}
 
+{{large_button}}
+
+
 {{image_celebrity_with_table}}
 
 {{p}}
-Lo spazio dedicato a {{CELEBRITY}} è terminato, prima che lui potesse andare a fondo, pertanto abbiamo organizzato un'intervista esclusiva con lui, per scoprire di più su quest'opportunità controversa.
+W programie zabrakło czasu, zanim zdążyła wszystko szczegółowo wyjaśnić, więc przeprowadziliśmy ekskluzywny wywiad z samą {{CELEBRITY}}, aby dowiedzieć się więcej o tej kontrowersyjnej możliwości.
 {{/p}}
 
 {{large_button}}
 
 {{subtitle}}
-  ESCLUSIVA CON {{CELEBRITY}}
+  W EXCLUSIVE Z {{CELEBRITY}}
 {{/subtitle}}
 
+{{p}}{{em}}
+  “Prawdopodobnie słyszałeś o nowej kryptowalutowej platformie inwestycyjnej o nazwie {{OFFER}}, która pomaga przeciętnym ludziom w Polsce, Azji i Ameryce Północnej budować fortuny z dnia na dzień. Mogą być sceptyczni, ponieważ brzmi to zbyt dobrze, aby mogło być prawdziwe.”
+{{/em}}{{/p}}
+
 {{p}}
-"Potreste aver sentito parlare di questa
-  {{b}}
-    nuova piattaforma per gli investimenti in criptovalute, chiamata {{OFFER}}, che sta aiutando la gente comune in Svizzero, Asia e Nord America a guadagnare enormi fortune, da un giorno all'altro. Potreste essere scettici, perchè sembra troppo bello per essere vero."
-  {{/b}}
+Anna kontynuuje:
 {{/p}}
-{{p}}
-  {{CELEBRITY}} ha proseguito, affermando:
-{{/p}}
-{{p}}
-"Provai la stessa sensazione quando un mio amico fidato me ne parlò. Tuttavia, dopo aver visto con i miei occhi quanti soldi stava guadagnando, decisi di provarlo di persona.
-{{/p}}
-{{p}}
-Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella maniera più semplice di tutte. 
-  {{b}}Sto parlando di decine di migliaia di euro al giorno.
-  {{/b}}
-   Al momento, è il sistema che riesce a far guadagnare di più in assoluto. E non durerà per molto tempo ancora, in quanto sempre più persone lo stanno scoprendo. Oppure, potrebbe essere bloccato per sempre dalle banche."
-{{/p}}
+
+{{p}}{{em}}
+“Rozumiem, ponieważ byłem dokładnie tego samego zdania, gdy znajomy, któremu bardzo ufam, powiedział mi o tym. Jednak po tym, jak zobaczyłem na własne oczy, ile pieniędzy zarabia, musiałem spróbować.
+{{/em}}{{/p}}
+
+{{p}}{{em}}
+Cieszę się, że go wypróbowałem, ponieważ dzięki niemu zarobiłem najwięcej pieniędzy w moim życiu i to w najprostszy sposób. Mówię o dziesiątkach tysięcy dolarów dziennie, automatycznie. Jest to obecnie dosłownie najszybszy sposób na zarabianie pieniędzy. I nie potrwa długo, zanim większość ludzi zacznie z niego korzystać lub banki go zamkną.
+{{/em}}{{/p}}
 
 [[image_celebrity_3]][ ]
 
 {{subtitle}}
-  COS'È ESATTAMENTE {{OFFER}} E COME FUNZIONA?
+{{OFFER}} - CZYM DOKŁADNIE JEST I JAK DZIAŁA?
 {{/subtitle}}
 
 {{p}}
-  {{b}} L'idea alla base di {{OFFER}} è semplice:{{/b}} permettere alle persone comuni di guadagnare dal boom delle criptovalute, l'investimento più redditizio del 21esimo secolo, nonostante ciò che pensa la maggior parte delle persone.
+{{b}}Idea stojąca za {{link}}{{OFFER}}{{/link}} jest dość prosta:{{/b}} umożliwić przeciętnym ludziom dołączenie do boomu kryptowalutowego, który pozostaje najbardziej dochodową inwestycją XXI wieku, wbrew temu, co myśli większość ludzi.
+{{p}}
+
+{{p}}
+Chociaż cena Bitcoina spadła z rekordowego poziomu 65 000 USD za Bitcoina, inwestorzy wciąż się bogacą. Dlaczego? Ponieważ oprócz Bitcoina w obiegu znajdują się tysiące innych kryptowalut, które każdego dnia generują ogromne zyski.
 {{/p}}
 
 {{p}}
-  Sebbene il prezzo del Bitcoin sia sceso, dal valore massimo registrato di $65,000 per Bitcoin, i trader riescono ancora a guadagnare parecchio. Perché? Perché ci sono migliaia di altre criptovalute, oltre al Bitcoin, che vengono scambiate, generando enormi guadagni ogni giorno.
+Niektóre z tych kryptowalut to Ripple, Ethereum, Monero i Zcash, które nadal generują ponad 10 000% zysku dla zwykłych ludzi w Polsce.
+{{/p}}
+
+
+{{p}}
+{{link}}{{OFFER}}{{/link}} pozwala czerpać zyski ze wszystkich tych kryptowalut, nawet podczas hossy. Wykorzystuje sztuczną inteligencję (AI) do zarządzania sprzedażą i krótką sprzedażą, dzięki czemu możesz zarabiać pieniądze 24 godziny na dobę, nawet podczas snu.
 {{/p}}
 
 {{p}}
-  Alcune di queste criptovalute includono Ripple, Ethereum, Monero e Zcash e riescono ancora a garantire ritorni del 10,000% e oltre, per chiunque voglia investire in Svizzero.
+{{link}}{{OFFER}}{{/link}} jest wspierany przez jedne z najbystrzejszych umysłów w historii technologii. Należą do nich {{b}}Richard Branson, Elon Musk i Bill Gates.{{/b}}
 {{/p}}
 
-{{p}}
-  {{OFFER}} ti permette di ricavare un profitto da tutte queste criptovalute, anche in un mercato ribassista. Utilizza l'intelligenza artificiale (IA) per gestire le vendite "short" e "long" per tuo conto, in modo che tu possa guadagnare sempre, anche mentre dormi.
-{{/p}}
+[[image_bill]][{{b}}Bill Gates i Richard Branson omówili {{OFFER}} na targach CES 2021.{{/b}}]
 
 {{p}}
-  {{OFFER}} è promosso da alcune delle menti più intelligenti in assoluto nel settore tecnologico:
-  {{b}} Richard Branson, Elon Musk e Bill Gates{{/b}}
-  , solo per citarne alcune.
-{{/p}}
-
-[[image_bill]][Bill Gates e Richard Branson parlano di {{OFFER}} al CES 2023.]
-
-{{p}}
-  Questi geni della tecnologia hanno creato aziende multi-milionarie, risolvendo problemi complessi, come pagamenti online, calcoli e trasporto. Ora, stanno affrontando il problema della disuguaglianza nella distribuzione della ricchezza, cercando di far guadagnare a tutti, ricchi o poveri, 
-  {{b}} abbastanza denaro per poter condurre una vita felice e appagante.{{/b}}
+Ci geniusze technologii stworzyli firmy warte wiele milionów dolarów, aby rozwiązywać złożone problemy w obszarach takich jak płatności online, informatyka i transport. Teraz walczą z nierównościami ekonomicznymi, które są globalnym problemem, umożliwiając każdemu, bez względu na to, czy jest biedny czy bogaty, {{b}}zarobienie wystarczającej ilości pieniędzy, aby cieszyć się szczęśliwym i satysfakcjonującym życiem.{{/b}}
 {{/p}}
 
 {{read_more}}
@@ -84,192 +82,116 @@ Sono contento di averlo provato, poiché mi ha permesso di fare soldi nella mani
 {{SEPARATOR_SECOND_CONTENT}}
 
 {{subtitle}}
-  IL SEGRETO REDDITIZIO PER GUADAGNARE SOLDI, CHE VIENE CELATO DALLE GRANDI BANCHE
+{{b}}
+LUKRATYWNY SEKRET ZARABIANIA PIENIĘDZY, O KTÓRYM WIELKIE BANKI NIE CHCĄ, ABYŚ WIEDZIAŁ
+{{/b}}
 {{/subtitle}}
 
 {{p}}
-  {{CELEBRITY}} ha poi affermato:
+  {{CELEBRITY}} kontynuuje,
 {{/p}}
 
-{{p}}
-  "Oggigiorno l'economia è in crisi, e questa è la soluzione che la gente stava aspettando. In passato non abbiamo mai avuto 
-  {{link}} un'opportunità così straordinaria {{/link}}
-  grazie alla quale la gente comune può avvantaggiarsi e 
-  {{b}} generare una ricchezza enorme in poco tempo.{{/b}} 
-{{/p}}
+{{p}}"Nasza gospodarka przeżywa trudne chwile, a to jest rozwiązanie, na które ludzie czekali. Nigdy w historii nie mieliśmy tak wspaniałej okazji, z której zwykli ludzie mogą skorzystać, {{b}}aby wygenerować ogromne fortuny w tak krótkim czasie.{{/b}}{{/p}}
+{{p}}Niektórzy ludzie wahają się, czy spróbować, czy nie, ponieważ jest to coś zupełnie innego.  {{b}}I dlatego duże banki próbują to ukryć! {{/b}} Duże banki cały czas generują propagandę i mówią, że kryptowaluty i platformy takie jak {{link}}{{OFFER}}{{/link}} są oszustwem. Dlaczego? Obawiają się, że ich zyski korporacyjne spadną, gdy ich klienci nauczą się, jak samodzielnie generować ogromne bogactwo.{{/p}}
+{{p}}Prawda jest taka, że kryptowaluty są rewolucją naszych czasów i każdy, kto nie dołączy do tej możliwości, wiele traci.  {{b}}Otrzymałem już agresywne i pełne gróźb telefony od dużych korporacji finansowych, {{/b}} ponieważ przedstawiam tę technologię, aby wszyscy mogli ją zobaczyć. Ale nie przejmuję się tym. Ludzie w Polsce już zaczynają poznawać prawdę i to tylko kwestia czasu, zanim dowie się o tym coraz więcej osób.{{/p}}
+{{p}}Dzielę się nim, ponieważ otrzymałem już setki e-maili od osób dziękujących mi za podzielenie się tym sekretem.  {{b}}Mój ulubiony pochodzi od młodego mężczyzny, który dzięki pieniądzom zarobionym za pomocą {{link}}{{OFFER}}{{/link}} {{/b}} podarował swojemu młodszemu bratu samochód jego marzeń: Ferrari 488 Pista. Ta platforma naprawdę poprawia życie każdego z nas.{{/p}}
 
-{{p}}
-  Alcune persone sono riluttanti a provare questo sistema, poiché è molto diverso dagli altri. Il motivo è che le 
-  {{b}} banche stanno cercando di nasconderlo in tutti i modi!{{/b}}  
-  Le grandi banche stanno creando attivamente una propaganda, nella quale si dipingono le criptovalute e {{OFFER}} come una truffa. Perché? Sono preoccupate per il fatto che i loro profitti possano ridursi, dopo che i loro clienti avranno scoperto come diventare ricchi autonomamente.
-{{/p}}
+[[image_post]][ ]
 
-{{p}}
-  La verità è che le criptovalute sono una rivoluzione dei nostri tempi e chiunque non ne sta approfittando sta perdendo l'occasione! 
-  {{b}} Ho già ricevuto delle telefonate minacciose da parte delle grandi organizzazioni finanziarie, {{/b}} 
-  poiché sto portando questa tecnologia all'attenzione della gente. Peggio per loro! Le persone in Svizzero stanno iniziando a scoprire la verità e sarà solo una questione di tempo, prima che molti altri ne vengano a conoscenza.
-{{/p}}
-
-{{p}}
-  Sto condividendo questa storia, perché ho anche ricevuto centinaia di email di persone che mi ringraziano per aver rivelato questo segreto. La mia storia preferita è quella di un 
-  {{b}} ragazzo che ha regalato al fratello l'auto dei suoi sogni,{{/b}}  
-  una Ferrari 488 Pista, usando i profitti generati da {{OFFER}}. Questa piattaforma sta davvero migliorando la vita di tutte le persone del mondo."
-{{/p}}
-
-[[image_post]][Fin da bambino, mio fratello aveva sempre desiderato una Ferrari 488 Pista, per via del classico colore rosso e del motore potente. Bene, ultimamente, ho guadagnato tantissimi soldi, grazie a una nuova piattaforma di trading di criptovalute (mandatemi un messaggio per maggiori informazioni), e l&#39;ho sorpreso, regalandogli l&#39;AUTO DEI SUOI SOGNI! La sua reazione è stata IMPAGABILE! Ti voglio bene, fratellino!]
+{{p}}{{b}}
+Odkąd mój młodszy brat był dzieckiem, chciał mieć Ferrari 488 Pista ze względu na jego klasyczny, piękny czerwony kolor i potężny silnik. Cóż, ostatnio zarabiam ogromne pieniądze dzięki nowej platformie handlu kryptowalutami (napisz do mnie, jeśli chcesz poznać więcej szczegółów) i zaskoczyłem go SAMOCHODEM JEGO MARZEŃ! Jego reakcja była bezcenna! Kocham cię, młodszy bracie!
+{{/b}}{{/p}}
 
 {{subtitle}}
-  {{OFFER}} FUNZIONA DAVVERO? L'ABBIAMO PROVATO NOI STESSI PER SCOPRIRLO
+{{b}}
+{{OFFER}}, CZY TO NAPRAWDĘ DZIAŁA? SAMI SPRÓBOWALIŚMY
+{{/b}}
 {{/subtitle}}
 
-{{p}}
-  I nostri redattori senior non ci volevano dare l'autorizzazione a pubblicare l'intervista con {{CELEBRITY}}, se prima non avessimo verificato la legittimità di {{OFFER}} come strumento per guadagnare denaro stando a casa. I direttori della nostra azienda non volevano pubblicare alcuna informazione che potesse far perdere, potenzialmente, tutti i soldi ai cittadini svizzeri.
-{{/p}}
-
-{{p}}
-  Dunque, il nostro team editoriale ha testato {{OFFER}}, per assicurarsi che funzionasse esattamente come aveva descritto {{CELEBRITY}}. Uno dei nostri redattori online, Francesco Pellegrini, si è offerto come volontario, rischiando i suoi fondi e testando {{OFFER}}.
-{{/p}}
-
-{{p}}
-  Francesco Pellegrini è un papà di 42 anni, con 2 bambini e una moglie che, l'anno scorso, ha perso il lavoro, a causa di una malattia. Ha ammesso di trovarsi in difficoltà finanziarie e che questa opportunità avrebbe potuto aiutarlo.
-{{/p}}
-
-[[image_family]][La famiglia di Francesco faceva fatica ad arrivare alla fine del mese e sperava che {{OFFER}} potesse offrire un valido aiuto finanziario; così, {{CELEBRITY}} ha deciso di testare il sistema e di pubblicarne i risultati]
-
-{{p}}
-  {{b}}
-    Ecco il racconto di Francesco Pellegrini:
-  {{/b}}
-{{/p}}
-
-{{p}}"All'inizio, quando ascoltai l'intervista di {{CELEBRITY}}, pensavo che stesse scherzando. Guadagnare da casa è un sogno. Decisi di provare comunque, viste le mie condizioni economiche, e anche per spirito giornalistico.{{/p}}
-
-{{p}}Guardai un 
-  {{link}}
-    video introduttivo sulla piattaforma 
-  {{/link}} 
-  , e mi iscrissi. Il video sembrava troppo ottimista sulle possibilità di guadagno, ma decisi di lasciare da parte il mio scetticismo. Entro poche ore, ricevetti una chiamata dal mio investitore personale, che rispose a tutte le domande e i dubbi che avevo, garantendomi che avrei ottenuto dei guadagni.
-{{/p}}
-
-{{p}}Il mio investitore personale mi promise anche che, se avessi perso un solo euro, mi avrebbe rimborsato il mio deposito di CHF300. Era davvero convinto di potermi cambiare la vita. L'assistenza clienti è stata fantastica, oltre ogni aspettativa, ed è ovvio che le banche sono preoccupate.{{/p}}
-
-{{p}}Dopo aver guadagnato accesso alla piattaforma, depositai una somma iniziale di CHF300, più o meno la cifra che la mia famiglia spende per cibi poco salutari ogni mese. Decisi di fare a meno di mangiare fast food per un mese. Avevamo la possibilità di vivere in maniera più sana e, soprattutto, di diventare ricchi.{{/p}}
-
-{{p}}
-  Il sistema {{OFFER}} è una piattaforma di trading automatico delle criptovalute. Il software utilizza algoritmi di IA avanzati e l'apprendimento automatico per prevedere 
-  {{b}}
-    esattamente 
-  {{/b}}
-  quando il prezzo delle criptovalute salirà o scenderà. Successivamente, acquista o vende automaticamente, per tuo conto, 24 ore su 24. La tecnologia ci ha già semplificato tanti aspetti della vita, dunque, perché non sfruttarla anche per fare un pò di soldi?"
-{{/p}}
-
-{{subtitle}}I RISULTATI DI FRANCESCO CON IL SISTEMA IN TEMPO REALE{{/subtitle}}
-
-{{p}}"Trascorsa 1 ora dal deposito di CHF300, il software iniziò a fare trading per conto mio. Ad essere sincero, avevo paura di perdere tutti i miei soldi, anche perché la prima operazione mi aveva provocato una perdita di CHF25!{{/p}}
-
-{{p}}
-  Iniziai a sudare freddo, pensavo di essere stato raggirato. Ero pronto a chiamare il mio investitore personale e a chiedergli il rimborso dei soldi. Tuttavia, mi ricordai ciò che mi aveva detto durante la chiamata precedente:
-  {{b}}
-    l'algoritmo funziona l'80-90% delle volte. 
-  {{/b}}
-  Non si può guadagnare da OGNI operazione, ma si riesce a guadagnare comunque bene e a realizzare profitti.{{/p}}
-
-{{p}}Dunque, lasciai il software a fare il suo lavoro, monitorandolo attentamente. 
-  {{b}}
-    L'operazione successiva andò a buon fine! 
-  {{/b}}  
-  Solo CHF19, ma era già qualcosa. Quella dopo mi fece guadagnare 
-  {{b}}
-    CHF51, poi ancora altri 
-  {{/b}}
-  {{b}}
-    CHF22, per un totale di 
-  {{/b}}
-  {{b}}
-    CHF67. Il tutto in meno di 5 minuti!
-  {{/b}}
-{{/p}}
-{{p}}Presto, iniziai a guadagnare rapidamente, non riuscivo a crederci.{{/p}}
-
-[[image_gif]][ ]
-
-{{p}}Ora, so perché {{CELEBRITY}} è sempre di buon umore, e anche perché le banche non vogliono che si diffonda questo segreto. Alla fine della giornata, 
-  {{b}}
-    avevo guadagnato CHF754, 
-  {{/b}}
-  
-  non male per aver iniziato con CHF300! Ero così euforico che non riuscii a dormire bene.{{/p}}
-
-{{p}}Il giorno successivo, martedì, tornai al lavoro. Sinceramente (e non ditelo al mio capo), era difficile concentrarmi sul lavoro, sapendo che {{OFFER}} mi stava facendo guadagnare.{{/p}}
-
-{{p}}Andai in bagno qualche volta, per controllare i miei guadagni, che continuavano a crescere (con qualche piccola perdita). Alla fine della giornata, prima di mettere i miei figli a letto, avevo 
-  {{b}}
-    CHF1,349.13 nel mio conto, 
-  {{/b}}
-  molto di più di quanto guadagnavo in una SETTIMANA di lavoro!
-{{/p}}
-
-{{p}}Al termine della settimana, avevo guadagnato 
-  {{b}}
-    CHF6,149.13,
-  {{/b}}
- prelevai esattamente CHF4,800 e reinvestii la somma rimanente. Nel giro di 2 giorni, ricevetti il mio primo assegno nella casella postale, esattamente CHF4,800. Non riuscivo a crederci che fosse vero!"
-{{/p}}
-
-[[image_check]][Francesco ha ricevuto un assegno del valore di CHF4,800, dopo aver usato {{OFFER}} per due settimane]
+{{p}}Nasi redaktorzy naczelni nie pozwolili nam opublikować wywiadu z {{CELEBRITY}}, dopóki nie zweryfikowaliśmy, czy {{link}}{{OFFER}}{{/link}} jest legalną metodą zarabiania pieniędzy z domu. Właściciele spółki nie chciało również, abyśmy publikowali jakiekolwiek informacje, które mogłyby spowodować utratę ciężko zarobionych pieniędzy przez polskich obywateli.{{/p}}
+{{p}}Nasz zespół redakcyjny przetestował więc {{link}}{{OFFER}}{{/link}}, aby upewnić się, że naprawdę działa tak, jak twierdzi {{CELEBRITY}}. Jeden z naszych redaktorów internetowych, Tomasz Kowalczyk, zgłosił się na ochotnika i zaryzykował własne pieniądze, aby przetestować {{link}}{{OFFER}}{{/link}}.{{/p}}
+{{p}}Tomasz ma 37 lat i dwójkę dzieci. Jego żona zachorowała w zeszłym roku i straciła pracę. Tomasz przyznał, że ma problemy finansowe i że ta okazja inwestycyjna może być rozwiązaniem. {{/p}}
 
 
-{{p}}{{b}}La storia di Francesco Pellegrini prosegue,{{/b}}{{/p}}
+[[image_family]][{{b}}Jego rodzina z trudem wiązała koniec z końcem i mieli nadzieję, że {{OFFER}} pomoże złagodzić presję, więc Tomasz zdecydował się wypróbować system i opowiedzieć o uzyskanych wynikach.{{/b}}]
 
-{{p}}"Al momento, guadagno, ogni giorno, fra i CHF700 e i CHF1,500, grazie a {{OFFER}}. Ora, il denaro viene depositato sul mio conto bancario, ogni tre giorni circa. Solo qualche clic e ricevo i fondi entro 24/48 ore. Ogni volta che il denaro arriva sul mio conto, devo darmi uno schiaffetto per capire che non sto sognando.{{/p}}
+{{p}}{{b}}
+Tomasz relacjonuje:
+{{/b}}{{/p}}
 
-{{p}}Fortunatamente, AMO il mio lavoro qui, poiché produco delle storie giornalistiche importanti (come questa), altrimenti mi sarei già licenziato. Tuttavia, ho già prenotato una vacanza con la mia famiglia a Bali, in Indonesia, per festeggiare l'estinzione dei miei debiti e la fine dei problemi economici della mia famiglia!{{/p}}
+{{p}}"Na początku, gdy usłyszałem wywiad {{CELEBRITY}}, myślałem, że to żart. Zarabianie w domu to nic innego jak marzenie. Postanowiłem jednak spróbować, biorąc pod uwagę moją sytuację finansową. Ponadto staramy się również prowadzić wysokiej jakości dziennikarstwo.{{/p}}
+{{p}}Obejrzałem film wprowadzający na temat platformy, a następnie zarejestrowałem się. Pomyślałem, że film był zbyt obiecujący, ale postanowiłem odłożyć mój sceptycyzm na bok. Kilka godzin później otrzymałem telefon od mojego osobistego inwestora. Odpowiedział na wszystkie moje pytania i wątpliwości i zapewnił mnie, że zarobi pieniądze. Full stop.{{/p}}
+{{p}}Mój osobisty inwestor obiecał mi nawet, {{b}}że jeśli stracę choćby centa,{{/b}}natychmiast zwróci mi moje 1312 PLN. Byłem pewien, że to zmieni moje życie. Mówię ci, to jest obsługa klienta, lepsza niż cokolwiek, co kiedykolwiek widziałem i nic dziwnego, że banki są tak zaniepokojone.{{/p}}
+{{p}}Po otrzymaniu dostępu do platformy zdeponowałem początkową inwestycję w wysokości 1312 PLN. Platforma realizuje transakcje w euro (€) i dolarach ($), ale środki można wypłacać w wybranej przez siebie walucie.{{/p}}
 
-{{p}}Ciò non sarebbe stato possibile senza la generosità del sig. {{CELEBRITY}}, che ha svelato questo segreto in diretta TV. Sono felice di aver rischiato e di aver usato {{OFFER}}. Mia moglie è più felice che mai e la stanza dei giocattoli dei miei figli è ben fornita...{{/p}}
 
-{{p}}I miei colleghi si stanno mangiando le mani, per non essersi iscritti due settimane fa, come avevo fatto io. Alla fine, tutto l'ufficio si è iscritto (anche il mio capo) e mi chiamano "eroe" per aver sperimentato questo sistema."{{/p}}
+{{p}}System {{link}}{{OFFER}}{{/link}}to platforma, która automatycznie handluje kryptowalutami. Oprogramowanie wykorzystuje zaawansowaną sztuczną inteligencję i algorytmy uczenia maszynowego,{{b}}aby dokładnie przewidzieć{{/b}}, kiedy kryptowaluty wzrosną lub spadną. Następnie kupuje i sprzedaje za Ciebie, automatycznie i przez całą dobę. Technologia poprawiła nasze życie w każdy możliwy sposób, więc dlaczego nie wykorzystać jej do zarobienia większej ilości pieniędzy?"{{/p}}
 
-{{subtitle}}COME INIZIARE A USARE {{OFFER}} (POSTI LIMITATI){{/subtitle}}
 
-{{p}}
-  Per iniziare, hai bisogno solo di un computer, uno smartphone o un tablet, con accesso a Internet. Non hai bisogno di particolari competenze, se non quelle di saper usare un computer ed essere in grado di navigare. Non devi avere alcuna esperienza nel settore della tecnologia o delle criptovalute, poiché il software e il tuo investitore personale ti 
-  {{link}}
-    garantiscono un profitto.
-  {{/link}}
-{{/p}}
+{{subtitle}}
+{{b}}
+RZECZYWISTE WYNIKI TOMASZA Z SYSTEMEM
+{{/b}}
+{{/subtitle}}
 
-{{p}}Un altro vantaggio di questo programma è che puoi iniziare quando vuoi. Puoi decidere quanto lavorare, che siano 5 ore alla settimana o anche 50. Devi semplicemente avviare il software di trading automatico quando desideri, e puoi metterlo in pausa in qualsiasi momento (anche se non vedo il motivo perchè tu lo voglia fare!).{{/p}}
+{{p}}{{em}}"W ciągu godziny od wpłaty 1312 PLN oprogramowanie zaczęło dokonywać za mnie transakcji. Szczerze mówiąc, byłem zdenerwowany utratą wszystkich moich pieniędzy. I rzeczywiście, pierwsza transakcja przyniosła stratę w wysokości 97 PLN! {{/em}}{{/p}}
+{{p}}{{em}}Poczułem gulę w gardle. Pomyślałem, że zostałem oszukany. Byłem gotowy zadzwonić do mojego osobistego inwestora i poprosić o zwrot pieniędzy, ale wtedy przypomniałem sobie coś, co powiedział mi wcześniej: {{b}}Algorytm dokonuje prawidłowych prognoz w 80-89%{{/b}} przypadków. Nie będziesz wygrywać KAŻDEJ transakcji, ale wygrasz wystarczająco dużo i w końcu przyniesie ci to zysk. {{/em}}{{/p}}
+{{p}}{{em}}Pozwoliłem więc oprogramowaniu dokonywać transakcji za mnie, podczas gdy ja obserwowałem je bez przerwy. {{b}}Następna transakcja była pozytywna!{{/b}} Zostawiła mi tylko {{b}}74 PLN{{/b}}, ale to już coś. Następnie zarobiłem {{b}}199 PLN{{/b}}. Następnie {{b}}85 PLN{{/b}}, co do tego czasu stanowiło łączny zysk w wysokości {{b}}262 PLN{{/b}}. A wszystko to wydarzyło się w mniej niż 5 minut! {{/em}}{{/p}}
+{{p}}{{em}}Potem zacząłem gromadzić pieniądze, jakby to było nic, nie mogłem uwierzyć własnym oczom. {{/em}}{{/p}}
+{{p}}{{em}}{{b}}Za każdym razem, gdy odświeżałem ekran, moje zarobki rosły i rosły. Czułem się, jakbym miał halucynacje po narkotykach, to wszystko było zbyt ekscytujące.{{/b}} {{/em}}{{/p}}
+{{p}}{{em}}Teraz już wiem, dlaczego {{CELEBRITY}} jest zawsze w dobrym humorze. I dlaczego duże banki nie chcą, aby ludzie wiedzieli o tej luce.{{b}}Do końca dnia wygrałem ponad 2952 PLN{{/b}}, nieźle jak na to, że zaczynałem z 1312 PLN! Prawie nie mogłem spać, bo byłem taki szczęśliwy. {{/em}}{{/p}}
+{{p}}{{em}}Następnego dnia był wtorek i znów musiałem iść do pracy. Szczerze mówiąc (i nie mów tego mojemu szefowi), trudno było skoncentrować się na pracy, myśląc, że oprogramowanie {{link}}{{OFFER}}{{/link}} zarabia dla mnie pieniądze. {{/em}}{{/p}}
+{{p}}{{em}}Kilka razy uciekłem do łazienki, aby sprawdzić moje zarobki, które wciąż rosły (z małymi stratami tu i tam). W nocy, po tym jak moje dzieci zasnęły, {{b}}na moim koncie było 5286.80 PLN.{{/b}} Więcej niż zarabiam w ciągu TYGODNIA pracy! {{/em}}{{/p}}
+{{p}}{{em}}Pod koniec tygodnia zarobiłem 20963.47 PLN. Wypłaciłem dokładnie {{b}}16400 PLN{{/b}}, a resztę ponownie zainwestowałem. Dwa dni później otrzymałem pocztą czek na 16400 PLN. Czułem się, jakbym nadal śnił. {{/em}}{{/p}}
 
-{{p}}Per far risparmiare tempo ai lettori e spiegare le funzioni del sistema, Francesco Pellegrini ha creato una guida introduttiva.{{/p}}
+[[image_check]][{{b}}{{em}}Tomasz otrzymał czek na kwotę 16400 PLN za swoje pierwsze dwa tygodnie na platformie {{OFFER}}.{{/em}}{{/b}}]
 
-{{subtitle}}ECCO LA MIA GUIDA PASSO PER PASSO:{{/subtitle}}
+{{p}}Tomasz mówi,{{/p}}
 
-{{p}}La prima cosa che vedrai sarà un video che ti mostrerà l'efficacia di {{OFFER}}. La pubblicità è eccezionale e attraente, ma è stata realizzata dagli americani, che sono abituati a fare le cose in questo modo. In ogni caso, devi 
-  {{link}}
-    semplicemente inserire il tuo nome e indirizzo email 
-  {{/link}}
-  , affianco al video, per iniziare subito.
-{{/p}}
+{{p}}{{em}}"Teraz regularnie zarabiam około {{b}} 2700 PLN - 5400 PLN{{/b}} dziennie dzięki {{link}}{{OFFER}}{{/link}}. Pieniądze wpływają na moje konto bankowe co kilka dni. Za pomocą kilku kliknięć otrzymuję pieniądze w ciągu 24-48 godzin. Za każdym razem, gdy widzę przelew na moim koncie, muszę się uszczypnąć, aby upewnić się, że nie śnię.{{/em}}{{/p}}
+{{p}}{{em}}Na szczęście KOCHAM swoją pracę, ponieważ mogę tu opowiadać ludziom ważne historie (takie jak ta). W przeciwnym razie już dawno bym zrezygnował. Zaplanowałem już jednak wakacje z rodziną na Bali w Indonezji, aby uczcić spłatę wszystkich długów i w końcu uporządkować nasze finanse.{{/em}}{{/p}}
+{{p}}{{em}}Nic z tego nie byłoby możliwe bez hojności {{CELEBRITY}}, która podzieliła się tym sekretem w telewizji na żywo. Cieszę się, że sam odważyłem się wypróbować {{link}}{{OFFER}}{{/link}}. Moja żona jest szczęśliwsza niż kiedykolwiek, a spiżarnia zabawek moich dzieci pęka w szwach.{{/em}}{{/p}}
+{{p}}{{em}}Moi współpracownicy lamentują, że nie zaczęli dwa tygodnie temu tak jak ja, ale wkrótce całe biuro (w tym mój szef) zarejestrowało się. Teraz mówią, że jestem "bohaterem", bo spróbowałem.”{{/em}}{{/p}}
 
-{{p}}{{b}}(Consiglio:{{/b}} anche se decidi di non investire il tuo denaro, ti consiglio di {{link}}iscriverti {{/link}}comunque, in quanto è gratis e le registrazioni per i residenti in Svizzero potrebbero chiudersi in qualsiasi momento){{/p}}
+{{subtitle}}{{b}}JAK UŻYWAĆ {{OFFER}}{{/b}}{{/subtitle}}
+{{p}}Aby rozpocząć, wystarczy komputer, smartfon lub tablet z dostępem do Internetu. Nie potrzebujesz żadnych specjalnych umiejętności, wystarczy, że wiesz, jak korzystać z komputera i surfować po Internecie. Nie potrzebujesz żadnego doświadczenia w technologii lub kryptowalutach, ponieważ zarówno oprogramowanie, jak i Twój osobisty inwestor gwarantują, że osiągniesz zysk. Kolejną zaletą tego programu jest to, że można go rozpocząć w dowolnym momencie. Możesz zaprojektować swój własny harmonogram, niezależnie od tego, czy będzie to 5 godzin tygodniowo, czy 50 godzin tygodniowo. Wystarczy uruchomić oprogramowanie do automatycznego handlu i wstrzymać je w dowolnym momencie (chociaż nie wiem, dlaczego ktoś miałby chcieć je wstrzymywać).{{/p}}
+{{p}}Aby zaoszczędzić naszym czytelnikom czasu i dokładnie sprawdzić funkcjonalność, Tomasz uprzejmie stworzył przewodnik ułatwiający rozpoczęcie pracy z systemem.{{/p}}
+
+
+{{subtitle}}{{b}}OTO PRZEWODNIK KROK PO KROKU:{{/b}}{{/subtitle}}
+
+{{p}}Pierwszą rzeczą, którą można zobaczyć, jest film wideo chwalący się mocą {{link}}{{OFFER}}.{{/link}} Reklama jest duża, krzykliwa i "wybucha ci w twarz", ale jest to produkt amerykański i tak właśnie działają. Cóż, {{b}}wystarczy wpisać swoje imię i nazwisko oraz adres e-mail{{/b}} obok filmu, aby od razu zacząć.{{/p}}
+{{p}}({{b}}Wskazówka{{/b}}: nawet jeśli nie zdecydujesz się nic zainwestować, polecam zarejestrować się teraz, ponieważ jest to bezpłatne, a miejsca dla mieszkańców Polski mogą się skończyć w dowolnym momencie).{{/p}}
+{{b}}Witamy w prywatnej strefie członkowskiej The {{OFFER}}.{{/b}}
+{{b}}Witaj, dobrze się spisałeś!{{/b}}
+
 
 [[image_offer_banner]][ ]
 
-{{p}} Nel passaggio successivo, ti verrà chiesto di {{b}}depositare fondi sul tuo account{{/b}}. Mentre navigavo nella pagina del deposito, il mio telefono squillò. Era un numero internazionale ed ero riluttante a rispondere, ma poi capii chi era.{{/p}} 
+{{p}} 
+Następnie proszą o zasilenie konta. Gdy patrzyłem na stronę wpłaty, zadzwonił mój telefon. Był to numer międzynarodowy, więc nie wiedziałem, czy odebrać, ale potem zdałem sobie sprawę, że to oczywiste, skąd do mnie dzwonią.
+{{/p}} 
 
 [[image_step_2]][ ]
 
 {{p}}
-Ovviamente, era il mio account manager personale, che mi offrì un servizio eccellente, guidandomi nell'intero processo di deposito. Sono accettate tutte le carte di credito principali, come Visa, MasterCard e American Express. Proseguii e depositai l'importo minimo di CHF300.
+Tak jak się spodziewałem, zadzwonił do mnie mój menedżer konta. Świadczone przez nich usługi są doskonałe. Przeprowadził mnie przez cały proces akredytacji. Akceptują wszystkie główne karty kredytowe, takie jak Visa, MasterCard i American Express. Poszedłem dalej i wpłaciłem minimalną kwotę: $/300 lub 1311 PLN.
 {{/p}}
 
 [[image_step_3]][ ]
 
-{{p}}Dopo aver effettuato il deposito, navigai nella sezione "Auto-Trader" del software, impostai l'importo consigliato con cui fare trading, CHF50, e diedi la mia autorizzazione. Il software iniziò a effettuare operazioni rapide; all'inizio, ero un po' preoccupato, ma poi decisi di lasciarlo fare il suo lavoro.{{/p}}
+{{p}}
+Po zdeponowaniu środków przeszedłem do sekcji "Auto Trader" oprogramowania, ustawiłem zalecaną kwotę transakcji (197 GBP) i aktywowałem ją. Oprogramowanie rozpoczęło handel z dużą prędkością i na początku byłem zaniepokojony, ale pozwoliłem mu działać.
+{{/p}}
 
-{{p}}"Tutti vogliono diventare ricchi, ma nessuno sa come riuscirci. Bene, esiste un'opportunità unica nella vita per guadagnare una fortuna, che vi permette di vivere come desiderate. NON sarà disponibile per sempre, approfittatene". - {{CELEBRITY}}{{/p}}
+{{p}}
+"Każdy chce być bogaty, ale nikt nie wie, jak to osiągnąć. Cóż, to jedyna w swoim rodzaju okazja, aby zbudować fortunę, która pozwoli ci żyć tak, jak naprawdę chcesz. Nie będzie ona dostępna wiecznie, więc nie przegap jej". - {{b}}Anna Lewandowska{{/b}}
+{{/p}}
 
-{{subtitle}}AGGIORNARE{{/subtitle}}
+{{subtitle}}{{b}}
+AKTUALIZACJA
+{{/b}}{{/subtitle}}
 
-{{p}}Abbiamo appena ricevuto la notizia che,quasi tutti i posti disponibili per i residenti in Svizzero sono presi. {{OFFER}} può accettare solo un numero limitato di utenti totali, al fine di mantenere alti i profitti per ciascun utente. Al momento, sono ancora disponibili (37) posti. Allora, 
-{{link}}non perdere tempo e iscriviti subito, per assicurarti un posto.{{/link}}{{/p}}
+{{p}}
+Właśnie otrzymaliśmy wiadomość, że prawie wszystkie miejsca dla mieszkańców Polski są już zajęte. {{OFFER}} może zaakceptować tylko ograniczoną liczbę użytkowników, aby utrzymać wysoki poziom zarobków na użytkownika. W tej chwili dostępnych jest jeszcze 37 miejsc, więc pospiesz się i zarejestruj się, aby zabezpieczyć swoje miejsce.
+{{/p}}

@@ -35,10 +35,10 @@ export const parseToSvelte = (attribs: any, hanldeReadMore: any) =>  {
             return parseComponent(A, { section: 'content' });
         break;
         case 'large_button':
-            return parseComponent(Largebuttons, { text: 'CLICCA PER INIZIARE SUBITO' });
+            return parseComponent(Largebuttons, { text: 'KLIKNIJ TUTAJ, ABY ROZPOCZĄĆ' });
         break;
         case 'image_group':
-            return parseComponent(Imagegroup, { text: 'CLICCA PER INIZIARE SUBITO' });
+            return parseComponent(Imagegroup, { text: 'KLIKNIJ TUTAJ, ABY ROZPOCZĄĆ' });
         break;
         case 'read_more':
             return parseComponent(Readmore, { 
