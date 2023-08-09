@@ -33,181 +33,174 @@ type commentsDataType = {
 }
 const commentsData: Array<commentsDataType> = [
     {
-        name: "Susanne Olaussen",
-        text: "Jeg har handlet med OFFER_NAME de siste ukene, og fått en liten fortjeneste på 23,000 kr. Jeg elsker det!",
+        name: "Adam Nowak",
+        text: "Niedawno handlowałem z Bitcoin Code i osiągnąłem niewielki zysk w wysokości 105900 PLN. Uwielbiam to!",
         img: profile1,
-        time: 12,
+        time: 1,
         likes: 13,
         timeFormat: "minutes"
     },
     {
-        name: "Anne Miljeteig",
-        text: "Jeg så OFFER_NAME på prosjektet og registrerte meg i går, jeg har tjent rundt 250 kr.",
+        name: "Apoloniusz Kowalski",
+        text: "Widziałam Bitcoin Code na projekcie i zapisałam się wczoraj, zarobiłam około 2450 PLN",
         img: profile2,
-        time: 6,
+        time: 1,
         likes: 13,
         timeFormat: "minutes"
     },
     {
-        name: "Christina Østerås",
-        text: "En venn av meg har prøvd den og anbefaler den, jeg må teste det ut selv.",
+        name: "Ewa Wojcik",
+        text: "Przyjaciel wypróbował go i poleca, ja też muszę spróbować.",
         img: profile3,
-        time: 13,
+        time: 3,
         likes: 19,
         timeFormat: "minutes"
     },
     {
-        name: "Roar Erikstad",
-        text: "Den er så enkel å bruke, du bare setter inn penger og så gjør roboten all jobben for deg.",
+        name: "Janina Kaminski",
+        text: "Jest bardzo łatwy w użyciu, wystarczy wprowadzić pieniądze, a następnie robot wykona całą pracę za Ciebie.",
         img: profile4,
+        likes: 1,
+        time: 5,
+        timeFormat: "minutes"
+    },
+    {
+        name: "Kacper Dabrowski",
+        text: "Widziałem to w wiadomościach - dzięki za udostępnienie tego artykułu!",
+        img: profile5,
         likes: 1,
         time: 13,
         timeFormat: "minutes"
     },
     {
-        name: "Anne Torsvik",
-        text: "Jeg så denne på nyhetene. Takk for at du deler denne aritkkelen!",
-        img: profile5,
-        likes: 43,
-        time: 1,
-        timeFormat: "minutes"
-    },
-    {
-        name: "Klara Bårdsen",
-        text: "Jeg har hørt så mye om bitcoin og alle som brukte det, jeg må virkelig prøve dette selv!",
+        name: "Łukasz Zieliński",
+        text: "Słyszałem tak wiele o bitcoinie i wszystkich, którzy go używają, naprawdę muszę to wypróbować!",
         img: profile6,
-        likes: 3,
-        time: 1,
+        likes: 1,
+        time: 25,
         timeFormat: "minutes"
     },
     {
-        name: "Martin Willumsen",
-        text: "Jeg har tjent over 14,300 kr på bare en uke, jeg vurderer sterkt å si opp jobben og drive med dette på fulltid.",
+        name: "Maurycy Szymański",
+        text: "W ciągu zaledwie tygodnia zarobiłem ponad 5600 zł, poważnie myślę o rzuceniu pracy i robieniu tego na pełny etat.",
         img: profile7,
+        likes: 1,
+        time: 49,
+        timeFormat: "minutes"
+    },
+    {
+        name: "Justyna Tarnowski",
+        text: "Wczoraj kupiłem swój pierwszy bitcoin i jestem bardzo podekscytowany, aby zobaczyć, co dostanę w ciągu najbliższych kilku dni.",
+        img: profile8,
+        likes: 1,
+        time: 58,
+        timeFormat: "minutes"
+    },
+    {
+        name: "Piotr Chomętowski",
+        text: "U mnie zadziałało! Było tak, jak myślałem. To było bardzo proste i chciałem tylko dać innym znać, kiedy coś działa.",
+        img: profile9,
+        likes: 1,
+        time: 59,
+        timeFormat: "minutes"
+    },
+    {
+        name: "Aleksandra Gwiazda",
+        text: "Dzięki za informacje, właśnie zacząłem korzystać z platformy.",
+        img: profile10,
+        likes: 1,
+        time: 1,
+        timeFormat: "hours"
+    },
+    {
+        name: "Marcin Bystroń",
+        text: "Ostatnio byłam bardzo zajęta dziećmi, więc jest to idealne rozwiązanie. Zarobiłem około 40 PLN w 4 dni - to niewiele, ale to dobry początek!",
+        img: profile11,
+        likes: 1,
+        time: 1,
+        timeFormat: "hours"
+    },
+    {
+        name: "Krzysztof Białas",
+        text: "Jestem naprawdę pod wrażeniem tego, do tej pory zdeponowałem ponad 2000 NPL na moim koncie i zarobiłem ponad cztery razy więcej.",
+        img: profile12,
+        likes: 1,
+        time: 1,
+        timeFormat: "hours"
+    },
+    {
+        name: "Katarzyna Głowacz",
+        text: "Jest naprawdę łatwy w użyciu i bardzo szybki. Nie jestem osobą techniczną, ale wszystko zrozumiałem bardzo szybko. Zarobiłem około 500 zł w ciągu jednego dnia!!!",
+        img: profile13,
         likes: 1,
         time: 2,
         timeFormat: "hours"
     },
     {
-        name: "Per Hansen",
-        text: "Jeg kjøpte min første bitcoin i går, og jeg er virkelig spent på hva jeg kan få ut av det de neste dagene.",
-        img: profile8,
-        likes: 12,
+        name: "Artur Białas",
+        text: "Właśnie się zarejestrowałem, życzę powodzenia!",
+        img: profile14,
+        likes: 1,
         time: 2,
         timeFormat: "hours"
     },
     {
-        name: "May Steen",
-        text: "det virket for meg! Det virket akkurat slik jeg trodde det skulle. Det var veldig enkelt, og jeg ville bare at andre skal vite når noe virker.",
-        img: profile9,
-        likes: 13,
-        time: 12,
-        timeFormat: "hours"
-    },
-    {
-        name: "Lise Pettersen",
-        text: "Takk for infoen, har nettopp startet å bruke plattformen.",
-        img: profile10,
-        likes: 12,
-        time: 1,
-        timeFormat: "hours"
-    },
-    {
-        name: "Frida Jacobsen",
-        text: "Vært så opptatt med barna i det siste, så dette passer perfekt. Jeg har tjent rundt 1,900 kr på 4 dager. Det er lite, men er en ordentlig god start!",
-        img: profile11,
-        likes: 13,
-        time: 1,
-        timeFormat: "hours"
-    },
-    {
-        name: "Jostein Næss",
-        text: "Jeg er virkelig imponert over dette, jeg har satt inn over 5,000 kr på min konto foreløpig, og har tjent mer enn fire ganger det.",
-        img: profile12,
-        likes: 13,
-        time: 1,
-        timeFormat: "hours"
-    },
-    {
-        name: "Anne Hagen",
-        text: "Virkelig enkel å bruke, og ordentlig rask. Jeg er ingen teknisk person, men dette skjønte jeg veldig raskt. Jeg har tjent rundt 1,300 kr på bare en dag!!",
-        img: profile13,
-        likes: 13,
-        time: 1,
-        timeFormat: "hours"
-    },
-    {
-        name: "Mali Jenssen",
-        text: "Nettopp registrert meg, ønsk meg lykke til folkens.",
-        img: profile14,
-        likes: 13,
-        time: 1,
-        timeFormat: "hours"
-    },
-    {
-        name: "Trygve Aspelund",
-        text: "Vennen min sendte meg en epost, og fortalte at en arbeidskollega hadde fortalt henne om denne. Jeg vil tro det virker bra",
+        name: "Dariusz Mickiewicz",
+        text: "Znajomy wysłał mi e-mail i powiedział, że współpracownik powiedział mu o tym. Myślę, że działa dobrze.",
         img: profile15,
-        likes: 13,
-        time: 1,
+        likes: 1,
+        time: 2,
         timeFormat: "hours"
     },
     {
-        name: "Anders Gjerstad",
-        text: "Ikke helt sikker på om jeg skulle registrere meg, men jeg er glad jeg gjorde det. Jeg har tjent rundt 890 kr etter bare 2 timer på plattformen. Veldig enkelt og veldig raskt, kunne ikke vært enklere.",
+        name: "Agnieszka Wańkowicz",
+        text: "Nie byłem pewien, czy powinienem się zarejestrować, ale cieszę się, że to zrobiłem. Zarobiłem około 350 NPL po zaledwie 2 godzinach na platformie. To bardzo proste i szybkie, nie może być łatwiejsze.",
         img: profile16,
-        likes: 13,
-        time: 1,
+        likes: 1,
+        time: 2,
         timeFormat: "hours"
     },
     {
-        name: "Jon Larsen",
-        text: "Ikke helt sikker på om jeg skulle registrere meg, men jeg er glad jeg gjorde det. Jeg har tjent rundt 890 kr etter bare 2 timer på plattformen. Veldig enkelt og veldig raskt, kunne ikke vært enklere.",
+        name: "Joanna Ohanowicz",
+        text: "Właśnie zdeponowałem swoją pierwszą kwotę. Nie mogę się doczekać, aby zobaczyć, co się stanie, gdy zacznie rosnąć.",
         img: profile17,
-        likes: 13,
-        time: 1,
+        likes: 1,
+        time: 2,
         timeFormat: "hours"
     },
     {
-        name: "Astrid Hansen",
-        text: "Jeg har nettopp satt inn det første beløpet mitt. Jeg gleder meg til å se hva som skjer når det starter.",
+        name: "Andrzej Kirkorowicz",
+        text: "To musi być najłatwiejszy sposób na zarabianie pieniędzy za pomocą bitcoinów, nawet ja to zrobiłem bez wcześniejszego doświadczenia.",
         img: profile18,
-        likes: 13,
-        time: 1,
+        likes: 1,
+        time: 2,
         timeFormat: "hours"
     },
     {
-        name: "Else Madsen",
-        text: "Dette må være den enkleste måten å tjene på bitcoin noensinne, selv jeg klarte å gjøre uten noen som helst form for erfaring fra før.",
+        name: "Monika Haugvoldstad",
+        text: "Próbowałem tak wielu odmian tego, w pewnym sensie chcę spróbować, ale z drugiej strony myślę po prostu \"bah\"! Czy ktoś może mi powiedzieć, czy to naprawdę działa?",
         img: profile19,
-        likes: 13,
-        time: 1,
+        likes: 1,
+        time: 3,
         timeFormat: "hours"
     },
     {
-        name: "Lisa Haugvoldstad",
-        text: "Jeg har prøvd så mange forskjellige varianter av dette, på en måte ønsker jeg å prøve, men på den andre siden tenker jeg bare \"jaja\"!! Kan noen være så snille og fortelle meg at det faktisk virker.",
+        name: "Robert Ajwasowski",
+        text: "Wypróbowałem tę platformę jakiś czas temu i działała dla mnie bardzo dobrze.",
         img: profile20,
-        likes: 13,
-        time: 1,
+        likes: 1,
+        time: 3,
         timeFormat: "hours"
     },
     {
-        name: "Hans Gunderssen",
-        text: "Jeg prøvde denne plattformen for en liten stund siden, og den virket veldig bra for meg",
+        name: "Magdalena Chalembek",
+        text: "Niektórzy z moich znajomych zainwestowali w bitcoiny i niesamowicie zyskali, teraz chcę do nich dołączyć.",
         img: profile21,
-        likes: 13,
-        time: 1,
+        likes: 1,
+        time: 4,
         timeFormat: "hours"
     },
-    {
-        name: "Svein Akselsen",
-        text: "Noen av mine venner har investert i bitcoin og tjent utrolig mye på det, jeg skal bli med dem nå.",
-        img: profile22,
-        likes: 13,
-        time: 1,
-        timeFormat: "hours"
-    }
+  
 ];
 
 export default commentsData;

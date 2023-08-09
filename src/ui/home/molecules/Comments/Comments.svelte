@@ -16,12 +16,12 @@
     <div class={styles.topText}>
       <span>
         <A section="comments">
-          Nylige # kommentarer
+          Ostatnie # komentarze
         </A>
       </span>
       <span>
         <A section="comments">
-          Legg til en kommentar
+          Dodaj komentarz
         </A>
       </span>
     </div>

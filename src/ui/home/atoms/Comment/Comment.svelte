@@ -22,12 +22,12 @@
     <div class={styles.content}>
       <p class={styles.userName}>{name}</p>
       <p class={styles.commentText}>{text.replaceAll("OFFER_NAME", offer)}</p>
-      <p class={styles.socialText}>Svar. {likes} . Liker . 
+      <p class={styles.socialText}>Odpowiedź. {likes} . Tak jak . 
         <span class={styles.timeText}>{time}
           {#if timeFormat === "minutes"}
-            minutter siden
+            minut temu
           {:else}
-            timer siden
+            godziny temu
           {/if}
         </span>
       </p>
