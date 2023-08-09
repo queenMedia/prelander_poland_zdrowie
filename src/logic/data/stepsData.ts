@@ -21,18 +21,18 @@ const Step3Img = `${url_bucket}/sharing/steps/${language}/${currencyCode}/3.jpg`
 
 export const stepsData = [
     {
-        title: "Trinn 1:",
-        description: "Registrer deg for gratis konto",
+        title: "Krok 1:",
+        description: "Zarejestruj się i utwórz bezpłatne konto",
         img: sideBarFormImg
     },
     {
-        title: "Trinn 2:",
-        description: "Sett inn minstebeløpet på 3,000 kr",
+        title: "Krok 2:",
+        description: "Wpłata minimum 1,206 CURRENCY",
         img: Step2Img
     },
     {
-        title: "Trinn 3:",
-        description: "Overfør fortjenesten til bankkontoen din!",
+        title: "Krok 3:",
+        description: "Wypłać korzyści, przelewając je na swoje konto bankowe.",
         img: Step3Img
     }
 ];

@@ -13,7 +13,7 @@
 </script>
 
 <div class={styles.container}>
-  <h3 class={styles.title}><A section="testimonials">LESERNES RESULTATER</A></h3>
+  <h3 class={styles.title}><A section="testimonials">WYNIKI ZA CZERWIEC</A></h3>
   <div class={styles.testimonialsContainer}>
     {#each testimonialsData as testimonial}
       <A section="testimonial-card">
@@ -25,7 +25,6 @@
           city={testimonial.city}
           offer_name={offer_name}
           character_name={character_name}
-          redirect={redirect} 
           currency_simbol={currency_simbol}
         />
       </A>
