@@ -27,6 +27,8 @@ injectGlobal`
 
     --calibre-font: 'calibre', sans-serif;
 
+    --primary-font: 'Verdana', sans-serif;
+
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
