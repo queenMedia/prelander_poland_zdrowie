@@ -19,14 +19,16 @@ export const container_to_center =cx(
 
 export const title = cx(
   css`
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 400;
     color: var(--text-balck);
+    line-height: 50px;
 
     & > span {
       color: inherit;
     }
-  `
+  `,
+  responsive.title
 );
 export const sub_title = cx(
   css`
