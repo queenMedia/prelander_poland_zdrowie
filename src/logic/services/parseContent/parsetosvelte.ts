@@ -42,7 +42,7 @@ export const parseToSvelte = (attribs: any, hanldeReadMore: any) =>  {
         break;
         case 'read_more':
             return parseComponent(Readmore, { 
-                text: 'CLIC PARA LEER ARTÍCULO COMPLETO', 
+                text: 'KLIKNIJ, ABY PRZECZYTAĆ CAŁY ARTYKUŁ', 
                 hanldeReadMore: hanldeReadMore
             });
         break;
