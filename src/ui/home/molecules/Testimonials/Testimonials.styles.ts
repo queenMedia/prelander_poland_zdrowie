@@ -12,10 +12,11 @@ export const title = css`
     color: #666;
     border-bottom: 2px solid #0198bd;
     margin-bottom: 15px;
-    font-family: 'TuFuente';
     margin: 8px 0 20px 0;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 28px;
+    font-weight: 500;
+    font-style: italic;
 `;
 
 export const testimonialsContainer = css`

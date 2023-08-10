@@ -9,6 +9,8 @@ export const content = cx(
   width: 60%;
   padding: 0 10px;
   flex-direction: column;
+  font: 500 21px/29px 'Calibre';
+
 `, responsive.content);
 
 export const container_to_center =cx(

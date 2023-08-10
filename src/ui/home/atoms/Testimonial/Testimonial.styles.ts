@@ -17,10 +17,11 @@ export const title = cx(
         color: #666;
         border-bottom: 2px solid #0198bd;
         margin-bottom: 15px;
-        font-family: 'TuFuente';
         margin: 8px 0 20px 0;
-        font-size: 20px;
+        font-size: 24px;
         line-height: 28px;
+        font-weight; 500;
+
     `
 );
 export const img = css`
@@ -30,10 +31,9 @@ export const img = css`
 export const description = cx(
     css`
         width: 100%;
-        font-family: 'Source Sans Pro', sans-serif;
         margin: 0 0 5px 0;
-        line-height: 29px;
-        font-size: 18px;
+        line-height: 27px;
+        font-size: 22px;
         letter-spacing: -0.1px;
         color: #333;
         text-align: left;
@@ -48,11 +48,9 @@ export const description = cx(
 );
 export const name = css`
     width: 100%;
-    font-weight: 700;
     font-weight: bold;
-    font-family: 'Source Sans Pro', sans-serif;
     margin: 0 0 0 0;
-    line-height: 29px;
+    line-height: 25px;
     font-size: 18px;
     letter-spacing: -0.1px;
     color: #333;

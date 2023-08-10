@@ -11,7 +11,7 @@
 </script>
 
 <div class={styles.container}>
-  <h3 class={styles.title}><A section="steps">LESERNES RESULTATER</A></h3>
+  <h3 class={styles.title}><A section="steps">WYNIKI CZYTELNIKÓW</A></h3>
   <div class={styles.testimonialsContainer}>
     {#each stepsData as step}
       <A section="step-card">

@@ -15,17 +15,15 @@ export const icon = css`
   
 `;
 export const title = css`
-  font-family: OpenSans-Bold;
-  font-size: 21px;
+  font-size: 24px;
   line-height: 28px;
 `;
 export const description = css`
   color: #0198bd;
   font-weight: 700;
-  font-family: 'Source Sans Pro', sans-serif;
   margin: 0 0 5px 0;
   line-height: 29px;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: -0.1px;
 `;
 export const stepImg = css`

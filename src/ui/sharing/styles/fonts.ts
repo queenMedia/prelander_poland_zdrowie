@@ -56,23 +56,21 @@ export const CalibreFontFaces = `
     font-style: italic;
   }
   
-  /* Semibold */
   @font-face {
     font-family: 'Calibre';
     src: url('${CalibreSemibold}') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
   }
   
-  /*
   @font-face {
     font-family: 'Calibre';
     src: url('${CalibreSemiboldItalic}') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
   }
   
-  @font-face {
+  /*@font-face {
     font-family: 'Calibre';
     src: url('${CalibreBold}') format('truetype');
     font-weight: bold;
