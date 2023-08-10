@@ -30,6 +30,11 @@
             <li class={styles.top_left_item}><A section="header">Sport</A></li>
             <li class={styles.top_left_item}><A section="header">plotek</A></li>
             <li class={styles.top_left_item}><A section="header">dziecko</A></li>
+            <li>
+              <A section="header">
+                <img src={arrowIcon} alt="arrow icon">
+              </A>
+            </li>
           </ul>
           
         </div>

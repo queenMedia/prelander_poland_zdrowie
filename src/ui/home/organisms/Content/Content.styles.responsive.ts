@@ -13,7 +13,7 @@ export const title = css`
 ${forsize({ 
     "tablet-landscape":css`
         font-size: 30px;
-        line-height: 35px;
+        line-height: 30px;
     `
  })}
 `;

@@ -1,9 +1,10 @@
 import { injectGlobal } from "@emotion/css";
 
+import { CalibreFontFaces } from "./fonts";
 // eslint-disable-next-line @typescript-eslint/no-unused-expressions
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:itay l,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  ${CalibreFontFaces};
   * {
     box-sizing: border-box;
     outline: 0;
@@ -27,7 +28,7 @@ injectGlobal`
 
     --calibre-font: 'calibre', sans-serif;
 
-    --primary-font: 'Verdana', sans-serif;
+    --primary-font: 'Calibre', sans-serif;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;

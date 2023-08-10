@@ -22,7 +22,7 @@ export const title = cx(
     font-size: 45px;
     font-weight: 400;
     color: var(--text-balck);
-    line-height: 50px;
+    line-height: 45px;
 
     & > span {
       color: inherit;

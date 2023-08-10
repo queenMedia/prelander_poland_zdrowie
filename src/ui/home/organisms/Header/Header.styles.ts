@@ -7,7 +7,7 @@ export const container = cx(
   css`
     width: 100%;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Calibre', sans-serif;
     position: fixed;
     top: 0;
     margin-bottom: 170px;
@@ -66,7 +66,8 @@ export const top_left_item = cx(
     cursor: pointer;
     height: 100%;
     font-family: calibre;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 300;
     line-height: 30px;
     text-transform: uppercase;
   `,
@@ -151,7 +152,7 @@ export const zdrowie_text = cx(
     width: 100%;
     display: inline-block;
     background: #fff;
-    font: 700 45px/40px calibre,sans-serif;
+    font: bold 45px/40px;
     color: #222;
     position: relative;
     bottom: 8px;
@@ -216,6 +217,7 @@ export const bottom_item = cx(
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
+    font-size: 18px;
 
     &:hover {
       color: rgba(34,34,34,.8);
