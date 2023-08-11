@@ -8,14 +8,14 @@ export const container = css`
 `;
 
 export const title = css`
-    font-family: 'Calibre';
+    font-family: 'Verdana';
     width: 100%;
     text-align: left;
     color: #666;
     border-bottom: 2px solid #0198bd;
     margin-bottom: 15px;
     margin: 8px 0 20px 0;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 28px;
     font-weight; 500;
 `;

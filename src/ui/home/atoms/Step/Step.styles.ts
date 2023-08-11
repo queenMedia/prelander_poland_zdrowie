@@ -15,7 +15,7 @@ export const icon = css`
   
 `;
 export const title = css`
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
 `;
 export const description = css`
@@ -23,7 +23,7 @@ export const description = css`
   font-weight: 700;
   margin: 0 0 5px 0;
   line-height: 29px;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: -0.1px;
 `;
 export const stepImg = css`

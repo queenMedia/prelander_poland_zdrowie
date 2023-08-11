@@ -13,7 +13,7 @@ export const title = css`
     border-bottom: 2px solid #0198bd;
     margin-bottom: 15px;
     margin: 8px 0 20px 0;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 28px;
     font-weight: 500;
     font-style: italic;

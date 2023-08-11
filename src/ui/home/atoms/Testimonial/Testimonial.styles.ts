@@ -18,7 +18,7 @@ export const title = cx(
         border-bottom: 2px solid #0198bd;
         margin-bottom: 15px;
         margin: 8px 0 20px 0;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 28px;
         font-weight; 500;
 
@@ -33,7 +33,7 @@ export const description = cx(
         width: 100%;
         margin: 0 0 5px 0;
         line-height: 27px;
-        font-size: 22px;
+        font-size: 17px;
         letter-spacing: -0.1px;
         color: #333;
         text-align: left;
@@ -51,7 +51,7 @@ export const name = css`
     font-weight: bold;
     margin: 0 0 0 0;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: -0.1px;
     color: #333;
     text-align: left;
