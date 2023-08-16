@@ -147,7 +147,7 @@ export const bottom_content = cx(content,
     ${responsive.bottom_content}
   `,
 );
-export const zdrowie_text = cx(
+export const Gospodarka_text = cx(
   css`
     width: 100%;
     display: inline-block;
@@ -184,7 +184,7 @@ export const zdrowie_text = cx(
     &:hover:after {
       width: 90%;
     }
-    ${responsive.zdrowie_text}
+    ${responsive.Gospodarka_text}
   `,
 );
 export const bottom_menu_container = cx(

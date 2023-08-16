@@ -71,7 +71,7 @@ export const bottom_content = forsize({
   `,
 });
 
-export const zdrowie_text = forsize({
+export const Gospodarka_text = forsize({
   "tablet-landscape": css`
     font-size: 32px;
     margin: 0px;
