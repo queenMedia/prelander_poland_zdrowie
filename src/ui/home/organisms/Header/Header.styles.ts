@@ -84,11 +84,10 @@ export const top_right_menu = cx(
     list-style: none;
 
     & > li:nth-child(5) {
-      background: transparent linear-gradient(135deg,#459c5f,#347a4c) 0 0 no-repeat padding-box;
+      background: transparent linear-gradient(90deg, rgba(133,133,133,0.2189250700280112) 0%, rgba(255,59,0,1) 0%, rgba(255,0,0,0.6727065826330532) 100%) 0 0 no-repeat padding-box;
       order: 3;
       height: 40px;
     }
-
     & > li:nth-child(6) {
       display: none;
     }
@@ -179,7 +178,7 @@ export const Gospodarka_text = cx(
       height: 15px;
       z-index: -1;
       transition: width .3s ease-out;
-      background: transparent linear-gradient(90deg,#d9ed00,#3bd93b 100%,#3bd93b 0) 0 0 no-repeat padding-box;
+      background: transparent linear-gradient(90deg, rgba(133,133,133,0.2189250700280112) 0%, rgba(255,184,0,1) 0%, rgba(255,0,0,0.6727065826330532) 43%) 0 0 no-repeat padding-box;
     }
     &:hover:after {
       width: 90%;
@@ -187,6 +186,7 @@ export const Gospodarka_text = cx(
     ${responsive.Gospodarka_text}
   `,
 );
+
 export const bottom_menu_container = cx(
   flex({justify: "space-between", align:"center", gap: "20px"}),
   css`
