@@ -121,8 +121,8 @@ Tomasz relacjonuje:
 
 {{p}}"Na początku, gdy usłyszałem wywiad {{CELEBRITY}}, myślałem, że to żart. Zarabianie w domu to nic innego jak marzenie. Postanowiłem jednak spróbować, biorąc pod uwagę moją sytuację finansową. Ponadto staramy się również prowadzić wysokiej jakości dziennikarstwo.{{/p}}
 {{p}}Obejrzałem film wprowadzający na temat platformy, a następnie zarejestrowałem się. Pomyślałem, że film był zbyt obiecujący, ale postanowiłem odłożyć mój sceptycyzm na bok. Kilka godzin później otrzymałem telefon od mojego osobistego inwestora. Odpowiedział na wszystkie moje pytania i wątpliwości i zapewnił mnie, że zarobi pieniądze. Full stop.{{/p}}
-{{p}}Mój osobisty inwestor obiecał mi nawet, {{b}}że jeśli stracę choćby centa,{{/b}}natychmiast zwróci mi moje 1312 {{CURRENCY}}. Byłem pewien, że to zmieni moje życie. Mówię ci, to jest obsługa klienta, lepsza niż cokolwiek, co kiedykolwiek widziałem i nic dziwnego, że banki są tak zaniepokojone.{{/p}}
-{{p}}Po otrzymaniu dostępu do platformy zdeponowałem początkową inwestycję w wysokości 1312 {{CURRENCY}}. Platforma realizuje transakcje w euro (€) i dolarach ($), ale środki można wypłacać w wybranej przez siebie walucie.{{/p}}
+{{p}}Mój osobisty inwestor obiecał mi nawet, {{b}}że jeśli stracę choćby centa,{{/b}}natychmiast zwróci mi moje 1310 {{CURRENCY}}. Byłem pewien, że to zmieni moje życie. Mówię ci, to jest obsługa klienta, lepsza niż cokolwiek, co kiedykolwiek widziałem i nic dziwnego, że banki są tak zaniepokojone.{{/p}}
+{{p}}Po otrzymaniu dostępu do platformy zdeponowałem początkową inwestycję w wysokości 1310 {{CURRENCY}}. Platforma realizuje transakcje w euro (€) i dolarach ($), ale środki można wypłacać w wybranej przez siebie walucie.{{/p}}
 
 
 {{p}}System {{link}}{{OFFER}}{{/link}}to platforma, która automatycznie handluje kryptowalutami. Oprogramowanie wykorzystuje zaawansowaną sztuczną inteligencję i algorytmy uczenia maszynowego,{{b}}aby dokładnie przewidzieć{{/b}}, kiedy kryptowaluty wzrosną lub spadną. Następnie kupuje i sprzedaje za Ciebie, automatycznie i przez całą dobę. Technologia poprawiła nasze życie w każdy możliwy sposób, więc dlaczego nie wykorzystać jej do zarobienia większej ilości pieniędzy?"{{/p}}
@@ -134,12 +134,12 @@ RZECZYWISTE WYNIKI TOMASZA Z SYSTEMEM
 {{/b}}
 {{/subtitle}}
 
-{{p}}{{em}}"W ciągu godziny od wpłaty 1312 {{CURRENCY}} oprogramowanie zaczęło dokonywać za mnie transakcji. Szczerze mówiąc, byłem zdenerwowany utratą wszystkich moich pieniędzy. I rzeczywiście, pierwsza transakcja przyniosła stratę w wysokości 97 {{CURRENCY}}! {{/em}}{{/p}}
+{{p}}{{em}}"W ciągu godziny od wpłaty 1310 {{CURRENCY}} oprogramowanie zaczęło dokonywać za mnie transakcji. Szczerze mówiąc, byłem zdenerwowany utratą wszystkich moich pieniędzy. I rzeczywiście, pierwsza transakcja przyniosła stratę w wysokości 97 {{CURRENCY}}! {{/em}}{{/p}}
 {{p}}{{em}}Poczułem gulę w gardle. Pomyślałem, że zostałem oszukany. Byłem gotowy zadzwonić do mojego osobistego inwestora i poprosić o zwrot pieniędzy, ale wtedy przypomniałem sobie coś, co powiedział mi wcześniej: {{b}}Algorytm dokonuje prawidłowych prognoz w 80-89%{{/b}} przypadków. Nie będziesz wygrywać KAŻDEJ transakcji, ale wygrasz wystarczająco dużo i w końcu przyniesie ci to zysk. {{/em}}{{/p}}
 {{p}}{{em}}Pozwoliłem więc oprogramowaniu dokonywać transakcji za mnie, podczas gdy ja obserwowałem je bez przerwy. {{b}}Następna transakcja była pozytywna!{{/b}} Zostawiła mi tylko {{b}}74 {{CURRENCY}}{{/b}}, ale to już coś. Następnie zarobiłem {{b}}199 {{CURRENCY}}{{/b}}. Następnie {{b}}85 {{CURRENCY}}{{/b}}, co do tego czasu stanowiło łączny zysk w wysokości {{b}}262 {{CURRENCY}}{{/b}}. A wszystko to wydarzyło się w mniej niż 5 minut! {{/em}}{{/p}}
 {{p}}{{em}}Potem zacząłem gromadzić pieniądze, jakby to było nic, nie mogłem uwierzyć własnym oczom. {{/em}}{{/p}}
 {{p}}{{em}}{{b}}Za każdym razem, gdy odświeżałem ekran, moje zarobki rosły i rosły. Czułem się, jakbym miał halucynacje po narkotykach, to wszystko było zbyt ekscytujące.{{/b}} {{/em}}{{/p}}
-{{p}}{{em}}Teraz już wiem, dlaczego {{CELEBRITY}} jest zawsze w dobrym humorze. I dlaczego duże banki nie chcą, aby ludzie wiedzieli o tej luce.{{b}}Do końca dnia wygrałem ponad 2952 {{CURRENCY}}{{/b}}, nieźle jak na to, że zaczynałem z 1312 {{CURRENCY}}! Prawie nie mogłem spać, bo byłem taki szczęśliwy. {{/em}}{{/p}}
+{{p}}{{em}}Teraz już wiem, dlaczego {{CELEBRITY}} jest zawsze w dobrym humorze. I dlaczego duże banki nie chcą, aby ludzie wiedzieli o tej luce.{{b}}Do końca dnia wygrałem ponad 2952 {{CURRENCY}}{{/b}}, nieźle jak na to, że zaczynałem z 1310 {{CURRENCY}}! Prawie nie mogłem spać, bo byłem taki szczęśliwy. {{/em}}{{/p}}
 {{p}}{{em}}Następnego dnia był wtorek i znów musiałem iść do pracy. Szczerze mówiąc (i nie mów tego mojemu szefowi), trudno było skoncentrować się na pracy, myśląc, że oprogramowanie {{link}}{{OFFER}}{{/link}} zarabia dla mnie pieniądze. {{/em}}{{/p}}
 {{p}}{{em}}Kilka razy uciekłem do łazienki, aby sprawdzić moje zarobki, które wciąż rosły (z małymi stratami tu i tam). W nocy, po tym jak moje dzieci zasnęły, {{b}}na moim koncie było 5286.80 {{CURRENCY}}.{{/b}} Więcej niż zarabiam w ciągu TYGODNIA pracy! {{/em}}{{/p}}
 {{p}}{{em}}Pod koniec tygodnia zarobiłem 20963.47 {{CURRENCY}}. Wypłaciłem dokładnie {{b}}16400 {{CURRENCY}}{{/b}}, a resztę ponownie zainwestowałem. Dwa dni później otrzymałem pocztą czek na 16400 {{CURRENCY}}. Czułem się, jakbym nadal śnił. {{/em}}{{/p}}
@@ -175,7 +175,7 @@ Następnie proszą o zasilenie konta. Gdy patrzyłem na stronę wpłaty, zadzwon
 [[image_step_2]][ ]
 
 {{p}}
-Tak jak się spodziewałem, zadzwonił do mnie mój menedżer konta. Świadczone przez nich usługi są doskonałe. Przeprowadził mnie przez cały proces akredytacji. Akceptują wszystkie główne karty kredytowe, takie jak Visa, MasterCard i American Express. Poszedłem dalej i wpłaciłem minimalną kwotę: $/300 lub 1311 {{CURRENCY}}.
+Tak jak się spodziewałem, zadzwonił do mnie mój menedżer konta. Świadczone przez nich usługi są doskonałe. Przeprowadził mnie przez cały proces akredytacji. Akceptują wszystkie główne karty kredytowe, takie jak Visa, MasterCard i American Express. Poszedłem dalej i wpłaciłem minimalną kwotę: $/300 lub 1310 {{CURRENCY}}.
 {{/p}}
 
 [[image_step_3]][ ]
