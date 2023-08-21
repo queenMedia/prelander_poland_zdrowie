@@ -126,7 +126,7 @@ export const bottom_section = (progress: number) => {
     flex({justify: "center", align: "center", gap: "10px"}),
     css`
       width: 100%;
-      height: 130px;
+     /*  height: 130px; */
       position: relative;
       background: #fff;
       z-index: 3;
@@ -138,11 +138,11 @@ export const bottom_section = (progress: number) => {
   )
 }
 export const bottom_content = cx(content,
-  flex({justify: "flex-start", align:"flex-end"}),
+  flex({justify: "flex-start", align:"center"}),
   css`  
     flex-direction: row;
     flex-wrap: wrap;
-    height: 130px !important; 
+    height: 50px !important; 
     ${responsive.bottom_content}
   `,
 );

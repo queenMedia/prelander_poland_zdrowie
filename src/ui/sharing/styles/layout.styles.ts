@@ -8,7 +8,7 @@ export const main = cx(
   flex({ justify: "center", align: "center"}),
   css`
     width: 100%;
-    margin-top: 190px;
+    margin-top: 110px;
   `,
   responsive.main,
 );

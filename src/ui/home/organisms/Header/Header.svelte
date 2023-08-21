@@ -58,11 +58,11 @@
 
     <div class={styles.bottom_section(progressBarWidth)}>
       <div class={styles.bottom_content}>
-        <h2 class={styles.Gospodarka_text}>
+       <!--  <h2 class={styles.Gospodarka_text}>
           <A section="header">
             Gospodarka
           </A>
-        </h2>
+        </h2> -->
         <div class={styles.bottom_menu_container}>
           <ul class={styles.bottom_menu}>
             <li class={styles.bottom_item}><A section="header">KORONAWIRUS</A></li>
@@ -76,9 +76,11 @@
           </ul>
           <span class={styles.arrow_icon(arrowIcon)}></span>
         </div>
-        <A section="header">
-          <img src={hamburger}  class={styles.iconBurger} alt="arrow icon">
-        </A>
+        <div class={styles.iconBurger}>
+          <A section="header">
+            <img src={hamburger}  class={styles.iconBurger} alt="arrow icon">
+          </A>
+        </div>
       </div>
     </div>
  
