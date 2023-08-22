@@ -3,7 +3,7 @@ import config from "@config";
 const version = 1.9
 
 export const getConfig = async (charachter: string) => {
-    const url = `${config.url_bucket}/characters/${charachter}.json?v=${version}`;
+    const url = `https://r-prelander-back-d08d492c6242.herokuapp.com/character/get-character?keyName=${charachter}`
     const response = await fetch(url, {
       method: "GET",
       headers: { Origin: "http://localhost:5173" },
@@ -13,8 +13,11 @@ export const getConfig = async (charachter: string) => {
     }
     else if (response.ok) {
       const data = await response.json();
-      return data;
-    } else {
+      const payload = data.payload;
+      let aux: any; 
+      aux = payload.character;
+      aux.offers = payload.offers;
+      return aux;    } else {
       console.error("Error en la solicitud:", response.statusText);
       return 0;
     }
