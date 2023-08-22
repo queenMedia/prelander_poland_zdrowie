@@ -27,7 +27,7 @@ export const stepsData = [
     },
     {
         title: "Krok 2:",
-        description: "Wpłata minimum 1,206 CURRENCY",
+        description: "Wpłata minimum 1,310 CURRENCY",
         img: Step2Img
     },
     {

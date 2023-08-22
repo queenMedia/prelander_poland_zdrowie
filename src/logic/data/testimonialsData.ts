@@ -9,7 +9,7 @@ import img7 from "../../assets/images/sharing/testimonials/7.jpg"
 const testimonialsData = [
     {
         title: "ZYSK: 25,256 CURRENCY", 
-        description: `"Używam OFFER_NAME od ponad 2 tygodni i zwiększyłem swoje saldo z 1,210 PLN (początkowy depozyt) do 26,950 PLN, co jest znacznie wyższe niż moja normalna pensja".`,
+        description: `"Używam OFFER_NAME od ponad 2 tygodni i zwiększyłem swoje saldo z 1,310 PLN (początkowy depozyt) do 26,950 PLN, co jest znacznie wyższe niż moja normalna pensja".`,
         img: img1,
         name: "Daniel Safarewicz",
         city: "Szczecin",

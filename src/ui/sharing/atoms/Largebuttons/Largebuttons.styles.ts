@@ -31,6 +31,7 @@ export const largebuttons = cx(
     border-radius: 10px;
     text-shadow: var(--text-shadow);
     text-transform: uppercase;
+    z-index: -1;
     &:hover{
       animation: ${upto} 1s forwards;
     }
