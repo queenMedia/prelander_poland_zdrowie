@@ -9,7 +9,7 @@
 
   export let whitdrawalText: WhitdrawalsProps["whitdrawalText"];
 
-  const moveWhitdrawal = () => (position = position > 0 ? -100 : 100);
+  const moveWhitdrawal = () => (position = position > 0 ? -100 : 70);
   const whitdrawalInterval = setInterval(moveWhitdrawal, 5000);
 </script>
 
