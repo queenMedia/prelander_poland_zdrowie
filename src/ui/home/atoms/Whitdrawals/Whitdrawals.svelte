@@ -5,11 +5,11 @@
   import type { WhitdrawalsProps } from "./Whitdrawals.proptypes";
   import { A } from "@sharing/atoms"
 
-  let position = 100;
+  let position = 70;
 
   export let whitdrawalText: WhitdrawalsProps["whitdrawalText"];
 
-  const moveWhitdrawal = () => (position = position > 0 ? -100 : 100);
+  const moveWhitdrawal = () => (position = position > 0 ? -100 : 70);
   const whitdrawalInterval = setInterval(moveWhitdrawal, 5000);
 </script>
 
