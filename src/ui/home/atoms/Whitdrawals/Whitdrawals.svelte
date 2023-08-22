@@ -5,7 +5,7 @@
   import type { WhitdrawalsProps } from "./Whitdrawals.proptypes";
   import { A } from "@sharing/atoms"
 
-  let position = 100;
+  let position = 70;
 
   export let whitdrawalText: WhitdrawalsProps["whitdrawalText"];
 
