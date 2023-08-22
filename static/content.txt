@@ -120,7 +120,7 @@ Tomasz relacjonuje:
 {{/b}}{{/p}}
 
 {{p}}"Na początku, gdy usłyszałem wywiad {{CELEBRITY}}, myślałem, że to żart. Zarabianie w domu to nic innego jak marzenie. Postanowiłem jednak spróbować, biorąc pod uwagę moją sytuację finansową. Ponadto staramy się również prowadzić wysokiej jakości dziennikarstwo.{{/p}}
-{{p}}Obejrzałem film wprowadzający na temat platformy, a następnie zarejestrowałem się. Pomyślałem, że film był zbyt obiecujący, ale postanowiłem odłożyć mój sceptycyzm na bok. Kilka godzin później otrzymałem telefon od mojego osobistego inwestora. Odpowiedział na wszystkie moje pytania i wątpliwości i zapewnił mnie, że zarobi pieniądze. Full stop.{{/p}}
+{{p}}Obejrzałem film wprowadzający na temat platformy, a następnie zarejestrowałem się. Pomyślałem, że film był zbyt obiecujący, ale postanowiłem odłożyć mój sceptycyzm na bok. Kilka godzin później otrzymałem telefon od mojego osobistego inwestora. Odpowiedział na wszystkie moje pytania i wątpliwości i zapewnił mnie, że zarobi pieniądze.{{/p}}
 {{p}}Mój osobisty inwestor obiecał mi nawet, {{b}}że jeśli stracę choćby centa,{{/b}}natychmiast zwróci mi moje 1310 {{CURRENCY}}. Byłem pewien, że to zmieni moje życie. Mówię ci, to jest obsługa klienta, lepsza niż cokolwiek, co kiedykolwiek widziałem i nic dziwnego, że banki są tak zaniepokojone.{{/p}}
 {{p}}Po otrzymaniu dostępu do platformy zdeponowałem początkową inwestycję w wysokości 1310 {{CURRENCY}}. Platforma realizuje transakcje w euro (€) i dolarach ($), ale środki można wypłacać w wybranej przez siebie walucie.{{/p}}
 
