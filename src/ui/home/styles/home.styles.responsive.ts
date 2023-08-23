@@ -2,7 +2,9 @@ import { css } from "@emotion/css";
 import { forsize } from "@mixins";
 
 export const section = forsize({
-  "desktop-mid": css``,
+  "desktop-mid": css`
+    gap: 0px;
+  `,
 });
 
 export const h1 = forsize({

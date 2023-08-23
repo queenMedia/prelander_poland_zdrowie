@@ -1,4 +1,5 @@
 import { css, cx } from "@emotion/css";
+import * as responsive from "./A.styles.responsive";
 
 export const link: any = {
   "header": css`
@@ -60,6 +61,9 @@ export const link: any = {
     color: inherit;
     cursor: pointer;
     text-decoration: none;
+    width: 80%;
+    margin: 0 auto;
+    ${responsive.large_button}
   `,
   "modal-button": css`
     color: inherit;

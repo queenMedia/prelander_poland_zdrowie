@@ -5,6 +5,7 @@
   import { layout } from "@styles";
   import { page as pageStyles } from "@home/styles";
   
+  import { Loader } from "@sharing/atoms";
   import { Offerbar, Modal } from "@sharing/molecules";
 
   import { Content, Sidebar, Header, Footer } from "@home/organisms";
@@ -52,11 +53,7 @@
 </script>
 
 {#if loading}
-  <div class={pageStyles.error_container}>
-    <img src={Loading} alt="loading" class={pageStyles.error_image} />
-    <h1 class={pageStyles.loading_text}>Loading Page</h1>
-  </div>
-
+  <Loader />
 {:else if pageExist}
   <Header />
   <main class={layout.main}>

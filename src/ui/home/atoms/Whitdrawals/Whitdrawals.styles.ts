@@ -18,7 +18,8 @@ export const container = cx(
         z-index: 350;
         box-shadow: 0 0 10px rgba(0,0,0,.2);
         transition: bottom 0.5s ease-out;
-    `
+    `,
+    responsive.container,
 );
 export const img = css`
     position: absolute;

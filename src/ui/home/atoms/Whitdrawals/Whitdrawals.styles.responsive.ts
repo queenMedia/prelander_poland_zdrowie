@@ -1,6 +1,8 @@
 import { css } from "@emotion/css";
 import { forsize } from "@mixins";
 
-export const comment = css`
-
-`;
+export const container = forsize({
+    "phone-big": css`
+        display: none;
+    `,
+  });

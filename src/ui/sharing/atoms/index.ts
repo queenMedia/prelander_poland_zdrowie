@@ -6,3 +6,4 @@ export { default as Imagedescription } from "./Imagedescription/Imagedescription
 export { default as Customtext } from "./Customtext/Customtext.svelte";
 export { default as A } from "./A/A.svelte";
 export { default as Icons } from "./Icons/Icons.svelte";
+export { default as Loader } from "./Loader/Loader.svelte";

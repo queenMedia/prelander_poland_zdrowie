@@ -44,5 +44,6 @@ export const offerbar_button = cx(
     border-radius: 4px;
     text-decoration: none;
     animation: ${shake} 1.2s cubic-bezier(.36,.07,.19,.97) both infinite;
-  `
+  `,
+  responsive.offerbar_button,
 );
