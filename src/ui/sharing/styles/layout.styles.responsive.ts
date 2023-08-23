@@ -3,6 +3,6 @@ import { forsize } from "@mixins";
 
 export const main = forsize({
   "tablet-landscape": css`
-    margin-top: 120px;
+    margin-top: 60px;
   `,
 });

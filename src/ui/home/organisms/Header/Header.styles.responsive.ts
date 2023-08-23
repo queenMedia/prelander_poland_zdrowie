@@ -3,9 +3,7 @@ import { forsize } from "@mixins";
 
 export const content = forsize({
   "tablet-portrait": css`
-  
   `,
-
   "desktop-mid": css`
     width: 100%;
   `
@@ -49,6 +47,7 @@ export const bottom_section = forsize({
   "tablet-landscape": css`
     height: 60px !important; 
     align-items: center;
+    display:none;
 
   `,
 });
