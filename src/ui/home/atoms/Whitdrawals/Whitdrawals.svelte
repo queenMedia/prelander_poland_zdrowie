@@ -9,8 +9,9 @@
 
   export let whitdrawalText: WhitdrawalsProps["whitdrawalText"];
 
-  const moveWhitdrawal = () => (position = position > 0 ? -100 : 70);
-  const whitdrawalInterval = setInterval(moveWhitdrawal, 5000);
+//  const moveWhitdrawal = () => (position = position > 0 ? -100 : 70);
+ // const whitdrawalInterval = setInterval(moveWhitdrawal, 5000);
+
 </script>
 
 <A section="mini-modal">
