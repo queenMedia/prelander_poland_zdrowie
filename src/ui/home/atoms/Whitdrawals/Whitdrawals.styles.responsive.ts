@@ -5,5 +5,6 @@ export const container = forsize({
     "phone-big": css`
         width: calc(100% - 20px);
         right: 10px;
+        display: none;
     `,
   });

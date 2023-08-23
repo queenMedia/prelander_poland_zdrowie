@@ -22,8 +22,6 @@
     const handleClick = async () => {
         const localConfig = await getLinkUrl($page.url.origin);
 
-        console.log(localConfig)
-        
         if(localConfig.LINK)
             url_to_redirect = localConfig.LINK ? localConfig.LINK : null;
 
@@ -48,6 +46,5 @@
     on:click={handleClick} 
     on:keypress={handleClick}
 >
-    
     <slot></slot>
 </span>

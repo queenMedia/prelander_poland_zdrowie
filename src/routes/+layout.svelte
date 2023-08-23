@@ -6,6 +6,7 @@
   import { page as pageStyles } from "@home/styles";
   
   import { Offerbar, Modal } from "@sharing/molecules";
+  import { Loader } from "@sharing/atoms";
 
   import { Content, Sidebar, Header, Footer } from "@home/organisms";
   import { Whitdrawals } from "@home/atoms";
@@ -52,11 +53,7 @@
 </script>
 
 {#if loading}
-  <div class={pageStyles.error_container}>
-    <img src={Loading} alt="loading" class={pageStyles.error_image} />
-    <h1 class={pageStyles.loading_text}>Loading Page</h1>
-  </div>
-
+  <Loader />
 {:else if pageExist}
   <Header />
   <main class={layout.main}>
@@ -87,4 +84,4 @@
     <img src={Error} alt="Error" class={pageStyles.error_image} />
     <h1 class={pageStyles.error_text}>Sorry!! Page not found</h1>
   </div>
-{/if}
+{/if} 

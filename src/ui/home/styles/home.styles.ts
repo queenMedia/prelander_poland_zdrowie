@@ -8,7 +8,7 @@ export const section = cx(
   flex({ justify: "center", align: "baseline", gap: "20px"}),
   css`
   `,
-  responsive.section
+  responsive.section,
 );
 
 export const error_container = cx(
