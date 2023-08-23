@@ -37,8 +37,7 @@ export const modal = cx(
     background: var(--overlay);
     z-index: 200;
   `
-)
-;
+);
 
 export const modal_container = ({width, height, bg}: Modal) => cx(
   flex({justify: "flex-start", align: "center"}),
@@ -50,7 +49,8 @@ export const modal_container = ({width, height, bg}: Modal) => cx(
     padding: 20px;
     flex-direction: column;
     border: 3px solid var(--text-white);
-  `
+  `,
+  responsive.modal_container,
 );
 
 export const close_modal = (color: string) => cx(
@@ -80,7 +80,8 @@ export const title = (color: string) =>cx(
     font-size: 23px;
     font-weight: 700;
     text-align: center;
-  `
+  `,
+  responsive.title,
 );
 
 export const subtitle = (color: string) =>cx(
@@ -89,7 +90,8 @@ export const subtitle = (color: string) =>cx(
     font-size: 23px;
     font-weight: 700;
     text-align: center;
-  `
+  `,
+  responsive.subtitle,
 );
 
 export const button = (bg: string, color: string) =>cx(
