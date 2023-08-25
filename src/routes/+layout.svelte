@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { page } from "$app/stores";
+  import { bucketConfigStore } from "@stores";
 
   import { layout } from "@styles";
   import { page as pageStyles } from "@home/styles";
@@ -48,6 +49,8 @@
     pageExist = (offer_exist && character_exists); 
 
     loading = false;
+
+    bucketConfigStore.set(bucketConfig);
   });
 
 </script>

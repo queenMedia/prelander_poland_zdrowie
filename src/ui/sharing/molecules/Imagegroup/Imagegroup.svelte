@@ -1,9 +1,13 @@
 <script lang="ts">
-  import { Img2, TableImg } from "@data"
-
+  import { bucketImagesStore } from "@stores";
   import * as styles from "./Imagegroup.styles";
   import { A } from "@sharing/atoms"
-
+  let Img2 = "";
+  let TableImg = "";
+  bucketImagesStore.subscribe((images) => {
+    Img2 = images.Img2;
+    TableImg = images.TableImg;
+  });
 </script>
 
 <A section="content">

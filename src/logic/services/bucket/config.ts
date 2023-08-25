@@ -1,5 +1,3 @@
-import config from "@config";
-
 const version = 1.9
 
 export const getConfig = async (charachter: string) => {
