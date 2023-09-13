@@ -56,7 +56,7 @@
 </script>
 
 {#if loading}
-  <Loader />
+  <!-- <Loader /> -->
 {:else if pageExist}
   <Header />
   <main class={layout.main}>
