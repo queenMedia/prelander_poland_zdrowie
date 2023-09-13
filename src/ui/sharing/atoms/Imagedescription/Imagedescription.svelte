@@ -20,6 +20,6 @@
     <p class={styles.description("16")}>{text}</p>
   {/if} -->
   
-  <span class={styles.description("16")}><slot></slot></span>
+  <span class={styles.description("13")}><slot></slot></span>
    
 </div>
