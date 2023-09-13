@@ -22,6 +22,8 @@ export const description = (size: string) =>cx(
   css`
     font-size: ${size}px;
     font-style: italic;
+    width: 100%;
+    text-align: center;
     letter-spacing: -0.1px;
     color: var(--text-image-description);
     margin: 0;

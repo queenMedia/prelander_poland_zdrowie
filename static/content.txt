@@ -96,11 +96,7 @@ LUKRATYWNY SEKRET ZARABIANIA PIENIĘDZY, O KTÓRYM WIELKIE BANKI NIE CHCĄ, ABY�
 {{p}}Prawda jest taka, że kryptowaluty są rewolucją naszych czasów i każdy, kto nie dołączy do tej możliwości, wiele traci.  {{b}}Otrzymałem już agresywne i pełne gróźb telefony od dużych korporacji finansowych, {{/b}} ponieważ przedstawiam tę technologię, aby wszyscy mogli ją zobaczyć. Ale nie przejmuję się tym. Ludzie w Polsce już zaczynają poznawać prawdę i to tylko kwestia czasu, zanim dowie się o tym coraz więcej osób.{{/p}}
 {{p}}Dzielę się nim, ponieważ otrzymałem już setki e-maili od osób dziękujących mi za podzielenie się tym sekretem.  {{b}}Mój ulubiony pochodzi od młodego mężczyzny, który dzięki pieniądzom zarobionym za pomocą {{link}}{{OFFER}}{{/link}} {{/b}} podarował swojemu młodszemu bratu samochód jego marzeń: Ferrari 488 Pista. Ta platforma naprawdę poprawia życie każdego z nas.{{/p}}
 
-[[image_post]][ ]
-
-{{p}}{{b}}
-Odkąd mój młodszy brat był dzieckiem, chciał mieć Ferrari 488 Pista ze względu na jego klasyczny, piękny czerwony kolor i potężny silnik. Cóż, ostatnio zarabiam ogromne pieniądze dzięki nowej platformie handlu kryptowalutami (napisz do mnie, jeśli chcesz poznać więcej szczegółów) i zaskoczyłem go SAMOCHODEM JEGO MARZEŃ! Jego reakcja była bezcenna! Kocham cię, młodszy bracie!
-{{/b}}{{/p}}
+[[image_post]][{{b}}Odkąd mój młodszy brat był dzieckiem, chciał mieć Ferrari 488 Pista ze względu na jego klasyczny, piękny czerwony kolor i potężny silnik. Cóż, ostatnio zarabiam ogromne pieniądze dzięki nowej platformie handlu kryptowalutami (napisz do mnie, jeśli chcesz poznać więcej szczegółów) i zaskoczyłem go SAMOCHODEM JEGO MARZEŃ! Jego reakcja była bezcenna! Kocham cię, młodszy bracie!{{/b}}]
 
 {{subtitle}}
 {{b}}
