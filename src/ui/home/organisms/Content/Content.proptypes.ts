@@ -31,7 +31,7 @@ interface Bucket {
     ImgDescription: string;
     celebrityDescription: string;
   };
-  whitdrawalText: {
+  withdrawalText: {
     top: string;
     bottom: string;
   };

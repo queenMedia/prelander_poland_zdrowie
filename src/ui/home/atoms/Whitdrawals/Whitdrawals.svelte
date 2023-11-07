@@ -7,7 +7,7 @@
 
   let position = 100;
 
-  export let whitdrawalText: WhitdrawalsProps["whitdrawalText"];
+  export let withdrawalText: WhitdrawalsProps["withdrawalText"];
 
   const moveWhitdrawal = () => (position = position > 0 ? -100 : 100);
   const whitdrawalInterval = setInterval(moveWhitdrawal, 5000);
@@ -17,8 +17,8 @@
   <div class={styles.container} style={`bottom: ${position}px`}>
     <img class={styles.img} src={dollarIcon} alt="" />
     <p class={styles.description}>
-      {whitdrawalText.top}
+      {withdrawalText.top}
     </p>
-    <p class={styles.nowText}>{whitdrawalText.bottom}</p>
+    <p class={styles.nowText}>{withdrawalText.bottom}</p>
   </div>
 </A>

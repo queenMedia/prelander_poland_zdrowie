@@ -73,7 +73,7 @@
           background_button={bucketConfig.offers[offer].background_button}
         />
         <Whitdrawals
-          whitdrawalText={bucketConfig.whitdrawalText}
+          withdrawalText={bucketConfig.withdrawalText}
         />
         <Offerbar
           offer_name={bucketConfig.offers[offer].name}

@@ -11,6 +11,7 @@ export const container = cx(
     position: fixed;
     top: 0;
     margin-bottom: 170px;
+    z-index: 10;
   `,
 );
 export const top_section = cx(

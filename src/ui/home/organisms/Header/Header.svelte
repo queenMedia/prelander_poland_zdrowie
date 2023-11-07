@@ -60,7 +60,7 @@
       <div class={styles.bottom_content}>
         <h2 class={styles.zdrowie_text}>
           <A section="header">
-            Zdrowie
+            Gospodarka
           </A>
         </h2>
         <div class={styles.bottom_menu_container}>
